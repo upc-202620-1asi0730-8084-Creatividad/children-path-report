@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Universidad Peruana de Ciencias Aplicadas</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="UPC Logo" width="150"/>
+  <img src="assets/cover/upc-logo.png" alt="UPC Logo" width="150"/>
 
 <h3>Ingeniería de Software</h3>
 <h4>1ASI0730 - Aplicaciones Web</h4>
