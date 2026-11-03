@@ -657,7 +657,7 @@ Link del artefacto en miro: https://miro.com/app/board/uXjVHm5y9BY=/?share_link_
 - Assignment Management Component Diagram:
 
 <p align="center">
-  <img src="../assets/chapter-4/section-6-4/children-path-component-assignment-management.png" width="70%" alt="assignment-management-component-diagram">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-assigment-management.png" width="70%" alt="assignment-management-component-diagram">
 </p>
 
 - Analytics & Reports Component Diagram:
@@ -679,6 +679,8 @@ Esta sección presenta el diseño orientado a objetos de la plataforma <strong>C
 </p>
 
 ### **4.7.1. Class Diagrams**
+
+- BACKEND:
 
 - Diagrama de Clases de Gestión de Identidad y Acceso:
 
