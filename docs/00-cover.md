@@ -2,46 +2,52 @@
 <img src="../assets/cover/upc-logo.png" alt="UPC Logo" style="width: 150px; height: auto; display: block; margin: 0 auto;"/>
 
   <p>
-    UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+    Universidad Peruana De Ciencias Aplicadas
   </p>
   <p>
-    Facultad de ingeniería
+    Carrera de Ingeniería de Software
   </p>
   <p>
-    Ingeniería de Software
+    1ASI0730
   </p>
   <p>
-    Ciclo: 202620
+    Aplicaciones Web
   </p>
   <p>
-    Codigo del Curso: 1ASI0730
+    NRC
   </p>
   <p>
-    Nombre del Curso: Aplicaciones Web
+    8084
   </p>
   <p>
-    NRC: 8084
+    Informe del Trabajo Final
   </p>
   <p>
-    Profesor: Angel Augusto Velasquez Nuñez
+    Velasquez Nuñez, Ángel Augusto
   </p>
   <p>
-    AV1 Reporte de Trabajo
+    "Informe del Trabajo Final"
   </p>
   <p>
-    Nombre de la Startup: Creatividad
+    Equipo
   </p>
   <p>
-    Nombre del Producto: Children Path
+    Creatividad
+  </p>
+  <p>
+    Proyecto
+  </p>
+  <p>
+    Children Path
   </p>
 
   <table style="border-collapse: collapse; width: auto; min-width: 60px;">
     <thead>
       <tr>
-        <th style="text-align: center; background-color: #333; color: #fff; padding: 8px;">
+        <th style="text-align: center; padding: 8px;">
           Código
         </th>
-        <th style="text-align: center; background-color: #333; color: #fff; padding: 8px;">
+        <th style="text-align: center; padding: 8px;">
           Apellidos y Nombres
         </th>
       </tr>
@@ -52,25 +58,20 @@
         <td style="text-align: center; padding: 8px;">Huaco Oliva, Luis Alonso</td>
       </tr>
       <tr>
-        <td style="padding: 8px;">U202213484</td>
-        <td style="text-align: center; padding: 8px;">Rázuri Ucañan Piero Alejandro</td>
+        <td style="padding: 8px;">U202422589</td>
+        <td style="text-align: center; padding: 8px;">Diana Pareja Caceres</td>
       </tr>
       <tr>
-        <td style="padding: 8px;">XXXXXXX</td>
-        <td style="text-align: center; padding: 8px;">XXXXXXX</td>
+        <td style="padding: 8px;">U202213484</td>
+        <td style="text-align: center; padding: 8px;">Piero Alejandro Razuri Ucañan</td>
       </tr>
       <tr>
         <td style="padding: 8px;">U202315640</td>
         <td style="text-align: center; padding: 8px;">Soto Palacios, Brandon Wilder</td>
       </tr>
-      <tr>
-        <td style="padding: 8px;">XXXXXXX</td>
-        <td style="text-align: center; padding: 8px;">XXXXXXX</td>
-      </tr>
     </tbody>
   </table>
-
   <p>
-    Setiembre 2026
+    Octubre 2026
   </p>
 </div>

@@ -147,7 +147,7 @@
       Pareja Caceres, Diana
     </td>
     <td style="text-align: justify;">
-      Modificar el impact mapping
+        Agregando el capitulo 4 - 4.6 Bounded contexts correspondientes 
     </td>
   </tr>
   <!-- ROW 3.1 -->
@@ -156,433 +156,102 @@
       0.0.10
     </td>
     <td style="text-align: center;">
-      16/09/2026
+      13/09/2026
     </td>
     <td style="text-align: center;">
-      Huaco Oliva
+      Soto Palacios, Brandon
     </td>
     <td style="text-align: justify;">
-        Si se puede
+        Agregado de version preliminar de capitulos 1 y 2, entrevista segmento
     </td>
   </tr>
   <!-- ROW 3.2 -->
   <tr>
     <td style="text-align: center;">
-      X.X.X
+      0.0.11
     </td>
     <td style="text-align: center;">
-      XX/XX/XXXX
+      18/09/2026
     </td>
     <td style="text-align: center;">
-      XXXXXX
+      Soto Palacios, Brandon
     </td>
     <td style="text-align: justify;">
-        XXXXXX
+        Documentación y agregado de Landing Page y Mobile Landing Page wireframes
     </td>
   </tr>
   <!-- ROW 3.3 -->
   <tr>
     <td style="text-align: center;">
-      X.X.X
+      0.0.12
     </td>
     <td style="text-align: center;">
-      XX/XX/XXXX
+      18/09/2026
     </td>
     <td style="text-align: center;">
-      XXXXXX
+      Soto Palacios, Brandon Wilder
     </td>
     <td style="text-align: justify;">
-        XXXXXX
+        Añadido de wireframes y mockups de app web, userflows y modificaciones al capitulo 4
     </td>
   </tr>
     <!-- ROW 3.4 -->
   <tr>
     <td style="text-align: center;">
-      X.X.X
+      0.0.13
     </td>
     <td style="text-align: center;">
-      XX/XX/XXXX
+      18/09/2026
     </td>
     <td style="text-align: center;">
-      XXXXXX
+      Huaco Oliva Luis Alonso
     </td>
     <td style="text-align: justify;">
-        XXXXXX
+      Agregar en momento atrasado la sección 4.7 y 4.8
     </td>
   </tr>
     <!-- ROW 3.5 -->
-  <tr>
+   <tr>
     <td style="text-align: center;">
-      X.X.X
+      0.0.14
     </td>
     <td style="text-align: center;">
-      XX/XX/XXXX
+      04/10/2026
     </td>
     <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-    <!-- ROW 3.6 -->  
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
+      Pareja Caceres, Diana
     </td>
     <td style="text-align: justify;">
-        XXXXXX
+      Revisar el documento para la corregir discrepancias con la rubrica
     </td>
   </tr>
-    <!-- ROW 3.7 -->
+  <!-- ROW 3.6 -->
   <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
+    <td style="text-align: center;">0.1.0</td>
+    <td style="text-align: center;">05/10/2026</td>
+    <td style="text-align: center;">Pareja Caceres, Diana</td>
+    <td style="text-align: justify;">Documentación de Gestión de Configuración (5.1) y Sprint 1 (5.2.1): despliegue de Landing Page en GitHub Pages y evidencias de ejecución.</td>
   </tr>
-  <!-- ROW 4 -->
+  <!-- ROW 3.7 -->
   <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
+    <td style="text-align: center;">0.2.0</td>
+    <td style="text-align: center;">05/10/2026</td>
+    <td style="text-align: center;">Huaco Oliva, Luis Alonso</td>
+    <td style="text-align: justify;">Implementación de Sprint 2 (5.2.2): arquitectura Vue 3 por Bounded Contexts, tablas y formularios CRUD core con Fake API.</td>
   </tr>
-  <!-- ROW 5 -->
+  <!-- ROW 3.8 -->
   <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
+    <td style="text-align: center;">0.2.1</td>
+    <td style="text-align: center;">05/10/2026</td>
+    <td style="text-align: center;">Pareja Caceres, Diana</td>
+    <td style="text-align: justify;">Incorporación de capturas de ejecución del Frontend (5.2.2.5) y registro de despliegue en Firebase Hosting (5.2.2.7).</td>
   </tr>
-  <!-- ROW 6.0 -->
+  <!-- ROW 3.9 -->
   <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
+    <td style="text-align: center;">1.0.0</td>
+    <td style="text-align: center;">05/10/2026</td>
+    <td style="text-align: center;">Huaco Oliva, Luis Alonso</td>
+    <td style="text-align: justify;">Consolidación final del informe para la entrega TB1 (Semana 7), conclusiones preliminares y validación de rúbrica.</td>
   </tr>
-  <!-- ROW 6.1 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 6.2 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 6.3 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 7.0 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 7.1 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 7.2 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 7.3 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 3.0 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 3.1 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 3.2 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 3.3 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 4 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 4 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 4 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 4 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 5 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 5 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 5 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-      XXXXXX
-    </td>
-  </tr>
-  <!-- ROW 5 -->
-  <tr>
-    <td style="text-align: center;">
-      X.X.X
-    </td>
-    <td style="text-align: center;">
-      XX/XX/XXXX
-    </td>
-    <td style="text-align: center;">
-      XXXXXX
-    </td>
-    <td style="text-align: justify;">
-        XXXXXX
-    </td>
-  </tr>
+</table>
 </table>
