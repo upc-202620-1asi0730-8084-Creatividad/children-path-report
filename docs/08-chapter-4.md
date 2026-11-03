@@ -148,22 +148,192 @@ El wireframe de nuestra Landing Page se enfoca en una estructura de "Confianza P
 * **Hero Section:** Diseñada con un titular de alto impacto a la izquierda y un espacio dedicado para la identidad visual de **Children Path** (el escudo) a la derecha.
 * **Sección de Métricas:** Ubicada estratégicamente debajo del hero para validar la fiabilidad del sistema con datos reales (segmentos, flujos y experiencia de confianza).
 
-![Children Path Wireframe](../assets/chapter-4/ChildrenPath_Wireframe.png)
+Desktop Landing Page:
+
+<center>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe1.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe2.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+    </tr>
+  </table>
+</div>
+</center>
+
+<center>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe3.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe4.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+    </tr>
+  </table>
+</div>
+</center>
+
+<center>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe5.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+    </tr>
+  </table>
+</div>
+</center>
+
+**Elementos de Diseño**
+- Lógica de Tarjetas (Cards UI): Se emplean contenedores de bordes redondeados para agrupar información en bloques digeribles (métricas, testimonios, planes, Misión/Visión y el contenedor central en Términos y Condiciones).
+- Botones Píldora y Jerarquía Visual: Los botones principales ("Ingresar", "Solicitar demo") adoptan la forma de píldora (border-radius: 50px), marcando contraste de importancia frente a botones secundarios con bordes ("Ver planes", "Contactar ventas").
+- Micro-componentes y Placeholders: Uso de componentes estandarizados como etiquetas/badges para filtros rápidos, acordeones (+ / - / chevrons), inputs con ícono de visibilidad de contraseña (ojo) y tarjetas de precarga (image placeholders con montaña/sol).
+- Tipografía Escalada: Marcado contraste de pesos y tamaños tipográficos; títulos H1/H2 en negrita de gran formato para captar atención y texto base (body) ligero para facilitar la lectura.
+
+**Heurísticas de Nielsen**
+- Visibilidad del estado del sistema (H1): El widget de "Recorrido activo" en la página principal muestra el estado en vivo (ubicación, tiempo estimado y alertas), mientras que el login indica claramente el perfil seleccionado (Padre, Conductor, Administrador).
+- Relación entre el sistema y el mundo real (H2): Vocabulario empático y cotidiano ("Sigue a tu hijo", "Tranquilidad", "Rutas seguras"), evitando modismos informáticos o jerga técnica.
+- Consistencia y estándares (H4): La cabecera (Header) y el pie de página (Footer) se mantienen idénticos en las 5 vistas, conservando la ubicación del logo, el menú y el botón de acceso.
+- Prevención de errores (H5): En el formulario de Iniciar sesión, la opción de mostrar/ocultar contraseña permite verificar datos antes de enviar. En el formulario de demo, se incluyen listas desplegables para guiar la selección del rol.
+- Reconocimiento antes que recuerdo (H6): Las opciones del menú superior permanecen siempre visibles, permitiendo cambiar de sección sin memorizar la ruta previa.
+
+**Arquitectura de la Información**
+- Estructura Jerárquica Progresiva: La Landing Page principal ordena el contenido de forma lógica: Propuesta de valor/Hero $\rightarrow$ Validación social (Métricas) $\rightarrow$ Beneficios $\rightarrow$ Funcionamiento $\rightarrow$ Precios $\rightarrow$ Testimonios $\rightarrow$ FAQ $\rightarrow$ Contacto.
+- Segmentación por Audiencia/Rol: El contenido se organiza explícitamente en tres columnas o pestañas (Familias/Padres, Conductores, Colegios/Empresas) en las secciones de beneficios, planes y credenciales de acceso.
+- Escatabilidad de Texto Denso: En la pantalla de Terms and conditions, el texto extenso se estructura mediante una lista numerada, títulos en negrita y viñetas para evitar muros de texto unificados.
+- Navegación Global Consistente: La presencia uniforme del menú superior y pie de página garantiza accesibilidad directa a cualquier sección clave desde cualquier pantalla.
+
+**Diseño Inclusivo**
+- Objetivos Táctiles Amplios (Touch Targets): Los botones tipo píldora, inputs de texto y selectores tienen alturas superiores a $48\text{px}$, facilitando la interacción en pantallas táctiles o para usuarios con menor precisión motriz.
+- Alternativas de Contacto Flexibles: En la pantalla de contacto se ofrecen múltiples canales para adaptarse a distintas capacidades o preferencias comunicativas (formulario escrito, llamada telefónica y chat directo vía WhatsApp).
+- Estructuración para Lectores de Pantalla: La clara separación en bloques (encabezados, listas con checkmarks y tarjetas) facilita la lectura con tecnologías de asistencia visual.
+- Sencillez de Comprensión: Uso de íconos de cotejo (✓) acompañando a cada beneficio y viñetas cortas (chunking) para reducir la carga cognitiva al procesar la información.
+
+
+Mobile Web Wireframes
+
+<center>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe1.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe2.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+    </tr>
+  </table>
+</div>
+</center>
+
+<center>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe3.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe4.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+    </tr>
+  </table>
+</div>
+</center>
+
+<center>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe5.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe6.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+    </tr>
+  </table>
+</div>
+</center>
+
+**Elementos de Diseño (Mobile UI)**
+- Layout de Columna Única (Single-Column Stacking): Rediseño adaptativo donde las cuadrículas multicolumna de escritorio (métricas, testimonios, planes de suscripción) se reordenan en un flujo vertical continuo ($1 \times N$), facilitando la navegación con una sola mano.
+- Navegación Off-Canvas (Menú Hamburguesa): Sustitución de la barra de menú horizontal por un ícono de tres líneas en la cabecera, el cual despliega un menú lateral translúcido con los accesos principales y un botón de cierre explícito (W_Landing_Wireframe2.png).
+- Componentes Táctiles (Mobile Cards & Chips): Tarjetas de esquinas redondeadas ajustadas al ancho de pantalla y etiquetas (chips/badges) apiladas para filtrado directo de públicos (Familias, Conductores, Colegios).
+- Campos e Inputs Verticales: Formulario de contacto y pantalla de Inicia sesión con campos de entrada apilados y botones principales tipo píldora (border-radius: 50px) adaptados al ancho completo.
+
+**Heurísticas de Nielsen**
+- Visibilidad del estado del sistema (H1): La tarjeta de "Recorrido activo" destaca información en tiempo real (ubicación, hora y velocidad), mientras que el menú off-canvas incluye una capa oscura (overlay) que indica claramente que el usuario está en el modo de navegación.
+- Relación entre el sistema y el mundo real (H2): Empleo de iconografía estándar móvil (menú hamburguesa, 'X' para cerrar modal/desplegable, ícono de ojo para alternar visibilidad de contraseña y flechas descendentes para acordeones).
+- Control y libertad del usuario (H3): Incorporación de un botón de cierre "X" grande en la parte superior del menú desplegable para salir del overlay sin forzar acciones accidentales.
+- Consistencia y estándares (H4): Mantenimiento estricto del Sticky Header (logo a la izquierda, menú a la derecha) y Footer institucional en las 6 vistas móviles
+- Reconocimiento antes que recuerdo (H6): Pestañas de perfil seleccionables (Padre, Conductor, Administrador) en la pantalla de Login para evitar que el usuario deba recordar rutas de acceso separadas.
+
+**Arquitectura de la Información**
+- Jerarquización y Contención (Chunking): Desglose del contenido extenso en bloques compactos; el uso de acordeones desplegables en las preguntas frecuentes (FAQ) evita el desplazamiento (scroll) infinito abrumador.
+- Secuencia de Conversión Lineal: La Landing Page móvil guía la lectura de arriba hacia abajo: Propuesta de valor $\rightarrow$ Estado en vivo $\rightarrow$ Métricas $\rightarrow$ Beneficios $\rightarrow$ Planes $\rightarrow$ Testimonios $\rightarrow$ Formulario.
+- Estructuración de Contenido Denso: En la pantalla de Terms and conditions (W_Landing_Wireframe6.png), los párrafos largos se dividen mediante numerales en negrita y listas con viñetas para acelerar la lectura escaneable en pantallas pequeñas.
+
+**Diseño Inclusivo y Accesibilidad Mobile**
+- Zona del Pulgar (Thumb Zone & Touch Targets): Todos los botones, campos de texto y elementos interactivos tienen una altura táctil adecuada ($\ge 48\text{px}$), facilitando el toque sin presionar elementos adyacentes por error.
+- Carga Cognitiva Reducida: Ocultamiento estratégico de contenido secundario dentro del menú hamburguesa y acordeones para no saturar la memoria de trabajo del usuario en dispositivos móviles.
+- Alternativas Táctiles Directas: En la sección de contacto móvil se integran enlaces de acción rápida a teléfono y WhatsApp para iniciar comunicación en un solo toque.
 
 ### 4.3.2. Landing Page Mockup
 
 El Mockup de alta fidelidad representa la interfaz final de **Children Path**, integrando todos los elementos de la identidad visual y la arquitectura de información definida previamente. Este diseño busca equilibrar la funcionalidad técnica con una experiencia de usuario (UX) intuitiva y reconfortante para los padres.
 
-<img width="1291" height="6231" alt="children path - landing page mock-up" src="https://github.com/user-attachments/assets/ba634ca7-714b-4d6b-b23a-3d2643741c3a" />
+Desktop Mockups
 
-<img width="1291" height="3399" alt="Children path -Nosotros mock-up" src="https://github.com/user-attachments/assets/6f9abbeb-64a8-4622-b679-c0de804d068b" />
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup1.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup2.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+    </tr>
+  </table>
+</div>
+</center>
 
-<img width="1291" height="2040" alt="Children path - contacto mock-up" src="https://github.com/user-attachments/assets/801a3a89-774e-487f-a796-c70fefad7ec2" />
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup3.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup4.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+    </tr>
+  </table>
+</div>
+</center>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup5.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+    </tr>
+  </table>
+</div>
+</center>
 
-<img width="1291" height="900" alt="Childre path - iniciar sesion  mock-up" src="https://github.com/user-attachments/assets/e9a76eda-345d-470d-ad7a-1a4e506c17d6" />
+Mobile Mockups:
 
-<img width="1291" height="2642" alt="children path - terminos y condiciones mock-up" src="https://github.com/user-attachments/assets/a7954bb4-f17f-4c0f-8353-c4290e8d8288" />
+<center>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Landing Page_ChildrenPath.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Landing Page_Labeling.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+    </tr>
+  </table>
+</div>
+</center>
 
+<center>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Nosotros.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Contact.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+    </tr>
+  </table>
+</div>
+</center>
+
+<center>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Log In.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Terminos y condiciones.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+    </tr>
+  </table>
+</div>
+</center>
 
 #### Análisis del Diseño Final:
 
@@ -195,40 +365,40 @@ Nuestros objetivos de diseño principales incluyen:
 
 ---
 
-**Wireframe 1: User Login** ![Wireframe 1](../assets/chapter-4/WIREFRAME%201.png)  
+**Wireframe 1: User Login** ![Wireframe 1](../assets/chapter-4/AppWeb-Wireframe1.png)  
 *Portal de autenticación seguro para padres, conductores y administradores de empresas de movilidad escolar.*
 
-**Wireframe 2: Parent Dashboard** ![Wireframe 2](../assets/chapter-4/WIREFRAME%202.png)  
+**Wireframe 2: Parent Dashboard** ![Wireframe 2](../assets/chapter-4/AppWeb-Wireframe2.png)  
 *Panel de control principal para padres, que muestra los servicios activos y el estado rápido del hijo.*
 
-**Wireframe 3: Live Tracking Map** ![Wireframe 3](../assets/chapter-4/WIREFRAME%203.png)  
+**Wireframe 3: Live Tracking Map** ![Wireframe 3](../assets/chapter-4/AppWeb-Wireframe3.png)  
 *Interfaz GPS en tiempo real que muestra la ubicación del bus y el tiempo estimado de llegada (ETA).*
 
-**Wireframe 4: Student Profile Management** ![Wireframe 4](../assets/chapter-4/WIREFRAME%204.png)  
+**Wireframe 4: Student Profile Management** ![Wireframe 4](../assets/chapter-4/AppWeb-Wireframe4.png)  
 *Sección dedicada a la gestión de la información del estudiante, contactos de emergencia y notas médicas.*
 
-**Wireframe 5: Trip History** ![Wireframe 5](../assets/chapter-4/WIREFRAME%205.png)  
+**Wireframe 5: Trip History** ![Wireframe 5](../assets/chapter-4/AppWeb-Wireframe5.png)  
 *Registro detallado de rutas anteriores, incluyendo marcas de tiempo de cada recojo y descenso.*
 
-**Wireframe 6: Driver Main Interface** ![Wireframe 6](../assets/chapter-4/WIREFRAME%206.png)  
+**Wireframe 6: Driver Main Interface** ![Wireframe 6](../assets/chapter-4/AppWeb-Wireframe6.png)  
 *Vista operativa para conductores con navegación de ruta activa y gestión de paradas.*
 
-**Wireframe 7: Attendance Checklist** ![Wireframe 7](../assets/chapter-4/WIREFRAME%207.png)  
+**Wireframe 7: Attendance Checklist** ![Wireframe 7](../assets/chapter-4/AppWeb-Wireframe7.png)  
 *Lista digital de estudiantes para la confirmación en tiempo real del abordaje y descenso.*
 
-**Wireframe 8: School Admin Overview** ![Wireframe 8](../assets/chapter-4/WIREFRAME%208.png)  
+**Wireframe 8: School Admin Overview** ![Wireframe 8](../assets/chapter-4/AppWeb-Wireframe8.png)  
 *Panel de monitoreo global para que las empresas de movilidad escolar rastreen múltiples unidades y su estado de seguridad.*
 
-**Wireframe 9: Route Optimization** ![Wireframe 9](../assets/chapter-4/WIREFRAME%209.png)  
+**Wireframe 9: Route Optimization** ![Wireframe 9](../assets/chapter-4/AppWeb-Wireframe9.png)  
 *Herramienta administrativa para crear nodos y optimizar las rutas de transporte.*
 
-**Wireframe 10: Incident Reporting** ![Wireframe 10](../assets/chapter-4/WIREFRAME%2010.png)  
+**Wireframe 10: Incident Reporting** ![Wireframe 10](../assets/chapter-4/AppWeb-Wireframe10.png)  
 *Formulario estandarizado para reportar retrasos, fallas mecánicas o alertas de comportamiento.*
 
-**Wireframe 11: Notification Settings** ![Wireframe 11](../assets/chapter-4/WIREFRAME%2011.png)  
+**Wireframe 11: Notification Settings** ![Wireframe 11](../assets/chapter-4/AppWeb-Wireframe11.png)  
 *Preferencias para notificaciones push, alertas por SMS y comunicación por correo electrónico.*
 
-**Wireframe 12: Analytics & Reports** ![Wireframe 12](../assets/chapter-4/WIREFRAME%2012.png)  
+**Wireframe 12: Analytics & Reports** ![Wireframe 12](../assets/chapter-4/AppWeb-Wireframe12.png)  
 *Panel de rendimiento de la flota que muestra viajes completados, asistencia promedio y métricas de incidencias.*
 
 
@@ -239,7 +409,7 @@ El siguiente diagrama de wireflow ilustra la arquitectura de navegación y la l�
 
 ---
 
-**Wireflow Diagram: System Interaction Logic** ![Children Path Wireflow](../assets/chapter-4/DIAGRAMA_WIREFLOW.png)
+**Wireflow Diagram: System Interaction Logic** ![Children Path Wireflow](../assets/chapter-4/section-4-2/wireflow-diagram.png)
 
 ---
 
@@ -254,40 +424,40 @@ Elementos visuales clave aplicados:
 
 ---
 
-**Mock-up 1: User Login** ![Mock-up 1](../assets/chapter-4/MOCKUP%201.png)  
+**Mock-up 1: User Login** ![Mock-up 1](../assets/chapter-4/APMockup1.png)  
 *Pantalla de inicio de sesión final de alta fidelidad con branding e interfaz enfocada en la seguridad.*
 
-**Mock-up 2: Parent Dashboard** ![Mock-up 2](../assets/chapter-4/MOCKUP%202.png)  
+**Mock-up 2: Parent Dashboard** ![Mock-up 2](../assets/chapter-4/APMockup2.png)  
 *Vista general codificada por colores para padres con indicadores de estado en tiempo real.*
 
-**Mock-up 3: Live Tracking Map** ![Mock-up 3](../assets/chapter-4/MOCKUP%203.png)  
+**Mock-up 3: Live Tracking Map** ![Mock-up 3](../assets/chapter-4/APMockup3.png)  
 *Interfaz de mapa interactivo con marcadores personalizados del bus y tarjetas dinámicas de tiempo estimado de llegada (ETA).*
 
-**Mock-up 4: Student Profile Management** ![Mock-up 4](../assets/chapter-4/MOCKUP%204.png)  
+**Mock-up 4: Student Profile Management** ![Mock-up 4](../assets/chapter-4/APMockup4.png)  
 *Vista detallada para gestionar perfiles de estudiantes con campos de ingreso de datos intuitivos.*
 
-**Mock-up 5: Trip History** ![Mock-up 5](../assets/chapter-4/MOCKUP%205.png)  
+**Mock-up 5: Trip History** ![Mock-up 5](../assets/chapter-4/APMockup5.png)  
 *Registro histórico con abundantes datos y un diseño limpio y organizado para el análisis de rutas pasadas.*
 
-**Mock-up 6: Driver Main Interface** ![Mock-up 6](../assets/chapter-4/MOCKUP%206.png)  
+**Mock-up 6: Driver Main Interface** ![Mock-up 6](../assets/chapter-4/APMockup6.png)  
 *Modo noche/día optimizado para conductores, priorizando la navegación y los objetivos táctiles grandes.*
 
-**Mock-up 7: Attendance Checklist** ![Mock-up 7](../assets/chapter-4/MOCKUP%207.png)  
+**Mock-up 7: Attendance Checklist** ![Mock-up 7](../assets/chapter-4/APMockup7.png)  
 *Lista de verificación de alto contraste para el abordaje de estudiantes en tiempo real y la verificación de seguridad.*
 
-**Mock-up 8: School Admin Overview** ![Mock-up 8](../assets/chapter-4/MOCKUP%208.png)  
+**Mock-up 8: School Admin Overview** ![Mock-up 8](../assets/chapter-4/APMockup8.png)  
 *Panel administrativo con métricas de flota y monitoreo de viajes activos.*
 
-**Mock-up 9: Route Optimization** ![Mock-up 9](../assets/chapter-4/MOCKUP%209.png)  
+**Mock-up 9: Route Optimization** ![Mock-up 9](../assets/chapter-4/APMockup9.png)  
 *Constructor visual de rutas para que los administradores diseñen y asignen puntos de recojo.*
 
-**Mock-up 10: Incident Reporting** ![Mock-up 10](../assets/chapter-4/MOCKUP%2010.png)  
+**Mock-up 10: Incident Reporting** ![Mock-up 10](../assets/chapter-4/APMockup10.png)  
 *Interfaz de alerta urgente diseñada para el reporte rápido en situaciones de alta presión.*
 
-**Mock-up 11: Notification Settings** ![Mock-up 11](../assets/chapter-4/MOCKUP%2011.png)  
+**Mock-up 11: Notification Settings** ![Mock-up 11](../assets/chapter-4/APMockup11.png)  
 *Panel de personalización de alertas, manteniendo la consistencia visual con la aplicación móvil.*
 
-**Mock-up 12: Analytics & Reports** ![Mock-up 12](../assets/chapter-4/MOCKUP%2012.png)  
+**Mock-up 12: Analytics & Reports** ![Mock-up 12](../assets/chapter-4/APMockup12.png)  
 *Gráficos de rendimiento integrales y tablas de datos para la gestión de las empresas de movilidad escolar.*
 
 ### **4.4.4. Web Applications User Flow Diagrams**
@@ -302,13 +472,14 @@ Hemos priorizado los siguientes tres flujos críticos:
 
 ---
 
-**User Flow Diagram: Core Platform Interactions** ![User Flow](../assets/chapter-4/USER_FLOW.png)  
-*Este diagrama detalla los nodos de decisión y las rutas de acción para Padres, Conductores y Administradores dentro del ecosistema web.*
+**User Flow Diagram: Core Platform Interactions** ![User Flow1](../assets/chapter-4/USER_FLOW1.png)
+![User Flow2](../assets/chapter-4/USER_FLOW2.png)
+![User Flow3](../assets/chapter-4/USER_FLOW3.png)  
+*Estos diagramas detallan los nodos de decisión y las rutas de acción para Padres, Conductores y Administradores dentro del ecosistema web.*
 
 ---
 
 ## **Web Applications Prototyping**
-
 
 
 ## **4.6. Domain-Driven Software Architecture**
@@ -319,102 +490,92 @@ Hemos priorizado los siguientes tres flujos críticos:
 
 ### **4.6.1. Design-Level EventStorming**
 
-- Contexto Delimitado de Gestión de Identidad y Acceso:
+-Identity and Access Management Bounded Context
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/identity-access-bounded-context.png" width="70%" alt="identity-access-bounded-context">
-</p>
+<img width="955" height="1046" alt="Children path- IAM bounded context" src="../assets/chapter-4/section-6-1/identity-and-access-management-bounded-context.png" />
 
-- Contexto Delimitado de Perfiles de Usuario:
+-User profile bounded context
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/user-profiles-bounded-context.png" width="70%" alt="user-profiles-bounded-context">
-</p>
+<img width="1201" height="832" alt="Children path - user profiles bounded context" src="../assets/chapter-4/section-6-1/user-profiles-bounded-context.png" />
 
-- Contexto Delimitado de Suscripciones y Pagos:
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/subscription-payments-bounded-context.png" width="70%" alt="subscription-payments-bounded-context">
-</p>
+-Subscription and Payments Bounded Context
 
-- Contexto Delimitado del Dashboard:
+<img width="1030" height="970" alt="children path - subscription and payments bounded context" src="../assets/chapter-4/section-6-1/subscription-and-payments-bounded-context.png" />
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/dashboard-bounded-context.png" width="70%" alt="dashboard-bounded-context">
-</p>
 
-- Contexto Delimitado de Gestión de Flota:
+-Dashboard Bounded Context
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/fleet-management-bounded-context.png" width="70%" alt="fleet-management-bounded-context">
-</p>
+<img width="1056" height="946" alt="Children path dashboard bounded context" src="../assets/chapter-4/section-6-1/dashboard-bounded-context.png" />
 
-- Contexto Delimitado de Gestión de Conductores:
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/driver-management-bounded-context.png" width="70%" alt="driver-management-bounded-context">
-</p>
+-Fleet Management Bounded Context
 
-- Contexto Delimitado de Gestión de Rutas:
+<img width="1014" height="985" alt="children path - Fleet Management Bounded Context" src="../assets/chapter-4/section-6-1/fleet-management-bounded-context.png" />
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/route-management-bounded-context.png" width="70%" alt="route-management-bounded-context">
-</p>
 
-- Contexto Delimitado de Gestión de Estudiantes:
+-Driver Management Bounded Context
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/student-management-bounded-context.png" width="70%" alt="student-management-bounded-context">
-</p>
+<img width="1065" height="938" alt="Children path - Driver Management Bounded context" src="../assets/chapter-4/section-6-1/driver-management-bounded-context.png" />
 
-- Contexto Delimitado de Gestión de Asignaciones:
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/assignment-management-bounded-context.png" width="70%" alt="assignment-management-bounded-context">
-</p>
 
-- Contexto Delimitado de Rastreo en Tiempo Real:
+-Route Management Bounded Context
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/real-time-tracking-bounded-context.png" width="70%" alt="real-time-tracking-bounded-context">
-</p>
+<img width="1049" height="953" alt="Children Path- Route Management Bounded Contexxt" src="../assets/chapter-4/section-6-1/route-management-bounded-context.png" />
 
-- Contexto Delimitado de Gestión de Viajes:
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/trip-management-bounded-context.png" width="70%" alt="trip-management-bounded-context">
-</p>
+-Student Management Bounded Context
 
-- Contexto Delimitado de Control de Asistencia:
+<img width="1089" height="917" alt="Children path - student management bounded context" src="../assets/chapter-4/section-6-1/student-management-bounded-context.png" />
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/attendance-tracking-bounded-context.png" width="70%" alt="attendance-tracking-bounded-context">
-</p>
 
-- Contexto Delimitado de Alertas y Notificaciones:
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/alerts-notifications-bounded-context.png" width="70%" alt="alerts-notifications-bounded-context">
-</p>
+-Assignment Management Bounded Context
 
-- Contexto Delimitado de Gestión de Incidencias:
+<img width="1089" height="917" alt="Children Path - assignment manegement bounded context" src="../assets/chapter-4/section-6-1/assignment-management-bounded-context.png" />
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/incident-management-bounded-context.png" width="70%" alt="incident-management-bounded-context">
-</p>
 
-- Contexto Delimitado de Analítica y Reportes:
+-Real-Time Tracking Bounded Contex
 
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/event-storming/analytics-reports-bounded-context.png" width="70%" alt="analytics-reports-bounded-context">
-</p>
+<img width="1053" height="949" alt="children path - real-time tracking bounded context" src="../assets/chapter-4/section-6-1/real-time-tracking-bounded-context.png" />
+
+
+-Trip Management Bounded Context
+
+<img width="1037" height="964" alt="children path- trip management bounded context" src="../assets/chapter-4/section-6-1/trip-management-bounded-context.png" />
+
+
+-Attendance Tracking Bounded Context
+
+<img width="1045" height="956" alt="Children path - attendance tracking bounded context" src="../assets/chapter-4/section-6-1/attendance-tracking-bounded-context.png" />
+
+
+
+
+-Alerts and Notifications Bounded Context
+
+<img width="1038" height="963" alt="children path- Alerts and Notifications Bounded Context" src="../assets/chapter-4/section-6-1/alerts-and-notifications-bounded-context.png" />
+
+
+- Incident Management Bounded Context
+
+<img width="1048" height="954" alt="children path-Incident management Bounded Context" src="../assets/chapter-4/section-6-1/incident-management-bounded-context.png" />
+
+
+-Analytics and Reports Bounded Context
+
+<img width="1065" height="938" alt="children path- analytics and reports bounded context" src="../assets/chapter-4/section-6-1/analytics-and-reports-bounded-context.png" />
+
+Link del artefacto en miro: https://miro.com/app/board/uXjVHm5y9BY=/?share_link_id=901895180233
+
 
 ### **4.6.2. Software Architecture Context Diagram**
 
 - Children Path Context Diagram:
 
 <p align="center">
-  <img src="../assets/chapter-4/software-architecture/context-diagram/context-diagram.png" width="70%" alt="context-diagram">
+<img src="../assets/chapter-4/section-6-4/children-path-context.png" width="70%" alt="children-path-context">
 </p>
 
 ### **4.6.3. Software Architecture Container Diagrams**
@@ -422,7 +583,7 @@ Hemos priorizado los siguientes tres flujos críticos:
 - Children Path Container Diagram:
 
 <p align="center">
-  <img src="../assets/chapter-4/software-architecture/container-diagram/container-diagram.png" width="70%" alt="container-diagram">
+  <img src="../assets/chapter-4/section-6-4/children-path-container.png" width="70%" alt="container-diagram">
 </p>
 
 ### **4.6.4. Software Architecture Components Diagrams**
@@ -430,103 +591,85 @@ Hemos priorizado los siguientes tres flujos críticos:
 - Children Path Web Application Component Diagram:
 
 <p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/web-application-component-diagram.png" width="70%" alt="web-application-component-diagram">
-</p>
-
-- Identity & Access Management Component Diagram:
-
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/identity-access-component-diagram.png" width="70%" alt="identity-access-component-diagram">
-</p>
-
-- User Profiles Component Diagram:
-
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/user-profiles-component-diagram.png" width="70%" alt="user-profiles-component-diagram">
-</p>
-
-- Subscription & Payments Component Diagram:
-
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/subscription-payments-component-diagram.png" width="70%" alt="subscription-payments-component-diagram">
-</p>
-
-- Dashboard Component Diagram:
-
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/dashboard-component-diagram.png" width="70%" alt="dashboard-component-diagram">
-</p>
-
-- Fleet Management Component Diagram:
-
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/fleet-management-component-diagram.png" width="70%" alt="fleet-management-component-diagram">
-</p>
-
-- Driver Management Component Diagram:
-
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/driver-management-component-diagram.png" width="70%" alt="driver-management-component-diagram">
-</p>
-
-- Route Management Component Diagram:
-
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/route-management-component-diagram.png" width="70%" alt="route-management-component-diagram">
-</p>
-
-- Student Management Component Diagram:
-
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/student-management-component-diagram.png" width="70%" alt="student-management-component-diagram">
-</p>
-
-- Assignment Management Component Diagram:
-
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/assignment-management-component-diagram.png" width="70%" alt="assignment-management-component-diagram">
-</p>
-
-- Real-Time Tracking Component Diagram:
-
-<p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/real-time-tracking-component-diagram.png" width="70%" alt="real-time-tracking-component-diagram">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-web-application.png" width="70%" alt="web-application-component-diagram">
 </p>
 
 - Trip Management Component Diagram:
 
 <p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/trip-management-component-diagram.png" width="70%" alt="trip-management-component-diagram">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-trip-management.png" width="70%" alt="trip-management-component-diagram">
 </p>
 
-- Attendance Tracking Component Diagram:
+- Subscription & Payments Component Diagram:
 
 <p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/attendance-tracking-component-diagram.png" width="70%" alt="attendance-tracking-component-diagram">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-subscription-payments.png" width="70%" alt="subscription-payments-component-diagram">
 </p>
 
-- Alerts & Notifications Component Diagram:
+- Student Management Component Diagram:
 
 <p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/alerts-notifications-component-diagram.png" width="70%" alt="alerts-notifications-component-diagram">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-student-management.png" width="70%" alt="student-management-component-diagram">
 </p>
 
-- Incident Management Component Diagram:
+- Route  Management Component Diagram:
 
 <p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/incident-management-component-diagram.png" width="70%" alt="incident-management-component-diagram">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-route-management.png" width="70%" alt="route-management-component-diagram">
 </p>
 
-- Analytics & Reports Component Diagram:
+- Real Time Tracking Component Diagram:
 
 <p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/analytics-reports-component-diagram.png" width="70%" alt="analytics-reports-component-diagram">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-real-time-tracking.png" width="70%" alt="real-time-tracking-component-diagram">
+</p>
+
+- Fleet Management Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-fleet-management.png" width="70%" alt="fleet-management-component-diagram">
+</p>
+
+- Driver Management Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-driver-management.png" width="70%" alt="driver-management-component-diagram">
+</p>
+
+- Dashboard Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-dashboard.png" width="70%" alt="dashboard-component-diagram">
 </p>
 
 - Company Management Component Diagram:
 
 <p align="center">
-  <img src="../assets/chapter-4/software-architecture/components-diagram/company-management-component-diagram.png" width="70%" alt="company-management-component-diagram">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-company-management.png" width="70%" alt="company-management-component-diagram">
+</p>
+
+- Attendance Tracking Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-attendance-tracking.png" width="70%" alt="attendance-tracking-component-diagram">
+</p>
+
+- Assignment Management Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-assigment-management.png" width="70%" alt="assignment-management-component-diagram">
+</p>
+
+- Analytics & Reports Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-assigment-management.png" width="70%" alt="analytics-reports-component-diagram">
+</p>
+
+- Alerts & Notifications Component Diagram:
+
+<p align="center">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-alerts-notifications.png" width="70%" alt="alerts-notifications-component-diagram">
 </p>
 
 ## **4.7. Object-Oriented Design Software**
@@ -537,100 +680,102 @@ Esta sección presenta el diseño orientado a objetos de la plataforma <strong>C
 
 ### **4.7.1. Class Diagrams**
 
+- BACKEND:
+
 - Diagrama de Clases de Gestión de Identidad y Acceso:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/identity-access-management-class-diagram.png" width="70%" alt="identity-access-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/01-identity-access-management-class-diagram.png" width="70%" alt="identity-access-class-diagram">
 </p>
 
 - Diagrama de Clases de Perfiles de Usuario:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/user-profiles-class-diagram.png" width="70%" alt="user-profiles-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/02-user-profiles-class-diagram.png" width="70%" alt="user-profiles-class-diagram">
 </p>
 
 - Diagrama de Clases de Suscripciones y Pagos:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/subscription-payments-class-diagram.png" width="70%" alt="subscription-payments-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/03-subscription-payments-class-diagram.png" width="70%" alt="subscription-payments-class-diagram">
 </p>
 
 - Diagrama de Clases del Dashboard:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/dashboard-class-diagram.png" width="70%" alt="dashboard-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/04-dashboard-class-diagram.png" width="70%" alt="dashboard-class-diagram">
 </p>
 
 - Diagrama de Clases de Gestión de Flota:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/fleet-management-class-diagram.png" width="70%" alt="fleet-management-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/05-fleet-management-class-diagram.png" width="70%" alt="fleet-management-class-diagram">
 </p>
 
 - Diagrama de Clases de Gestión de Conductores:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/driver-management-class-diagram.png" width="70%" alt="driver-management-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/06-driver-management-class-diagram.png" width="70%" alt="driver-management-class-diagram">
 </p>
 
 - Diagrama de Clases de Gestión de Rutas:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/route-management-class-diagram.png" width="70%" alt="route-management-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/07-route-management-class-diagram.png" width="70%" alt="route-management-class-diagram">
 </p>
 
 - Diagrama de Clases de Gestión de Estudiantes:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/student-management-class-diagram.png" width="70%" alt="student-management-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/08-student-management-class-diagram.png" width="70%" alt="student-management-class-diagram">
 </p>
 
 - Diagrama de Clases de Gestión de Asignaciones:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/assignment-management-class-diagram.png" width="70%" alt="assignment-management-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/09-assignment-management-class-diagram.png" width="70%" alt="assignment-management-class-diagram">
 </p>
 
 - Diagrama de Clases de Rastreo en Tiempo Real:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/real-time-tracking-class-diagram.png" width="70%" alt="real-time-tracking-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/10-real-time-tracking-class-diagram.png" width="70%" alt="real-time-tracking-class-diagram">
 </p>
 
 - Diagrama de Clases de Gestión de Viajes:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/trip-management-class-diagram.png" width="70%" alt="trip-management-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/11-trip-management-class-diagram.png" width="70%" alt="trip-management-class-diagram">
 </p>
 
 - Diagrama de Clases de Control de Asistencia:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/attendance-tracking-class-diagram.png" width="70%" alt="attendance-tracking-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/12-attendance-tracking-class-diagram.png" width="70%" alt="attendance-tracking-class-diagram">
 </p>
 
 - Diagrama de Clases de Alertas y Notificaciones:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/alerts-notifications-class-diagram.png" width="70%" alt="alerts-notifications-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/13-alerts-notifications-class-diagram.png" width="70%" alt="alerts-notifications-class-diagram">
 </p>
 
 - Diagrama de Clases de Gestión de Incidencias:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/incident-management-class-diagram.png" width="70%" alt="incident-management-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/14-incident-management-class-diagram.png" width="70%" alt="incident-management-class-diagram">
 </p>
 
 - Diagrama de Clases de Analítica y Reportes:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/analytics-reports-class-diagram.png" width="70%" alt="analytics-reports-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/15-analytics-reports-class-diagram.png" width="70%" alt="analytics-reports-class-diagram">
 </p>
 
 - Diagrama de Clases de Gestión de Empresas:
 
 <p align="center">
-  <img src="../assets/chapter-4/design-software/class-diagrams/company-management-class-diagram.png" width="70%" alt="company-management-class-diagram">
+  <img src="../assets/chapter-4/section-7-1/16-company-management-class-diagram.png" width="70%" alt="company-management-class-diagram">
 </p>
 
 ## **4.8. Database Design**
@@ -641,105 +786,104 @@ Esta sección define el diseño de la base de datos de la plataforma <strong>Chi
 
 ### **4.8.1. Database Diagrams**
 
-- Diagrama de Base de Datos de Children Path:
+- Diagrama de Base de Datos General de Children Path:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/kidway-database-diagram.png" width="70%" alt="kidway-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/01-children-path-database-diagram.png" width="70%" alt="children-path-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Gestión de Identidad y Acceso:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/identity-access-management-database-diagram.png" width="70%" alt="identity-access-management-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/02-identity-access-management-database-diagram.png" width="70%" alt="identity-access-management-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Perfiles de Usuario:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/user-profiles-database-diagram.png" width="70%" alt="user-profiles-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/03-user-profiles-database-diagram.png" width="70%" alt="user-profiles-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Suscripciones y Pagos:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/subscription-payments-database-diagram.png" width="70%" alt="subscription-payments-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/04-subscription-payments-database-diagram.png" width="70%" alt="subscription-payments-database-diagram">
 </p>
 
 - Diagrama de Base de Datos del Dashboard:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/dashboard-database-diagram.png" width="70%" alt="dashboard-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/05-dashboard-database-diagram.png" width="70%" alt="dashboard-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Gestión de Flota:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/fleet-management-database-diagram.png" width="70%" alt="fleet-management-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/06-fleet-management-database-diagram.png" width="70%" alt="fleet-management-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Gestión de Conductores:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/driver-management-database-diagram.png" width="70%" alt="driver-management-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/07-driver-management-database-diagram.png" width="70%" alt="driver-management-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Gestión de Rutas:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/route-management-database-diagram.png" width="70%" alt="route-management-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/08-route-management-database-diagram.png" width="70%" alt="route-management-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Gestión de Estudiantes:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/student-management-database-diagram.png" width="70%" alt="student-management-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/09-student-management-database-diagram.png" width="70%" alt="student-management-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Gestión de Asignaciones:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/assignment-management-database-diagram.png" width="70%" alt="assignment-management-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/10-assignment-management-database-diagram.png" width="70%" alt="assignment-management-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Rastreo en Tiempo Real:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/real-time-tracking-database-diagram.png" width="70%" alt="real-time-tracking-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/11-real-time-tracking-database-diagram.png" width="70%" alt="real-time-tracking-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Gestión de Viajes:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/trip-management-database-diagram.png" width="70%" alt="trip-management-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/12-trip-management-database-diagram.png" width="70%" alt="trip-management-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Control de Asistencia:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/attendance-tracking-database-diagram.png" width="70%" alt="attendance-tracking-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/13-attendance-tracking-database-diagram.png" width="70%" alt="attendance-tracking-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Alertas y Notificaciones:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/alerts-notifications-database-diagram.png" width="70%" alt="alerts-notifications-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/14-alerts-notifications-database-diagram.png" width="70%" alt="alerts-notifications-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Gestión de Incidencias:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/incident-management-database-diagram.png" width="70%" alt="incident-management-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/15-incident-management-database-diagram.png" width="70%" alt="incident-management-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Analítica y Reportes:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/analytics-reports-database-diagram.png" width="70%" alt="analytics-reports-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/16-analytics-reports-database-diagram.png" width="70%" alt="analytics-reports-database-diagram">
 </p>
 
 - Diagrama de Base de Datos de Gestión de Empresas:
 
 <p align="center">
-  <img src="../assets/chapter-4/database-design/database-diagram/company-management-database-diagram.png" width="70%" alt="company-management-database-diagram">
+  <img src="../assets/chapter-4/section-8-1/17-company-management-database-diagram.png" width="70%" alt="company-management-database-diagram">
 </p>
-
