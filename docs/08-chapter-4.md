@@ -521,34 +521,101 @@ Los **User Flow Diagrams** de **Children Path** trazan las rutas lógicas precis
 
 Hemos priorizado los siguientes flujos críticos:
 
-### User Flow 1 — Dashboard
+### User Flow 1 — Assignments Management
 
 | | |
 |---|---|
-| **User Goal N°1** | As a health seeker, I want to view a summary of my daily nutritional progress and receive alerts when I exceed my caloric limits, in order to stay in control of my diet. |
+| **User Goal N°1** | As a transport administrator, I want to manage student route assignments and handle conflicts or missing data, in order to guarantee full operational readiness before the service day. |
 
 | | |
 |---|---|
-| **Happy Path** | 1. The health seeker accesses the Dashboard. |
-| | 2. The health seeker views their calories consumed, burned, and the net balance for the day. |
-| | 3. The health seeker logs their meals throughout the day. |
-| | 4. The health seeker completes their daily log. |
-| | 5. The health seeker views their active streak of 7 consecutive completed days. |
+| **Happy Path** | 1. The transport administrator accesses the Assignments module. |
+| | 2. The transport administrator views all student assignments in a validated state without pending conflicts. |
+| | 3. The transport administrator filters by active shift (Morning). |
+| | 4. The transport administrator confirms the high service readiness metric (91% Ready). |
+| | 5. The system confirms the roster is locked and ready for trip generation. |
 
 | | |
 |---|---|
-| **Unhappy Path 1** | 1. The health seeker accesses the Dashboard. |
-| | 2. The health seeker logs foods exceeding their caloric limit. |
-| | 3. The health seeker views the caloric excess alert with the message: *"You've exceeded your calorie target by 240 kcal. Consider having a lighter dinner tonight."* |
-| | 4. The health seeker reviews the corrective suggestion displayed on the Dashboard. |
+| **Unhappy Path 1** | 1. The transport administrator accesses the Assignments module. |
+| | 2. The system detects route or schedule overlapping for a student. |
+| | 3. The system highlights the student card with a red "Conflict" tag. |
+| | 4. The transport administrator clicks on "Review conflicts" and opens the assignment editor. |
+| | 5. The transport administrator reassigns a compatible vehicle/route and clicks "Save & Validate". |
+| | 6. The system updates the status to "Validated" and recalculates readiness.  |
 
-| <center>**User Flow** |
+| | |
+|---|---|
+| **Unhappy Path 2** | 1. The transport administrator accesses the Assignments module. |
+| | 2. The transport administrator searches for an unassigned student. |
+| | 3. The system displays the student in "Pending" state due to an unverified pickup point. |
+| | 4. The transport administrator selects a valid pickup stop from the map inventory. |
+| | 5. The system updates the student status to "Validated". |
+
+| <center>**User Flow 1** |
 |---|
-|![Userflow 1](../assets/chapter-4/section-4-4/USER_FLOW1.png)|
+|![Userflow 1](../assets/chapter-4/section-4-4/USER_FLOW1.jpg)|
 
 ---
 
+### User Flow 2 — Live Tracking & Delayed Fleet Management
+
+| | |
+|---|---|
+| **User Goal N°2** | As an operations coordinator, I want to monitor active school transport units on the live map and filter delayed units, in order to track operational progress and manage transit incidents proactively. |
+
+| | |
+|---|---|
+| **Happy Path** | 1. The operations coordinator accesses the Live Tracking module. |
+| | 2. The system displays the general map view with all active fleet units reporting live GPS signals. |
+| | 3. The coordinator views the global KPIs, confirming an high GPS signal score (98%) and active unit count (12 units). |
+| | 4. The coordinator selects a specific vehicle from the side panel to review its normal progress and route completion (76% average progress). |
+| | 5. The system confirms the trip is running smoothly without scheduled deviations. |
+
+| | |
+|---|---|
+| **Unhappy Path** | 1. The operations coordinator accesses the Live Tracking module. |
+| | 2. The system detects a transit delay or behind-schedule event, updating the delayed units counter to 2 units. |
+| | 3. The operations coordinator clicks on the "Delayed" filter button on the quick filter bar. |
+| | 4. The system filters the side unit list and map pins to isolate only the delayed vehicles. |
+| | 5. The coordinator clicks on the delayed unit card to open its detailed operational drawer (Driver name, current district, next stop, and updated ETA). |
+| | 6. The coordinator verifies the incident metrics and takes corrective communication actions to notify stakeholders.  |
+
+| <center>**User Flow 2** |
+|---|
+|![Userflow 2](../assets/chapter-4/section-4-4/USER_FLOW2.jpg)|
+
 ---
+
+### User Flow 3 — Driver Management & License Compliance
+
+| | |
+|---|---|
+| **User Goal N°3** | As a fleet administrator, I want to review driver license compliance and handle pending document validations, in order to ensure that only certified and safe drivers operate school transport routes. |
+
+| | |
+|---|---|
+| **Happy Path** | 1. The fleet administrator accesses the Drivers module. |
+| | 2. The system displays the general driver inventory and global readiness metrics (91% team readiness, 94% license compliance). |
+| | 3. The administrator views a fully compliant driver card with a green "Available" badge and valid documents status. |
+| | 4. The administrator verifies the high safety score (e.g., 96%). |
+| | 5. The system confirms the driver is fully eligible for immediate route assignments. |
+
+| | |
+|---|---|
+| **Unhappy Path** | 1. The fleet administrator accesses the Drivers module. |
+| | 2. The system detects a document expiration or missing background verification, updating the pending reviews counter to 3 items and triggering a high-priority compliance alert. |
+| | 3. The fleet administrator clicks on the "Review" status filter or selects the specific warning card on the right compliance panel. |
+| | 4. The system isolates the driver with pending documentation (e.g., Luis Torres - Documents pending). |
+| | 5. The administrator clicks on the alert to open the license validation modal window. |
+| | 6. The administrator reviews the credentials and clicks "Approve & Validate License", updating the driver's status to fully compliant and clearing the security alert. |
+
+| <center>**User Flow 3** |
+|---|
+|![Userflow 3](../assets/chapter-4/section-4-4/USER_FLOW3.jpg)|
+
+---
+
 
 ## **Web Applications Prototyping**
 
