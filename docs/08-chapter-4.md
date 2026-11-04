@@ -154,8 +154,8 @@ Desktop Landing Page:
 <div align="center">
   <table>
     <tr>
-      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe1.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
-      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe2.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe1.png" style="max-width:100%; max-height:950px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe2.png" style="max-width:100%; max-height:600px; object-fit:contain;" /></td>
     </tr>
   </table>
 </div>
@@ -165,7 +165,7 @@ Desktop Landing Page:
 <div align="center">
   <table>
     <tr>
-      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe3.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe3.png" style="max-width:100%; max-height:600px; object-fit:contain;" /></td>
       <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe4.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
     </tr>
   </table>
@@ -176,7 +176,7 @@ Desktop Landing Page:
 <div align="center">
   <table>
     <tr>
-      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe5.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/Landing_Wireframe5.png" style="max-width:100%; max-height:600px; object-fit:contain;" /></td>
     </tr>
   </table>
 </div>
@@ -214,8 +214,8 @@ Mobile Web Wireframes
 <div align="center">
   <table>
     <tr>
-      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe1.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
-      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe2.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe1.png" style="max-width:100%; max-height:10000px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe2.png" style="max-width:100%; max-height:600px; object-fit:contain;" /></td>
     </tr>
   </table>
 </div>
@@ -225,8 +225,8 @@ Mobile Web Wireframes
 <div align="center">
   <table>
     <tr>
-      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe3.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
-      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe4.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe3.png" style="max-width:100%; max-height:3000px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe4.png" style="max-width:100%; max-height:2000px; object-fit:contain;" /></td>
     </tr>
   </table>
 </div>
@@ -236,8 +236,8 @@ Mobile Web Wireframes
 <div align="center">
   <table>
     <tr>
-      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe5.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
-      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe6.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe5.png" style="max-width:100%; max-height:1400px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-1/W_Landing_Wireframe6.png" style="max-width:100%; max-height:3600px; object-fit:contain;" /></td>
     </tr>
   </table>
 </div>
@@ -275,8 +275,8 @@ Desktop Mockups
 <div align="center">
   <table>
     <tr>
-      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup1.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
-      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup2.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup1.png" style="max-width:100%; max-height:1400px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup2.png" style="max-width:100%; max-height:700px; object-fit:contain;" /></td>
     </tr>
   </table>
 </div>
@@ -285,8 +285,8 @@ Desktop Mockups
 <div align="center">
   <table>
     <tr>
-      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup3.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
-      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup4.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup3.png" style="max-width:100%; max-height:1400px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup4.png" style="max-width:100%; max-height:700px; object-fit:contain;" /></td>
     </tr>
   </table>
 </div>
@@ -294,7 +294,7 @@ Desktop Mockups
 <div align="center">
   <table>
     <tr>
-      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup5.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Landing_Mockup5.png" style="max-width:100%; max-height:500px; object-fit:contain;" /></td>
     </tr>
   </table>
 </div>
@@ -306,8 +306,8 @@ Mobile Mockups:
 <div align="center">
   <table>
     <tr>
-      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Landing Page_ChildrenPath.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
-      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Landing Page_Labeling.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Landing Page_ChildrenPath.png" style="max-width:100%; max-height:8000px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Landing Page_Labeling.png" style="max-width:100%; max-height:600px; object-fit:contain;" /></td>
     </tr>
   </table>
 </div>
@@ -317,8 +317,8 @@ Mobile Mockups:
 <div align="center">
   <table>
     <tr>
-      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Nosotros.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
-      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Contact.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Nosotros.png" style="max-width:100%; max-height:3000px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Contact.png" style="max-width:100%; max-height:2000px; object-fit:contain;" /></td>
     </tr>
   </table>
 </div>
@@ -328,8 +328,8 @@ Mobile Mockups:
 <div align="center">
   <table>
     <tr>
-      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Log In.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
-      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Terminos y condiciones.png" style="max-width:100%; max-height:300px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Log In.png" style="max-width:100%; max-height:1400px; object-fit:contain;" /></td>
+      <td><img src="../assets/chapter-4/section-3-2/Mock_M_Terminos y condiciones.png" style="max-width:100%; max-height:3600px; object-fit:contain;" /></td>
     </tr>
   </table>
 </div>
@@ -365,51 +365,114 @@ Nuestros objetivos de diseño principales incluyen:
 
 ---
 
-**Wireframe 1: User Login** ![Wireframe 1](../assets/chapter-4/AppWeb-Wireframe1.png)  
-*Portal de autenticación seguro para padres, conductores y administradores de empresas de movilidad escolar.*
-
-**Wireframe 2: Parent Dashboard** ![Wireframe 2](../assets/chapter-4/AppWeb-Wireframe2.png)  
+**Wireframe 2: Parent Dashboard** ![Wireframe 2](../assets/chapter-4/AppWeb-Wireframe1.png)  
 *Panel de control principal para padres, que muestra los servicios activos y el estado rápido del hijo.*
 
-**Wireframe 3: Live Tracking Map** ![Wireframe 3](../assets/chapter-4/AppWeb-Wireframe3.png)  
+**Wireframe 3: Live Tracking Map** ![Wireframe 3](../assets/chapter-4/AppWeb-Wireframe1.png)  
 *Interfaz GPS en tiempo real que muestra la ubicación del bus y el tiempo estimado de llegada (ETA).*
 
-**Wireframe 4: Student Profile Management** ![Wireframe 4](../assets/chapter-4/AppWeb-Wireframe4.png)  
+**Wireframe 4: Student Profile Management** ![Wireframe 4](../assets/chapter-4/AppWeb-Wireframe2.png)  
 *Sección dedicada a la gestión de la información del estudiante, contactos de emergencia y notas médicas.*
 
-**Wireframe 5: Trip History** ![Wireframe 5](../assets/chapter-4/AppWeb-Wireframe5.png)  
+**Wireframe 5: Trip History** ![Wireframe 5](../assets/chapter-4/AppWeb-Wireframe3.png)  
 *Registro detallado de rutas anteriores, incluyendo marcas de tiempo de cada recojo y descenso.*
 
-**Wireframe 6: Driver Main Interface** ![Wireframe 6](../assets/chapter-4/AppWeb-Wireframe6.png)  
+**Wireframe 6: Driver Main Interface** ![Wireframe 6](../assets/chapter-4/AppWeb-Wireframe4.png)  
 *Vista operativa para conductores con navegación de ruta activa y gestión de paradas.*
 
-**Wireframe 7: Attendance Checklist** ![Wireframe 7](../assets/chapter-4/AppWeb-Wireframe7.png)  
+**Wireframe 7: Attendance Checklist** ![Wireframe 7](../assets/chapter-4/AppWeb-Wireframe5.png)  
 *Lista digital de estudiantes para la confirmación en tiempo real del abordaje y descenso.*
 
-**Wireframe 8: School Admin Overview** ![Wireframe 8](../assets/chapter-4/AppWeb-Wireframe8.png)  
+**Wireframe 8: School Admin Overview** ![Wireframe 8](../assets/chapter-4/AppWeb-Wireframe6.png)  
 *Panel de monitoreo global para que las empresas de movilidad escolar rastreen múltiples unidades y su estado de seguridad.*
 
-**Wireframe 9: Route Optimization** ![Wireframe 9](../assets/chapter-4/AppWeb-Wireframe9.png)  
+**Wireframe 9: Route Optimization** ![Wireframe 9](../assets/chapter-4/AppWeb-Wireframe7.png)  
 *Herramienta administrativa para crear nodos y optimizar las rutas de transporte.*
 
-**Wireframe 10: Incident Reporting** ![Wireframe 10](../assets/chapter-4/AppWeb-Wireframe10.png)  
+**Wireframe 10: Incident Reporting** ![Wireframe 10](../assets/chapter-4/AppWeb-Wireframe8.png)  
 *Formulario estandarizado para reportar retrasos, fallas mecánicas o alertas de comportamiento.*
-
-**Wireframe 11: Notification Settings** ![Wireframe 11](../assets/chapter-4/AppWeb-Wireframe11.png)  
-*Preferencias para notificaciones push, alertas por SMS y comunicación por correo electrónico.*
-
-**Wireframe 12: Analytics & Reports** ![Wireframe 12](../assets/chapter-4/AppWeb-Wireframe12.png)  
-*Panel de rendimiento de la flota que muestra viajes completados, asistencia promedio y métricas de incidencias.*
 
 
 ### **4.4.2. Web Applications Wireflow Diagrams**
 
-El siguiente diagrama de wireflow ilustra la arquitectura de navegación y la lógica de interacción de la plataforma **Children Path**. Detalla el recorrido desde la fase inicial de autenticación hasta los paneles específicos por rol diseñados para Padres, Conductores y Administradores de Empresas de Movilidad Escolar, asegurando un flujo lógico a través de los 12 wireframes principales.
+El siguiente diagrama de wireflow ilustra la arquitectura de navegación y la lógica de interacción de la plataforma **Children Path**. Detalla el recorrido desde la fase inicial de autenticación hasta los paneles específicos por rol diseñados para Padres, Conductores y Administradores de Empresas de Movilidad Escolar, asegurando un flujo lógico a través de los wireframes principales.
 
 
 ---
 
-**Wireflow Diagram: System Interaction Logic** ![Children Path Wireflow](../assets/chapter-4/section-4-2/wireflow-diagram.png)
+### WireFlow 1 — Registro y Validación de una Asignación Conflictiva
+
+| **User Goal N°1** | Como administrador de transporte, quiero revisar y resolver las asignaciones conflictivas entre estudiantes y rutas, para garantizar que ningún alumno se quede sin movilidad asignada antes de iniciar el servicio.|
+|---|---|
+
+| **Task Flow** |
+|---|
+| 1. El administrador accede a la sección de Assignments (Asignaciones). |
+| 2. El administrador visualiza las alertas de conflicto y hace clic en el botón de revisión. |
+| 3. El administrador filtra por estado "Conflict" para aislar el caso del estudiante con problemas. |
+| 4. El administrador selecciona la asignación en conflicto y modifica la ruta o punto de recojo adecuado. |
+| 5. El sistema actualiza el estado a "Validated" y el administrador visualiza la confirmación de preparación de la flota. |
+
+| <center>**Wireflow** |
+|---|
+|![Wireflow 1](../assets/chapter-4/section-4-2/AppWeb-Wireflow1.jpg)|
+
+---
+
+### WireFlow 2 — Monitoreo GPS en Tiempo Real de una Unidad Desviada o Retrasada
+
+| **User Goal N°2** | Como coordinador de operaciones, quiero monitorear las unidades activas en el mapa de rastreo en vivo y filtrar aquellas con retrasos, para tomar decisiones operativas inmediatas.|
+|---|---|
+
+| **Task Flow** |
+|---|
+| 1. El coordinador accede a la sección de Live Tracking (Rastreo en Vivo). |
+| 2. El coordinador visualiza el mapa general con las unidades de la flota en tiempo real. |
+| 3. El coordinador utiliza el filtro superior para seleccionar únicamente las unidades "Delayed" (Retrasadas). |
+| 4. El coordinador hace clic sobre la unidad marcada en el mapa para desplegar su panel de detalles laterales. |
+| 5. El coordinador visualiza la siguiente parada, el conductor asignado y el ETA actualizado para notificar la incidencia. |
+
+| <center>**Wireflow** |
+|---|
+|![Wireflow 2](../assets/chapter-4/section-4-2/AppWeb-Wireflow2.jpg)|
+
+---
+
+### WireFlow 3 — Registro y Alta de un Nuevo Vehículo en la Flota
+
+| **User Goal N°3** | Como gestor de flotas, quiero registrar una nueva unidad de transporte escolar ingresando sus datos operativos y estado de mantenimiento, para mantener el inventario de la flota actualizado. |
+|---|---|
+
+| **Task Flow** |
+|---|
+| 1. El gestor accede al módulo de Fleet (Flota). |
+| 2. El gestor hace clic en el botón principal "Register vehicle". |
+| 3. El gestor completa el formulario con los datos de la unidad (placa, marca, año y capacidad de pasajeros). |
+| 4. El gestor adjunta la vigencia de los documentos de inspección técnica obligatoria. |
+| 5. El sistema guarda el registro y el gestor visualiza la nueva unidad listada con estado "Available" en el inventario. |
+
+| <center>**Wireflow** |
+|---|
+|![Wireflow 3](../assets/chapter-4/section-4-2/AppWeb-Wireflow3.jpg)|
+
+---
+
+### WireFlow 4 — Verificación del Estado de Asistencia de Estudiantes por Ruta
+
+| **User Goal N°4** | Como supervisor escolar, quiero consultar el porcentaje de asistencia y embarque de los estudiantes en una ruta específica, para asegurar el control de asistencia diario.|
+|---|---|
+
+| **Task Flow** |
+|---|
+| 1. El supervisor accede al módulo de Attendance o Students. |
+| 2. El supervisor busca la ruta escolar específica mediante la barra de búsqueda o filtros de estado. |
+| 3. El supervisor revisa la tarjeta de la ruta seleccionada para ver el total de estudiantes confirmados a bordo. |
+| 4. El supervisor despliega el detalle de asistencia individual de los alumnos asignados. |
+| 5. El supervisor verifica la barra de progreso de asistencia y el cumplimiento de la cobertura de la ruta. |
+
+| <center>**Wireflow** |
+|---|
+|![Wireflow 4](../assets/chapter-4/section-4-2/AppWeb-Wireflow4.jpg)|
 
 ---
 
@@ -451,33 +514,108 @@ Elementos visuales clave aplicados:
 **Mock-up 9: Route Optimization** ![Mock-up 9](../assets/chapter-4/APMockup9.png)  
 *Constructor visual de rutas para que los administradores diseñen y asignen puntos de recojo.*
 
-**Mock-up 10: Incident Reporting** ![Mock-up 10](../assets/chapter-4/APMockup10.png)  
-*Interfaz de alerta urgente diseñada para el reporte rápido en situaciones de alta presión.*
-
-**Mock-up 11: Notification Settings** ![Mock-up 11](../assets/chapter-4/APMockup11.png)  
-*Panel de personalización de alertas, manteniendo la consistencia visual con la aplicación móvil.*
-
-**Mock-up 12: Analytics & Reports** ![Mock-up 12](../assets/chapter-4/APMockup12.png)  
-*Gráficos de rendimiento integrales y tablas de datos para la gestión de las empresas de movilidad escolar.*
 
 ### **4.4.4. Web Applications User Flow Diagrams**
 
 Los **User Flow Diagrams** de **Children Path** trazan las rutas lógicas precisas que siguen los diferentes usuarios para alcanzar sus objetivos. Estos flujos están diseñados para minimizar la fricción y asegurar que las acciones críticas —como el reporte de emergencias o el seguimiento en tiempo real— sean accesibles en un máximo de tres interacciones.
 
-Hemos priorizado los siguientes tres flujos críticos:
+Hemos priorizado los siguientes flujos críticos:
 
-1.  **Flujo de Monitoreo Parental:** Se enfoca en la verificación de seguridad y el acceso inmediato a la ubicación en vivo del estudiante.
-2.  **Flujo Operativo del Conductor:** Optimiza el proceso de asistencia y la sincronización de los datos de ruta con el servidor central.
-3.  **Flujo de Supervisión del Administrador:** Proporciona una vista de arriba hacia abajo del estado de la flota y la generación de reportes de seguridad automatizados.
+### User Flow 1 — Assignments Management
+
+| | |
+|---|---|
+| **User Goal N°1** | As a transport administrator, I want to manage student route assignments and handle conflicts or missing data, in order to guarantee full operational readiness before the service day. |
+
+| | |
+|---|---|
+| **Happy Path** | 1. The transport administrator accesses the Assignments module. |
+| | 2. The transport administrator views all student assignments in a validated state without pending conflicts. |
+| | 3. The transport administrator filters by active shift (Morning). |
+| | 4. The transport administrator confirms the high service readiness metric (91% Ready). |
+| | 5. The system confirms the roster is locked and ready for trip generation. |
+
+| | |
+|---|---|
+| **Unhappy Path 1** | 1. The transport administrator accesses the Assignments module. |
+| | 2. The system detects route or schedule overlapping for a student. |
+| | 3. The system highlights the student card with a red "Conflict" tag. |
+| | 4. The transport administrator clicks on "Review conflicts" and opens the assignment editor. |
+| | 5. The transport administrator reassigns a compatible vehicle/route and clicks "Save & Validate". |
+| | 6. The system updates the status to "Validated" and recalculates readiness.  |
+
+| | |
+|---|---|
+| **Unhappy Path 2** | 1. The transport administrator accesses the Assignments module. |
+| | 2. The transport administrator searches for an unassigned student. |
+| | 3. The system displays the student in "Pending" state due to an unverified pickup point. |
+| | 4. The transport administrator selects a valid pickup stop from the map inventory. |
+| | 5. The system updates the student status to "Validated". |
+
+| <center>**User Flow 1** |
+|---|
+|![Userflow 1](../assets/chapter-4/section-4-4/USER_FLOW1.jpg)|
 
 ---
 
-**User Flow Diagram: Core Platform Interactions** ![User Flow1](../assets/chapter-4/USER_FLOW1.png)
-![User Flow2](../assets/chapter-4/USER_FLOW2.png)
-![User Flow3](../assets/chapter-4/USER_FLOW3.png)  
-*Estos diagramas detallan los nodos de decisión y las rutas de acción para Padres, Conductores y Administradores dentro del ecosistema web.*
+### User Flow 2 — Live Tracking & Delayed Fleet Management
+
+| | |
+|---|---|
+| **User Goal N°2** | As an operations coordinator, I want to monitor active school transport units on the live map and filter delayed units, in order to track operational progress and manage transit incidents proactively. |
+
+| | |
+|---|---|
+| **Happy Path** | 1. The operations coordinator accesses the Live Tracking module. |
+| | 2. The system displays the general map view with all active fleet units reporting live GPS signals. |
+| | 3. The coordinator views the global KPIs, confirming an high GPS signal score (98%) and active unit count (12 units). |
+| | 4. The coordinator selects a specific vehicle from the side panel to review its normal progress and route completion (76% average progress). |
+| | 5. The system confirms the trip is running smoothly without scheduled deviations. |
+
+| | |
+|---|---|
+| **Unhappy Path** | 1. The operations coordinator accesses the Live Tracking module. |
+| | 2. The system detects a transit delay or behind-schedule event, updating the delayed units counter to 2 units. |
+| | 3. The operations coordinator clicks on the "Delayed" filter button on the quick filter bar. |
+| | 4. The system filters the side unit list and map pins to isolate only the delayed vehicles. |
+| | 5. The coordinator clicks on the delayed unit card to open its detailed operational drawer (Driver name, current district, next stop, and updated ETA). |
+| | 6. The coordinator verifies the incident metrics and takes corrective communication actions to notify stakeholders.  |
+
+| <center>**User Flow 2** |
+|---|
+|![Userflow 2](../assets/chapter-4/section-4-4/USER_FLOW2.jpg)|
 
 ---
+
+### User Flow 3 — Driver Management & License Compliance
+
+| | |
+|---|---|
+| **User Goal N°3** | As a fleet administrator, I want to review driver license compliance and handle pending document validations, in order to ensure that only certified and safe drivers operate school transport routes. |
+
+| | |
+|---|---|
+| **Happy Path** | 1. The fleet administrator accesses the Drivers module. |
+| | 2. The system displays the general driver inventory and global readiness metrics (91% team readiness, 94% license compliance). |
+| | 3. The administrator views a fully compliant driver card with a green "Available" badge and valid documents status. |
+| | 4. The administrator verifies the high safety score (e.g., 96%). |
+| | 5. The system confirms the driver is fully eligible for immediate route assignments. |
+
+| | |
+|---|---|
+| **Unhappy Path** | 1. The fleet administrator accesses the Drivers module. |
+| | 2. The system detects a document expiration or missing background verification, updating the pending reviews counter to 3 items and triggering a high-priority compliance alert. |
+| | 3. The fleet administrator clicks on the "Review" status filter or selects the specific warning card on the right compliance panel. |
+| | 4. The system isolates the driver with pending documentation (e.g., Luis Torres - Documents pending). |
+| | 5. The administrator clicks on the alert to open the license validation modal window. |
+| | 6. The administrator reviews the credentials and clicks "Approve & Validate License", updating the driver's status to fully compliant and clearing the security alert. |
+
+| <center>**User Flow 3** |
+|---|
+|![Userflow 3](../assets/chapter-4/section-4-4/USER_FLOW3.jpg)|
+
+---
+
 
 ## **Web Applications Prototyping**
 
@@ -491,83 +629,80 @@ Hemos priorizado los siguientes tres flujos críticos:
 ### **4.6.1. Design-Level EventStorming**
 
 -Identity and Access Management Bounded Context
-
-<img width="955" height="1046" alt="Children path- IAM bounded context" src="../assets/chapter-4/section-6-1/identity-and-access-management-bounded-context.png" />
+<img width="955" height="1046" alt="Children path- IAM bounded context" src="https://github.com/user-attachments/assets/b12107bd-0834-4507-9eaf-d3c55d33bea6" />
 
 -User profile bounded context
 
-<img width="1201" height="832" alt="Children path - user profiles bounded context" src="../assets/chapter-4/section-6-1/user-profiles-bounded-context.png" />
+<img width="1201" height="832" alt="Children path - user profiles bounded context" src="https://github.com/user-attachments/assets/51f2dfdc-7dab-46c0-8472-16f7f0b39404" />
 
 
 -Subscription and Payments Bounded Context
 
-<img width="1030" height="970" alt="children path - subscription and payments bounded context" src="../assets/chapter-4/section-6-1/subscription-and-payments-bounded-context.png" />
+<img width="1030" height="970" alt="children path - subscription and payments bounded context" src="https://github.com/user-attachments/assets/6281fd27-7b6d-4497-90fe-b0029797cae3" />
 
 
 -Dashboard Bounded Context
 
-<img width="1056" height="946" alt="Children path dashboard bounded context" src="../assets/chapter-4/section-6-1/dashboard-bounded-context.png" />
+<img width="1056" height="946" alt="Children path dashboard bounded context" src="https://github.com/user-attachments/assets/3f700af0-3c97-4569-983f-c168eef3974c" />
 
 
 -Fleet Management Bounded Context
 
-<img width="1014" height="985" alt="children path - Fleet Management Bounded Context" src="../assets/chapter-4/section-6-1/fleet-management-bounded-context.png" />
+<img width="1014" height="985" alt="children path - Fleet Management Bounded Context" src="https://github.com/user-attachments/assets/9f06d6ca-eb2b-487c-a23b-444b57a6c2de" />
 
 
 -Driver Management Bounded Context
 
-<img width="1065" height="938" alt="Children path - Driver Management Bounded context" src="../assets/chapter-4/section-6-1/driver-management-bounded-context.png" />
+<img width="1065" height="938" alt="Children path - Driver Management Bounded context" src="https://github.com/user-attachments/assets/2e6b8361-3c4e-4b1f-b5b7-daf7f03507be" />
 
 
 
 -Route Management Bounded Context
 
-<img width="1049" height="953" alt="Children Path- Route Management Bounded Contexxt" src="../assets/chapter-4/section-6-1/route-management-bounded-context.png" />
+<img width="1049" height="953" alt="Children Path- Route Management Bounded Contexxt" src="https://github.com/user-attachments/assets/1ca2aa3a-dded-4596-a1d2-11180446b9f5" />
 
 
 -Student Management Bounded Context
 
-<img width="1089" height="917" alt="Children path - student management bounded context" src="../assets/chapter-4/section-6-1/student-management-bounded-context.png" />
+<img width="1089" height="917" alt="Children path - student management bounded context" src="https://github.com/user-attachments/assets/93d20e06-210a-4f15-beeb-05640407e188" />
 
 
 
 -Assignment Management Bounded Context
 
-<img width="1089" height="917" alt="Children Path - assignment manegement bounded context" src="../assets/chapter-4/section-6-1/assignment-management-bounded-context.png" />
+<img width="1089" height="917" alt="Children Path - assignment manegement bounded context" src="https://github.com/user-attachments/assets/7796dab3-4c50-440a-a2ac-62f387e49ea4" />
 
 
 -Real-Time Tracking Bounded Contex
 
-<img width="1053" height="949" alt="children path - real-time tracking bounded context" src="../assets/chapter-4/section-6-1/real-time-tracking-bounded-context.png" />
+<img width="1053" height="949" alt="children path - real-time tracking bounded context" src="https://github.com/user-attachments/assets/44447335-85d1-4887-be47-9f18a5578e1b" />
 
 
 -Trip Management Bounded Context
 
-<img width="1037" height="964" alt="children path- trip management bounded context" src="../assets/chapter-4/section-6-1/trip-management-bounded-context.png" />
+<img width="1037" height="964" alt="children path- trip management bounded context" src="https://github.com/user-attachments/assets/1619a338-ce52-4aa1-9645-98756c6e9971" />
 
 
 -Attendance Tracking Bounded Context
 
-<img width="1045" height="956" alt="Children path - attendance tracking bounded context" src="../assets/chapter-4/section-6-1/attendance-tracking-bounded-context.png" />
+<img width="1045" height="956" alt="Children path - attendance tracking bounded context" src="https://github.com/user-attachments/assets/cf54b438-aeb4-4395-8c93-ab0c16a0b5dc" />
 
 
 
 
 -Alerts and Notifications Bounded Context
 
-<img width="1038" height="963" alt="children path- Alerts and Notifications Bounded Context" src="../assets/chapter-4/section-6-1/alerts-and-notifications-bounded-context.png" />
+<img width="1038" height="963" alt="children path- Alerts and Notifications Bounded Context" src="https://github.com/user-attachments/assets/3cdd536e-b18d-4561-b71a-976cabbb0bad" />
 
 
 - Incident Management Bounded Context
 
-<img width="1048" height="954" alt="children path-Incident management Bounded Context" src="../assets/chapter-4/section-6-1/incident-management-bounded-context.png" />
+<img width="1048" height="954" alt="children path-Incident management Bounded Context" src="https://github.com/user-attachments/assets/4697bc10-df29-44a8-9d4e-aefd43d79e3a" />
 
 
 -Analytics and Reports Bounded Context
 
-<img width="1065" height="938" alt="children path- analytics and reports bounded context" src="../assets/chapter-4/section-6-1/analytics-and-reports-bounded-context.png" />
-
-Link del artefacto en miro: https://miro.com/app/board/uXjVHm5y9BY=/?share_link_id=901895180233
+<img width="1065" height="938" alt="children path- analytics and reports bounded context" src="https://github.com/user-attachments/assets/e1b4bd07-ae0b-4e91-b8e4-b7c2b2939487" />
 
 
 ### **4.6.2. Software Architecture Context Diagram**
@@ -657,7 +792,7 @@ Link del artefacto en miro: https://miro.com/app/board/uXjVHm5y9BY=/?share_link_
 - Assignment Management Component Diagram:
 
 <p align="center">
-  <img src="../assets/chapter-4/section-6-4/children-path-component-assigment-management.png" width="70%" alt="assignment-management-component-diagram">
+  <img src="../assets/chapter-4/section-6-4/children-path-component-assignment-management.png" width="70%" alt="assignment-management-component-diagram">
 </p>
 
 - Analytics & Reports Component Diagram:
@@ -679,8 +814,6 @@ Esta sección presenta el diseño orientado a objetos de la plataforma <strong>C
 </p>
 
 ### **4.7.1. Class Diagrams**
-
-- BACKEND:
 
 - Diagrama de Clases de Gestión de Identidad y Acceso:
 
