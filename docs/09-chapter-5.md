@@ -909,7 +909,14 @@ Durante el Sprint 3, el equipo estructuró y sincronizó el repositorio backend 
 
 #### **5.2.3.5. Execution Evidence for Sprint Review**
 
+Durante el Sprint 3, la solución backend fue compilada y ejecutada en entornos locales mediante el runtime de .NET, conectándose a la base de datos relacional y exponiendo la consola interactiva de **Swagger UI** para la validación funcional de cada Bounded Context:
 
+| Bounded Context | Artefacto / Controlador | Descripción de la Ejecución | Evidencia |
+| :--- | :--- | :--- | :---: |
+| **Trips** | `TripsController.cs` | Ejecución y prueba de endpoints POST/GET para la creación de viajes escolares e inspección de estado de recorrido (`/api/v1/trips`). | ![Swagger Trips](../assets/chapter-5/swagger-trips.png) |
+| **Fleet** | `VehiclesController.cs` | Validación de consultas HTTP GET para el listado de unidades móviles, capacidad operativa y validación de placa. | ![Swagger Fleet](../assets/chapter-5/swagger-fleet.png) |
+| **Attendance** | `AttendanceController.cs` | Prueba funcional del endpoint PUT para actualización rápida del estado de abordaje (`on_board`, `absent`). | ![Swagger Attendance](../assets/chapter-5/swagger-attendance.png) |
+| **Companies** | `CompaniesController.cs` | Registro y consulta de entidades corporativas y centros educativos asociados al servicio. | ![Swagger Companies](../assets/chapter-5/swagger-companies.png) |
 
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
 
@@ -917,6 +924,15 @@ Durante el Sprint 3, el equipo estructuró y sincronizó el repositorio backend 
 
 
 #### **5.2.3.8. Team Collaboration Insights during Sprint**
+
+Durante el desarrollo del Sprint 3, el equipo identificó las siguientes lecciones y prácticas colaborativas de ingeniería de software:
+
+| Insight |
+| :--- |
+| **Modularidad Domain-Driven Design (DDD) en .NET:** Organizar la solución por carpetas de Bounded Contexts (`Trips`, `Fleet`, `Companies`, `Attendance`) permitió que los desarrolladores trabajaran de forma paralela en entidades y repositorios minimizando cruces en la solución principal. |
+| **Gestión centralizada del `AppDbContext`:** Registrar las entidades y configuraciones de Entity Framework mediante métodos de extensión separados por contexto evitó errores de colisión y bloqueos en las migraciones de base de datos. |
+| **Estandarización de Contratos con Scalar API Reference:** Integrar Scalar como middleware moderno de visualización OpenAPI en ASP.NET Core optimizó la inspección interactiva y la prueba en vivo de los endpoints respecto a interfaces heredadas40]. |
+| **Depuración de artefactos y ramas de trabajo:** La adopción estricta de exclusiones en `.gitignore` para eliminar binarios compilados (`obj`, `bin`, `net10.0`) garantizó un repositorio limpio y facilitó los pull requests hacia la rama `develop`. |
 
 ## **5.3. Validation Interviews**
 
