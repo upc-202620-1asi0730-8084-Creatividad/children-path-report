@@ -920,6 +920,19 @@ Durante el Sprint 3, la solución backend fue compilada y ejecutada en entornos 
 
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
 
+Los servicios RESTful fueron formalmente implementados y documentados empleando la especificación **OpenAPI (v3)** generada dinámicamente e interactiva mediante **Scalar (Scalar API Reference)** en ASP.NET Core:
+
+| Bounded Context | HTTP Verbo | Ruta del Endpoint (Sintaxis) | Parámetros Requeridos | Códigos HTTP Retornados | Resumen y Ejemplo de Payload |
+| :--- | :---: | :--- | :--- | :---: | :--- |
+| **Trips** | `POST` | `/api/v1/trips` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra el inicio de un viaje escolar asignado a un conductor y ruta.<br>`{"routeId": 1, "driverId": 2, "vehicleId": 3}` |
+| **Trips** | `GET` | `/api/v1/trips/{id}` | Path: `id` (int) | `200 OK`<br>`404 Not Found` | Retorna los detalles de un viaje activo, paradas pendientes y estado de avance. |
+| **Fleet** | `GET` | `/api/v1/vehicles` | Query: `status` (opc.) | `200 OK` | Retorna el catálogo consolidado de unidades vehiculares y capacidades de asientos. |
+| **Companies** | `GET` | `/api/v1/companies` | N/A | `200 OK` | Lista las empresas operadoras de movilidad escolar y colegios vinculados. |
+| **Attendance** | `PUT` | `/api/v1/attendance-records/{id}` | Path: `id`<br>Body: `status` | `200 OK`<br>`400 Bad Request`<br>`404 Not Found` | Actualiza el estado de abordaje en parada en un solo toque persistiendo timestamp. |
+
+- **URL del Repositorio de Web Services:** [https://github.com/upc-202620-1asi0730-8084-Creatividad/children-path-backend](https://github.com/upc-202620-1asi0730-8084-Creatividad/children-path-backend)
+- **Commits Clave de Documentación OpenAPI / Scalar:** `e2a417c` (controladores Trips y esquemas), `48db019` (Company controllers), y commit de integración de Scalar en `Properties` y `Program.cs`.
+- 
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
 
 
