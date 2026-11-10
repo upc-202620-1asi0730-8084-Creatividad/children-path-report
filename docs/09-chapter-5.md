@@ -935,6 +935,12 @@ Los servicios RESTful fueron formalmente implementados y documentados empleando 
 - 
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
 
+A continuación, se detalla el estado de despliegue y disponibilidad operativa de los componentes durante el ciclo del Sprint 3:
+
+| Componente | Plataforma / Infraestructura | Entorno | URL Pública / Acceso | Evidencia de Operación |
+| :--- | :--- | :---: | :--- | :--- |
+| **RESTful Web Services API** | Localhost / Docker Container (Kestrel) | Desarrollo / Staging | `http://localhost:5000/scalar/v1` | API ASP.NET Core ejecutándose con Scalar API Reference activo, validando endpoints transaccionales contra base de datos relacional. |
+| **Frontend Web Application** (Actualización v0.2.0) | Firebase Hosting | Staging | [https://children-path-4d5c3.web.app/](https://children-path-4d5c3.web.app/) | Despliegue continuo con ajustes en rutas y componentes de preparación para conexión al backend. |
 
 #### **5.2.3.8. Team Collaboration Insights during Sprint**
 
