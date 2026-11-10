@@ -653,18 +653,263 @@ Durante el desarrollo del Sprint 2, el equipo consolidó las siguientes leccione
 ### **5.2.3. Sprint 3**
 
 #### **5.2.3.1. Sprint Planning 3**
+Durante el Sprint 3, el equipo planificó, diseñó e implementó la arquitectura base de servicios backend (**Web Services / RESTful API**) para **Children Path** en la solución .NET (`ChildrenPath.Platform`). El enfoque primordial de este incremento de cuatro semanas consistió en establecer el núcleo de persistencia transaccional y los primeros endpoints RESTful documentados bajo OpenAPI/Swagger, estructurados estrictamente bajo principios de **Domain-Driven Design (DDD)** y **Clean Architecture**. 
 
+El alcance priorizó el desarrollo de los Bounded Contexts fundacionales: **Trips** (control del ciclo de vida de viajes y paradas), **Fleet** (administración de unidades y especificaciones de vehículos), **Companies** (gestión de transportistas y colegios aliados), **Students** (padrón de escolares) y **Attendance** (registro y trazabilidad de abordajes), asegurando el mapeo relacional mediante Entity Framework Core y migraciones estructuradas.
+
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+| **Sprint Planning Background** | Implementación de la solución Backend RESTful en ASP.NET Core (`ChildrenPath.Platform`), modelado DDD por Bounded Contexts, persistencia relacional con EF Core y documentación OpenAPI/Swagger. |
+| **Date** | 2026-10-05 |
+| **Time** | 07:00 PM |
+| **Location** | Reunión virtual vía Google Meet |
+| **Prepared By** | Huaco Oliva, Luis Alonso |
+| **Attendees (to planning meeting)** | Huaco Oliva, Luis Alonso / Pareja Cáceres, Diana / Soto, Brandon / Rázuri, Piero |
+| **Sprint n – 1 Review Summary** | Entrega funcional del Frontend Web Application en Vue 3/Vite con Fake API (`json-server`), validando las vistas interactivas CRUD para flotas, conductores y control de abordajes. |
+| **Sprint n – 1 Retrospective Summary** | Se acordó migrar la persistencia simulada a servicios backend reales desarrollados en ASP.NET Core (.NET 8/10), manteniendo la separación estricta en Bounded Contexts independientes para evitar colisiones en `AppDbContext` y las migraciones. |
+
+**Sprint Goal & User Stories**
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Sprint 3 Goal** | **Our focus is on** delivering the foundational .NET Backend Web Services (`ChildrenPath.Platform`) over a four-week cycle, developing domain models, Entity Framework Core mappings, and documented RESTful API endpoints for Trips, Fleet, Students, Companies, Incidents, and Attendance contexts. <br><br>**We believe it delivers** a robust, centralized transactional layer that enables **school transport operators, drivers, and fleet administrators** to persist trip lifecycles, register student boarding events, and query operational fleet data securely without reliance on mock servers. <br><br>**This will be confirmed when** all RESTful endpoints are exposed through Swagger UI, return semantic HTTP status codes (200, 201, 400, 404), and pass integration smoke tests connecting ASP.NET Core controllers with the MySQL/relational database schema. |
+| **Sprint 3 Velocity** | 28 Story Points |
+| **Sum of Story Points** | 28 Story Points (US01: 3 SP, US05: 3 SP, US07: 3 SP, US12: 2 SP, US14: 2 SP, US26: 2 SP, US36: 2 SP, US65: 3 SP, US66: 3 SP, US67: 5 SP) |
 
 #### **5.2.3.2. Aspect Leaders and Collaborators**
 
+Para este Sprint, el equipo organizó sus responsabilidades sobre los Bounded Contexts del backend y las capas arquitecturales de la solución .NET:
+
+| Team Member | GitHub Username | Bounded Contexts Asignados | Domain Layer & EF Core Mappings | Application (Commands/Queries) | Infrastructure & REST Controllers |
+| :--- | :--- | :--- | :---: | :---: | :---: |
+| Huaco, Luis | perghormaru-pixel | `Fleet`, `Companies`, `Shared` | L | C | L |
+| Pareja, Diana | DianaParejaCaceres | `Attendance`, `Trips` | L | L | C |
+| Soto, Brandon | Brandon1677 | `Students`, `Iam/Domain` | C | L | L |
+| Rázuri, Piero | piero-razuri | `Profiles`, `Subscriptions` | C | C | L |
+
+*Leyenda: L = Leader (Líder) | C = Collaborator (Colaborador)*
 
 #### **5.2.3.3. Sprint Backlog 3**
 
+El Sprint Backlog desagrega las 10 Historias de Usuario seleccionadas en tareas de ingeniería backend individuales, estimadas en el rango reglamentario de 4 a 8 horas cada una:
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align:center">User Story</th>
+      <th colspan="6" style="text-align:center">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th style="width: 8%; text-align:center">Story Id</th>
+      <th style="width: 20%; text-align:center">Story Title</th>
+      <th style="width: 9%; text-align:center">Task Id</th>
+      <th style="width: 20%; text-align:center">Task Title</th>
+      <th style="width: 25%; text-align:center">Task Description</th>
+      <th style="width: 6%; text-align:center">Estimation (Hours)</th>
+      <th style="width: 12%; text-align:center">Assigned To</th>
+      <th style="width: 8%; text-align:center">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- US65: Brandon Soto -->
+    <tr>
+      <td rowspan="2" align="center" style="font-weight:bold; vertical-align:middle">US65</td>
+      <td rowspan="2" style="vertical-align:middle">Endpoint de autenticación y emisión de tokens JWT</td>
+      <td align="center">TS3-01</td>
+      <td>Configuración Base de Clean Architecture y Contexto IAM</td>
+      <td>Estructurar la solución .NET, carpetas por Bounded Contexts y modelos de identidad en Iam/Domain.</td>
+      <td align="center">6</td>
+      <td>Brandon Soto</td>
+      <td align="center">Done</td>
+    </tr>
+    <tr>
+      <td align="center">TS3-02</td>
+      <td>Configuración de Swagger/OpenAPI y Pipeline ASP.NET Core</td>
+      <td>Configurar Program.cs, filtros de seguridad Bearer JWT y generación de esquemas Swagger UI.</td>
+      <td align="center">5</td>
+      <td>Brandon Soto</td>
+      <td align="center">Done</td>
+    </tr>
+    <!-- US66: Diana Pareja -->
+    <tr>
+      <td rowspan="2" align="center" style="font-weight:bold; vertical-align:middle">US66</td>
+      <td rowspan="2" style="vertical-align:middle">Endpoint para registro de asistencia en un solo toque</td>
+      <td align="center">TS3-03</td>
+      <td>Modelado de Dominio y Mapeo EF Core para Attendance</td>
+      <td>Definir entidades BoardingRecord, enums de estado y mapeos en AppDbContext con restricciones de clave foránea.</td>
+      <td align="center">6</td>
+      <td>Diana Pareja</td>
+      <td align="center">Done</td>
+    </tr>
+    <tr>
+      <td align="center">TS3-04</td>
+      <td>Controlador RESTful y DTOs de Attendance</td>
+      <td>Implementar AttendanceController con endpoints PUT/POST para actualizar estados de abordaje y timestamp.</td>
+      <td align="center">5</td>
+      <td>Diana Pareja</td>
+      <td align="center">Done</td>
+    </tr>
+    <!-- US67: Diana Pareja -->
+    <tr>
+      <td rowspan="2" align="center" style="font-weight:bold; vertical-align:middle">US67</td>
+      <td rowspan="2" style="vertical-align:middle">Endpoint para telemetría y geocercas en tiempo real</td>
+      <td align="center">TS3-05</td>
+      <td>Modelado de Telemetría GPS en Bounded Context Tracking</td>
+      <td>Crear entidades de coordenadas geolocalizadas y contratos de datos para captura de posición móvil.</td>
+      <td align="center">7</td>
+      <td>Diana Pareja</td>
+      <td align="center">Done</td>
+    </tr>
+    <tr>
+      <td align="center">TS3-06</td>
+      <td>Controlador de Ubicación y Geocercas</td>
+      <td>Exponer endpoint POST /api/v1/trips/{id}/location validando coordenadas y retorno HTTP 202.</td>
+      <td align="center">6</td>
+      <td>Diana Pareja</td>
+      <td align="center">Done</td>
+    </tr>
+    <!-- US14: Diana Pareja -->
+    <tr>
+      <td rowspan="2" align="center" style="font-weight:bold; vertical-align:middle">US14</td>
+      <td rowspan="2" style="vertical-align:middle">Registrar abordaje (Lógica de Viaje Activo)</td>
+      <td align="center">TS3-07</td>
+      <td>Implementación del Agregado Trips y Estados</td>
+      <td>Crear agregado Trip, Value Objects de estado de viaje y repositorios para la gestión de paradas activas.</td>
+      <td align="center">7</td>
+      <td>Diana Pareja</td>
+      <td align="center">Done</td>
+    </tr>
+    <tr>
+      <td align="center">TS3-08</td>
+      <td>Controlador TripsController (Endpoints POST y GET)</td>
+      <td>Exponer TripsController en la API permitiendo iniciar viajes, listar recorridos activos y registrar checkpoints.</td>
+      <td align="center">6</td>
+      <td>Diana Pareja</td>
+      <td align="center">Done</td>
+    </tr>
+    <!-- US01: Diana Pareja -->
+    <tr>
+      <td rowspan="1" align="center" style="font-weight:bold; vertical-align:middle">US01</td>
+      <td rowspan="1" style="vertical-align:middle">Registrar abordaje del estudiante</td>
+      <td align="center">TS3-09</td>
+      <td>Persistencia Transaccional de Evento de Abordaje</td>
+      <td>Vincular la confirmación de subida del alumno con la actualización de parada en base de datos.</td>
+      <td align="center">5</td>
+      <td>Diana Pareja</td>
+      <td align="center">Done</td>
+    </tr>
+    <!-- US36: Luis Huaco -->
+    <tr>
+      <td rowspan="2" align="center" style="font-weight:bold; vertical-align:middle">US36</td>
+      <td rowspan="2" style="vertical-align:middle">Visualizar detalles del vehículo</td>
+      <td align="center">TS3-10</td>
+      <td>Modelado de Entidades del Bounded Context Fleet</td>
+      <td>Definir entidad Vehicle, atributos de capacidad, placa y configuraciones de almacenamiento relacional.</td>
+      <td align="center">6</td>
+      <td>Luis Huaco</td>
+      <td align="center">Done</td>
+    </tr>
+    <tr>
+      <td align="center">TS3-11</td>
+      <td>Controladores REST y Servicios de Consulta de Flota</td>
+      <td>Programar endpoints GET/POST en FleetController para consultar fichas técnicas y disponibilidad vehicular.</td>
+      <td align="center">5</td>
+      <td>Luis Huaco</td>
+      <td align="center">Done</td>
+    </tr>
+    <!-- US07: Luis Huaco -->
+    <tr>
+      <td rowspan="2" align="center" style="font-weight:bold; vertical-align:middle">US07</td>
+      <td rowspan="2" style="vertical-align:middle">Visualizar flota completa en el mapa (Contexto Companies)</td>
+      <td align="center">TS3-12</td>
+      <td>Modelado y Controladores del Contexto Companies</td>
+      <td>Crear CompanyController y repositorios asociados para vincular flotas vehiculares a operadores de movilidad.</td>
+      <td align="center">6</td>
+      <td>Luis Huaco</td>
+      <td align="center">Done</td>
+    </tr>
+    <tr>
+      <td align="center">TS3-13</td>
+      <td>Shared Kernel y Conexión Relacional MySQL</td>
+      <td>Configurar cadenas de conexión compartidas, configuración de DbContext y migraciones iniciales.</td>
+      <td align="center">5</td>
+      <td>Luis Huaco</td>
+      <td align="center">Done</td>
+    </tr>
+    <!-- US12: Brandon Soto -->
+    <tr>
+      <td rowspan="2" align="center" style="font-weight:bold; vertical-align:middle">US12</td>
+      <td rowspan="2" style="vertical-align:middle">Visualizar lista de estudiantes por ruta</td>
+      <td align="center">TS3-14</td>
+      <td>Entidades y Mapeos del Contexto Students</td>
+      <td>Diseñar entidad Student, relaciones con apoderados y configuración Fluent API en AppDbContext.</td>
+      <td align="center">6</td>
+      <td>Brandon Soto</td>
+      <td align="center">Done</td>
+    </tr>
+    <tr>
+      <td align="center">TS3-15</td>
+      <td>Controlador RESTful StudentsController</td>
+      <td>Implementar endpoints GET /api/v1/students con filtros de búsqueda por colegio y ruta asignada.</td>
+      <td align="center">5</td>
+      <td>Brandon Soto</td>
+      <td align="center">Done</td>
+    </tr>
+    <!-- US26: Piero Rázuri -->
+    <tr>
+      <td rowspan="1" align="center" style="font-weight:bold; vertical-align:middle">US26</td>
+      <td rowspan="1" style="vertical-align:middle">Registro rápido de incidencia</td>
+      <td align="center">TS3-16</td>
+      <td>Controlador e Inserción Rápida de Incidencias</td>
+      <td>Crear endpoint POST /api/v1/incidents optimizado para guardar tipo y coordenadas en un solo paso.</td>
+      <td align="center">5</td>
+      <td>Piero Rázuri</td>
+      <td align="center">Done</td>
+    </tr>
+    <!-- US05: Piero Rázuri -->
+    <tr>
+      <td rowspan="2" align="center" style="font-weight:bold; vertical-align:middle">US05</td>
+      <td rowspan="2" style="vertical-align:middle">Registrar incidencia en la ruta</td>
+      <td align="center">TS3-17</td>
+      <td>Modelado del Bounded Context Incidents</td>
+      <td>Estructurar entidad Incident, clasificaciones de gravedad y persistencia con claves foráneas a viajes.</td>
+      <td align="center">6</td>
+      <td>Piero Rázuri</td>
+      <td align="center">Done</td>
+    </tr>
+    <tr>
+      <td align="center">TS3-18</td>
+      <td>Modelado del Contexto Subscriptions & Profiles</td>
+      <td>Configurar clases de perfiles de usuario y modelos de planes de suscripción para facturación.</td>
+      <td align="center">5</td>
+      <td>Piero Rázuri</td>
+      <td align="center">Done</td>
+    </tr>
+  </tbody>
+</table>
 
 #### **5.2.3.4. Development Evidence for Sprint Review**
 
+Durante el Sprint 3, el equipo estructuró y sincronizó el repositorio backend (`children-path-backend`) siguiendo Conventional Commits y ramas por Bounded Contexts:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :---: | :--- | :--- | :---: |
+| children-path-backend | `trips` | `1048a8b` | fix(general): deleting obj, debug , bin | Cleaned compiled binaries, temporary symbols, and IDE build artifacts from repository tree. | 2026-11-09 |
+| children-path-backend | `feature/trips` | `e2a417c` | feat(trips): add TripsController with POST and GET endpoints | Implemented REST endpoints for initiating trips, registering checkpoints, and fetching active routes. | 2026-11-09 |
+| children-path-backend | `develop` | `74bf821` | Merge branch 'develop' into feature/companies | Consolidated shared kernel models and common database configurations into companies branch. | 2026-11-09 |
+| children-path-backend | `feature/companies` | `48db019` | feat: add Company REST controllers | Developed CRUD HTTP actions and DTO request validators for transport enterprise administration. | 2026-11-05 |
+| children-path-backend | `feature/fleet` | `c27a991` | feat(fleet): creating class fleets and fleet | Configured Fleet aggregate roots, vehicle capacity constraints, and unit status mappings. | 2026-11-05 |
+| children-path-backend | `feature/fleet` | `a38c204` | advancing bounded context fleet | Configured database migrations and fluent API relations for fleet and unit assignments. | 2026-11-05 |
+| children-path-backend | `feature/drivers` | `f810e23` | feat(Drivers): creating class drivers | Implemented driver profile entities, license classification types, and repository interfaces. | 2026-11-05 |
+| children-path-backend | `feature/dashboard` | `6b9c054` | feat(Dashboard): creating class dashboard | Created aggregated read-model classes for operational metrics and active trip monitoring. | 2026-11-05 |
+| children-path-backend | `feature/profiles` | `2e09ff1` | feat(PROFILES): creating class profile | Added user profile data models, role associations, and contact information contracts. | 2026-11-05 |
+| children-path-backend | `feature/subscriptions`| `d9120bb` | feat(Subscriptions): creating class subscription | Structured SaaS subscription tier models, active plan attributes, and billing cycles. | 2026-11-05 |
+| children-path-backend | `feature/students` | `3cb911a` | fix(student): fixing some errors about the student class | Resolved foreign key annotations and student-tutor relationship attributes in domain entity. | 2026-11-05 |
+| children-path-backend | `develop` | `05b1fa8` | Init Project : Inizializate Project | Initialized ASP.NET Core solution, project references, Docker configurations, and DbContext setup. | 2026-10-27 |
 
 #### **5.2.3.5. Execution Evidence for Sprint Review**
+
+
 
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
 
