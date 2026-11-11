@@ -909,14 +909,18 @@ Durante el Sprint 3, el equipo estructuró y sincronizó el repositorio backend 
 
 #### **5.2.3.5. Execution Evidence for Sprint Review**
 
-Durante el Sprint 3, la solución backend fue compilada y ejecutada en entornos locales mediante el runtime de .NET, conectándose a la base de datos relacional y exponiendo la consola interactiva de **Swagger UI** para la validación funcional de cada Bounded Context:
+Durante el Sprint 3, la solución backend fue compilada y ejecutada en entornos locales mediante el runtime de .NET, conectándose a la base de datos relacional y exponiendo la consola interactiva de **Scalar (Scalar API Reference)** para la validación funcional de cada Bounded Context:
 
 | Bounded Context | Artefacto / Controlador | Descripción de la Ejecución | Evidencia |
 | :--- | :--- | :--- | :---: |
-| **Trips** | `TripsController.cs` | Ejecución y prueba de endpoints POST/GET para la creación de viajes escolares e inspección de estado de recorrido (`/api/v1/trips`). | ![Swagger Trips](../assets/chapter-5/swagger-trips.png) |
-| **Fleet** | `VehiclesController.cs` | Validación de consultas HTTP GET para el listado de unidades móviles, capacidad operativa y validación de placa. | ![Swagger Fleet](../assets/chapter-5/swagger-fleet.png) |
-| **Attendance** | `AttendanceController.cs` | Prueba funcional del endpoint PUT para actualización rápida del estado de abordaje (`on_board`, `absent`). | ![Swagger Attendance](../assets/chapter-5/swagger-attendance.png) |
-| **Companies** | `CompaniesController.cs` | Registro y consulta de entidades corporativas y centros educativos asociados al servicio. | ![Swagger Companies](../assets/chapter-5/swagger-companies.png) |
+| **Trips** | `TripsController.cs` | Ejecución y prueba de endpoints POST/GET para la creación de viajes escolares e inspección de estado de recorrido (`/api/v1/trips`). | ![Scalar Trips](../assets/chapter-5/scalar-trips.png) |
+| **Fleet** | `VehiclesController.cs` | Validación de consultas HTTP GET para el listado de unidades móviles, capacidad operativa y validación de placa. | ![Scalar Fleet](../assets/chapter-5/scalar-fleet.png) |
+| **Attendance** | `AttendanceController.cs` | Prueba funcional del endpoint PUT para actualización rápida del estado de abordaje (`on_board`, `absent`). | ![Scalar Attendance](../assets/chapter-5/scalar-attendance.png) |
+| **Companies** | `CompaniesController.cs` | Registro y consulta de entidades corporativas y centros educativos asociados al servicio. | ![Scalar Companies](../assets/chapter-5/scalar-companies.png) |
+| **Students** | `StudentsController.cs` | Consulta del catálogo de estudiantes asignados por ruta y centro educativo. | ![Scalar Students](../assets/chapter-5/scalar-students.png) |
+| **Drivers** | `DriversController.cs` | Validación de fichas de conductores, categorías de licencia de conducir y estado de disponibilidad. | ![Scalar Drivers](../assets/chapter-5/scalar-drivers.png) |
+| **Tracking / Alerts** | `TrackingController.cs` | Recepción de eventos de geolocalización e inspección de paso por puntos de control. | ![Scalar Tracking](../assets/chapter-5/scalar-tracking.png) |
+| **IAM** | `AuthenticationController.cs` | Endpoint de inicio de sesión y validación de credenciales con emisión de tokens de acceso. | ![Scalar IAM](../assets/chapter-5/scalar-iam.png) |
 
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
 
@@ -924,15 +928,20 @@ Los servicios RESTful fueron formalmente implementados y documentados empleando 
 
 | Bounded Context | HTTP Verbo | Ruta del Endpoint (Sintaxis) | Parámetros Requeridos | Códigos HTTP Retornados | Resumen y Ejemplo de Payload |
 | :--- | :---: | :--- | :--- | :---: | :--- |
-| **Trips** | `POST` | `/api/v1/trips` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra el inicio de un viaje escolar asignado a un conductor y ruta.<br>`{"routeId": 1, "driverId": 2, "vehicleId": 3}` |
+| **Trips** | `POST` | `/api/v1/trips` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra el inicio de un viaje escolar asignado a un conductor y ruta.<br>`{"code": "TRIP-01", "routeName": "Ruta Miraflores", "vehiclePlate": "ABC-123", "driverName": "Juan Perez", "school": "Colegio A", "capacity": 15}` |
+| **Trips** | `GET` | `/api/v1/trips` | N/A | `200 OK` | Retorna el listado consolidado de todos los viajes registrados en el sistema. |
 | **Trips** | `GET` | `/api/v1/trips/{id}` | Path: `id` (int) | `200 OK`<br>`404 Not Found` | Retorna los detalles de un viaje activo, paradas pendientes y estado de avance. |
 | **Fleet** | `GET` | `/api/v1/vehicles` | Query: `status` (opc.) | `200 OK` | Retorna el catálogo consolidado de unidades vehiculares y capacidades de asientos. |
-| **Companies** | `GET` | `/api/v1/companies` | N/A | `200 OK` | Lista las empresas operadoras de movilidad escolar y colegios vinculados. |
 | **Attendance** | `PUT` | `/api/v1/attendance-records/{id}` | Path: `id`<br>Body: `status` | `200 OK`<br>`400 Bad Request`<br>`404 Not Found` | Actualiza el estado de abordaje en parada en un solo toque persistiendo timestamp. |
+| **Companies** | `GET` | `/api/v1/companies` | N/A | `200 OK` | Lista las empresas operadoras de movilidad escolar y colegios vinculados. |
+| **Students** | `GET` | `/api/v1/students` | Query: `routeId` (opc.) | `200 OK` | Retorna la lista de escolares con sus paradas y datos de apoderado asignados. |
+| **Drivers** | `GET` | `/api/v1/drivers` | N/A | `200 OK` | Lista el directorio de conductores acreditados y su estado operativo. |
+| **Tracking** | `POST` | `/api/v1/trips/{id}/location` | Path: `id`<br>Body: coords | `202 Accepted`<br>`400 Bad Request` | Registra coordenadas telemétricas del vehículo y procesa el radio de proximidad. |
+| **IAM** | `POST` | `/api/v1/authentication/sign-in` | Body: credentials | `200 OK`<br>`401 Unauthorized` | Autentica usuarios y emite el token JWT para el acceso a las rutas protegidas. |
 
 - **URL del Repositorio de Web Services:** [https://github.com/upc-202620-1asi0730-8084-Creatividad/children-path-backend](https://github.com/upc-202620-1asi0730-8084-Creatividad/children-path-backend)
 - **Commits Clave de Documentación OpenAPI / Scalar:** `e2a417c` (controladores Trips y esquemas), `48db019` (Company controllers), y commit de integración de Scalar en `Properties` y `Program.cs`.
-- 
+  
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
 
 A continuación, se detalla el estado de despliegue y disponibilidad operativa de los componentes durante el ciclo del Sprint 3:
