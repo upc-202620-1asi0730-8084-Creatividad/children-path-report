@@ -724,8 +724,8 @@ El Sprint Backlog desagrega las 10 Historias de Usuario seleccionadas en tareas 
     </tr>
     <tr>
       <td align="center">TS3-02</td>
-      <td>Configuración de Swagger/OpenAPI y Pipeline ASP.NET Core</td>
-      <td>Configurar Program.cs, filtros de seguridad Bearer JWT y generación de esquemas Swagger UI.</td>
+      <td>Configuración de Scalar/OpenAPI y Pipeline ASP.NET Core</td>
+      <td>Configurar Program.cs, filtros de seguridad Bearer JWT y renderizado de especificaciones con Scalar API Reference.</td>
       <td align="center">5</td>
       <td>Brandon Soto</td>
       <td align="center">Done</td>
@@ -906,6 +906,7 @@ Durante el Sprint 3, el equipo estructuró y sincronizó el repositorio backend 
 | children-path-backend | `feature/subscriptions`| `d9120bb` | feat(Subscriptions): creating class subscription | Structured SaaS subscription tier models, active plan attributes, and billing cycles. | 2026-11-05 |
 | children-path-backend | `feature/students` | `3cb911a` | fix(student): fixing some errors about the student class | Resolved foreign key annotations and student-tutor relationship attributes in domain entity. | 2026-11-05 |
 | children-path-backend | `develop` | `05b1fa8` | Init Project : Inizializate Project | Initialized ASP.NET Core solution, project references, Docker configurations, and DbContext setup. | 2026-10-27 |
+
 
 #### **5.2.3.5. Execution Evidence for Sprint Review**
 
