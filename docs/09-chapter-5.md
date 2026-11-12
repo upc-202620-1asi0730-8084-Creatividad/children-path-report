@@ -919,6 +919,59 @@ Durante el Sprint 3, el equipo estructuró y sincronizó el repositorio backend 
 
 ### **5.3.1. Interview Design**
 
+El objetivo de esta sección es validar la usabilidad, arquitectura de la información y accesibilidad de la solución desplegada (Landing Page y Web Application) con representantes reales de los tres segmentos objetivo. Se busca comprobar si los flujos diseñados resuelven los problemas identificados en la fase de investigación (Capítulo II) y si la interfaz es intuitiva para los perfiles de *User Persona* definidos.
+
+**A. Metodología de la Sesión de Validación**
+*   **Tipo de prueba:** Prueba de usabilidad moderada y remota (mediante videollamada con compartición de pantalla).
+*   **Protocolo:** Se solicitará al usuario que "piense en voz alta" (Think-Aloud Protocol) mientras realiza las tareas asignadas.
+*   **Instrumentos:** Guion de tareas (User Flows), observación directa y cuestionario post-prueba basado en las heurísticas de Nielsen (Usabilidad), Arquitectura de Información y Diseño Inclusivo.
+*   **Muestra:** Se realizarán de 3 entrevistas por segmento.
+
+**B. Elementos y Flujos a Evaluar por Segmento**
+De acuerdo con el alcance de la solución, se evaluarán los siguientes flujos (User Flows) en las plataformas desplegadas:
+
+*   **Segmento 1: Conductores Independientes (User Persona: Carlos)**
+  *   *Plataforma:* Web Application (Módulo Conductor).
+  *   *Flujo 1 (Registro rápido):* Iniciar sesión y acceder a la ruta asignada del día.
+  *   *Flujo 2 (Control de asistencia):* Registrar el abordaje y la ausencia de estudiantes en una parada con un solo toque.
+  *   *Flujo 3 (Incidencias):* Reportar una incidencia de tráfico o avería desde la interfaz de ruta.
+*   **Segmento 2: Empresas de Transporte (User Persona: Valeria)**
+  *   *Plataforma:* Web Application (Módulo Administrador).
+  *   *Flujo 4 (Gestión de flota):* Visualizar el mapa de monitoreo en tiempo real y filtrar las unidades retrasadas.
+  *   *Flujo 5 (Asignaciones):* Identificar un conflicto de asignación (Assignment Management) y buscar la acción para resolverlo.
+*   **Segmento 3: Padres de Familia (User Persona: María)**
+  *   *Plataforma:* Landing Page y Web Application (Módulo Padre).
+  *   *Flujo 6 (Navegación Landing):* Buscar los planes de suscripción y cambiar el idioma de la página (i18n) usando el CTA "Start as Parent".
+  *   *Flujo 7 (Monitoreo):* Iniciar sesión, visualizar el mapa con la ubicación en tiempo real del bus y revisar el historial de notificaciones de proximidad o llegada.
+
+**C. Guion de Entrevista y Preguntas por Segmento**
+
+**Fase 1: Introducción y Contexto (5 minutos)**
+*   *Bienvenida y consentimiento.*
+*   *Pregunta general:* ¿Cuál es su rutina actual respecto al transporte escolar y qué es lo que más le frustra de ella?
+
+**Fase 2: Tareas Guiadas (15 minutos)**
+*   **Para Conductores:**
+  1. Por favor, ingrese a la aplicación con sus credenciales y ubique la ruta de hoy. ¿Qué opina de la información mostrada?
+  2. Imagine que llega a la parada de un alumno. Realice el registro de abordaje. ¿Fue rápido e intuitivo?
+  3. Ahora reporte una incidencia de tráfico. ¿Encontró el botón fácilmente?
+*   **Para Administradores (Empresas):**
+  1. Navegue al panel de control (Dashboard). ¿Logra identificar cuántas unidades están activas y cuántas retrasadas?
+  2. Diríjase a la sección de asignaciones. Imagine que hay un conflicto. ¿Las acciones para resolverlo son claras?
+  3. Intente filtrar la flota por un estado específico. ¿La información se actualiza correctamente?
+*   **Para Padres de Familia:**
+  1. (Mostrando la Landing Page) Por favor, encuentre el costo del plan para padres y cambie el idioma al inglés. ¿El proceso fue claro?
+  2. Haga clic en el botón para ingresar como padre. Una vez en el sistema, ubique en el mapa dónde está la movilidad escolar.
+  3. Revise su historial de notificaciones. ¿La redacción de las alertas le brinda tranquilidad?
+
+**Fase 3: Evaluación Heurística y Cierre (10 minutos)**
+Se le realizan las siguientes preguntas abiertas al usuario basadas en los principios de evaluación:
+1. **Usabilidad:** ¿Hubo algún momento en el que se sintió perdido o no sabía qué botón presionar? (Visibilidad del estado del sistema, Libertad y control).
+2. **Arquitectura de Información:** ¿La organización de los menús y la información le pareció lógica y fácil de encontrar? (Findability).
+3. **Diseño Inclusivo:** ¿Considera que los colores, el tamaño de las letras y los contrastes son adecuados para su uso diario en el celular o computadora?
+4. **Satisfacción general:** En una escala del 1 al 10, ¿qué tan dispuesto estaría a usar y recomendar esta herramienta?
+
+
 ### **5.3.2. Interview Recording**
 
 ### **5.3.3. Evaluations Based on Heuristics**
