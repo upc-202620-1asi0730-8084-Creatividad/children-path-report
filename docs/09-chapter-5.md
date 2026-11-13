@@ -949,22 +949,80 @@ A continuación, se detalla la descomposición de las Historias de Usuario asign
 
 #### **5.2.3.4. Development Evidence for Sprint Review**
 
-Durante el Sprint 3, el equipo estructuró y sincronizó el repositorio backend (`children-path-backend`) siguiendo Conventional Commits y ramas por Bounded Contexts:
+Durante el Sprint 3, los esfuerzos de desarrollo se enfocaron en la consolidación del núcleo transaccional del backend (`ChildrenPath.Platform`) bajo los principios de Domain-Driven Design (DDD) y Clean Architecture, implementando los bounded contexts de *Attendance*, *Incidents*, *Fleet*, *Students*, *Trips* y la base de autenticación *IAM*. Asimismo, se completó la integración de los servicios web con las interfaces de usuario (Vue/Angular) mediante tiendas Pinia y se optimizó de manera integral el Landing Page institucional con mejoras de accesibilidad, diseño responsive, maquetas de la aplicación móvil y perfiles del equipo.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+A continuación, se presentan las principales evidencias visuales de los componentes desarrollados y del Landing Page mejorado durante la iteración:
+
+* **Figura 5.1:** *Documentación interactiva de endpoints REST en Scalar (OpenAPI).*
+<p align="center">
+  <img src="../assets/chapter-5/scalar-api-evidence-sprint-3.png" width="85%" alt="Scalar API Evidence">
+</p>
+
+* **Figura 5.2:** *Vista general y optimización del Landing Page institucional.*
+<p align="center">
+  <img src="../assets/chapter-5/children-path-landing-page-sprint-3.png" width="85%" alt="Landing Page Evidence">
+</p>
+
+* **Figura 5.3:** *Panel operativo y flujos de abordaje integrados en el Frontend.*
+<p align="center">
+  <img src="../assets/chapter-5/frontend-app-evidence-sprint-3.png" width="85%" alt="Frontend App Evidence">
+</p>
+
+
+A continuación, se detalla la trazabilidad con el historial de commits reales y más representativos registrados en los repositorios oficiales de la solución durante el Sprint 3, conformes al estándar Conventional Commits:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | :--- | :--- | :---: | :--- | :--- | :---: |
-| children-path-backend | `trips` | `1048a8b` | fix(general): deleting obj, debug , bin | Cleaned compiled binaries, temporary symbols, and IDE build artifacts from repository tree. | 2026-11-09 |
-| children-path-backend | `feature/trips` | `e2a417c` | feat(trips): add TripsController with POST and GET endpoints | Implemented REST endpoints for initiating trips, registering checkpoints, and fetching active routes. | 2026-11-09 |
-| children-path-backend | `develop` | `74bf821` | Merge branch 'develop' into feature/companies | Consolidated shared kernel models and common database configurations into companies branch. | 2026-11-09 |
-| children-path-backend | `feature/companies` | `48db019` | feat: add Company REST controllers | Developed CRUD HTTP actions and DTO request validators for transport enterprise administration. | 2026-11-05 |
-| children-path-backend | `feature/fleet` | `c27a991` | feat(fleet): creating class fleets and fleet | Configured Fleet aggregate roots, vehicle capacity constraints, and unit status mappings. | 2026-11-05 |
-| children-path-backend | `feature/fleet` | `a38c204` | advancing bounded context fleet | Configured database migrations and fluent API relations for fleet and unit assignments. | 2026-11-05 |
-| children-path-backend | `feature/drivers` | `f810e23` | feat(Drivers): creating class drivers | Implemented driver profile entities, license classification types, and repository interfaces. | 2026-11-05 |
-| children-path-backend | `feature/dashboard` | `6b9c054` | feat(Dashboard): creating class dashboard | Created aggregated read-model classes for operational metrics and active trip monitoring. | 2026-11-05 |
-| children-path-backend | `feature/profiles` | `2e09ff1` | feat(PROFILES): creating class profile | Added user profile data models, role associations, and contact information contracts. | 2026-11-05 |
-| children-path-backend | `feature/subscriptions`| `d9120bb` | feat(Subscriptions): creating class subscription | Structured SaaS subscription tier models, active plan attributes, and billing cycles. | 2026-11-05 |
-| children-path-backend | `feature/students` | `3cb911a` | fix(student): fixing some errors about the student class | Resolved foreign key annotations and student-tutor relationship attributes in domain entity. | 2026-11-05 |
-| children-path-backend | `develop` | `05b1fa8` | Init Project : Inizializate Project | Initialized ASP.NET Core solution, project references, Docker configurations, and DbContext setup. | 2026-10-27 |
+| `children-path-backend` | `develop` | `453df08` | `chore: add kebab-case route naming convention` | Add kebab-case route naming convention for API endpoints. | 2026-11-12 |
+| `children-path-backend` | `develop` | `70ef652` | `feat(trips): implement TripsController REST endpoints with OpenAPI summaries` | Implement TripsController REST endpoints with OpenAPI summaries. | 2026-11-12 |
+| `children-path-backend` | `develop` | `8b2f857` | `feat(trips): implement TripRepository using EF Core BaseRepository` | Implement TripRepository using EF Core BaseRepository. | 2026-11-12 |
+| `children-path-backend` | `develop` | `bb6c787` | `feat(trips): implement TripCommandService with Result and error handling` | Implement TripCommandService with Result and error handling. | 2026-11-12 |
+| `children-path-backend` | `develop` | `ee914c0` | `Delete .idea/.idea.ChildrenPath.Backend/.idea directory` | Clean untracked IDE configuration folders. | 2026-11-10 |
+| `children-path-backend` | `develop` | `a538b04` | `refactor(Alerts): change the domain to have application and adding infrastructure` | Refactor Alerts domain to incorporate application and infrastructure layers. | 2026-11-10 |
+| `children-path-backend` | `develop` | `c2eee41` | `Merge pull request #1 from .../feature/companies` | Merge pull request #1 from feature/companies into develop. | 2026-11-10 |
+| `children-path-backend` | `develop` | `3ba3efc` | `chore: add shared base repository` | Add shared base repository for data access abstraction across contexts. | 2026-11-10 |
+| `children-path-backend` | `develop` | `1c69f89` | `feat(trips): add TripsController with POST and GET endpoints` | Add TripsController with POST and GET endpoints. | 2026-11-09 |
+| `children-path-backend` | `develop` | `5126c0b` | `fix(trips): clean and correct TripRepository implementation` | Clean and correct TripRepository implementation details. | 2026-11-09 |
+| `children-path-backend` | `develop` | `1ca290b` | `refactor: remove SchoolContract domain model` | Remove temporary SchoolContract domain model to align with bounded context design. | 2026-11-05 |
+| `children-path-backend` | `develop` | `c25292a` | `feat: add Company repository interfaces` | Add Company repository interfaces for data persistence. | 2026-11-05 |
+| `children-path-backend` | `develop` | `de8b530` | `feat: add Company related query models` | Add Company related query models and DTOs. | 2026-11-05 |
+| `children-path-backend` | `develop` | `8a7f42d` | `feat: add Company management dashboard entity models` | Add Company management dashboard entity models. | 2026-11-05 |
+| `children-path-backend` | `develop` | `2b4fb0c` | `feat: add Company REST controllers` | Add Company REST controllers for management and queries. | 2026-11-05 |
+| `children-path-backend` | `develop` | `8fcc1c6` | `fix: scalar especifications` | Fix scalar OpenAPI specifications and metadata. | 2026-11-05 |
+| `children-path-backend` | `develop` | `5f38ec1` | `Merge branch 'feature/creating-fleet-class' into develop` | Merge branch feature/creating-fleet-class into develop. | 2026-11-05 |
+| `children-path-backend` | `develop` | `d852d5b` | `advancing bounded context fleet` | Advance development on fleet bounded context entities and services. | 2026-11-05 |
+| `children-path-backend` | `develop` | `5d5608b` | `feat(fleet): creating class fleets and fleet` | Creating class fleets and fleet aggregate models. | 2026-11-05 |
+| `children-path-backend` | `develop` | `9397883` | `chore: register Company repositories and services` | Register Company repositories and services in dependency container. | 2026-11-05 |
+| `children-path-backend` | `develop` | `ba88d0d` | `feat: add Company EF Core mappings` | Add Company EF Core mappings and configurations. | 2026-11-05 |
+| `children-path-backend` | `develop` | `337ecaa` | `Merge branch 'feature/creating-drivers-class' into develop` | Merge branch feature/creating-drivers-class into develop. | 2026-11-03 |
+| `children-path-backend` | `develop` | `00e1c5f` | `advancing bounded context drivers` | Advance bounded context drivers implementation. | 2026-11-03 |
+| `children-path-backend` | `develop` | `d2aad8b` | `feat(Drivers): creating class drivers` | Creating class drivers domain models and entities. | 2026-11-03 |
+| `children-path-backend` | `develop` | `df588f2` | `feat: update project structure for Companies module` | Update project structure for Companies module architecture. | 2026-11-03 |
+| `children-path-backend` | `develop` | `c8eeacb` | `feat: add Company and SchoolContract classes` | Add Company and SchoolContract domain classes. | 2026-11-03 |
+| `children-path-backend` | `develop` | `eab7016` | `feat(fleet): updating the controller to Create, Update and Delete` | Updating the controller to Create, Update and Delete operations for fleet. | 2026-10-29 |
+| `children-path-backend` | `develop` | `5d66051` | `feat(trips): add Trip aggregate entity` | Add Trip aggregate entity to the domain layer. | 2026-10-29 |
+| `children-path-backend` | `develop` | `63a3916` | `feat(fleet): creating vehicle resource` | Creating vehicle resource DTOs and contracts. | 2026-10-29 |
+| `children-path-backend` | `develop` | `621c0cc` | `feat(PROFILES): creating class profile` | Creating class profile domain entities and models. | Last week |
+| `children-path-web-application` | `develop` | `9d562c9` | `Merge branch 'feature/fixing-production' into develop` | Merge branch feature/fixing-production into develop. | 2026-11-12 |
+| `children-path-web-application` | `develop` | `ce97651` | `fix: fixing production` | Fix production build and bundling issues. | 2026-11-12 |
+| `children-path-web-application` | `develop` | `e40f1f1` | `feat(trips): integrate Pinia store with live backend endpoints` | Integrate Pinia store with live backend endpoints for trips. | 2026-11-12 |
+| `children-path-web-application` | `develop` | `857655f` | `refactor(trips): remove hardcoded mock trips from initial dashboard model` | Remove hardcoded mock trips from initial dashboard model. | 2026-11-12 |
+| `children-path-web-application` | `develop` | `b8277e8` | `feat(trips): connect TripsApi to backend REST endpoints` | Connect TripsApi to backend REST endpoints. | 2026-11-12 |
+| `children-path-web-application` | `develop` | `d7b7a29` | `feat(analytics): connection with backend - bounded context - analytics` | Connection with backend for analytics bounded context. | 2026-11-11 |
+| `children-path-web-application` | `develop` | `c1bb099` | `Merge branch 'feature/alerts-notifications-endpoints-union-backend' into develop` | Merge branch feature/alerts-notifications-endpoints-union-backend into develop. | 2026-11-10 |
+| `children-path-web-application` | `develop` | `c0aaaeb` | `feat(alerts): connection with backend - bounded context - alerts` | Connection with backend for alerts bounded context. | 2026-11-10 |
+| `children-path-web-application` | `develop` | `cf28be9` | `feat: add tracking presentation` | Add tracking presentation views and map layout. | 2026-10-05 |
+| `children-path-web-application` | `develop` | `320e0a5` | `feat: add tracking api and entity` | Add tracking api and entity configuration. | 2026-10-05 |
+| `children-path-web-application` | `develop` | `abda4ba` | `feat: add tracking store` | Add tracking store for state management. | 2026-10-05 |
+| `children-path-web-application` | `develop` | `89c064c` | `feat: add incidents presentation views` | Add incidents presentation views and forms. | 2026-10-05 |
+| `children-path-website` | `main` | `def52a6` | `Merge pull request #10 from .../develop` | Merge pull request #10 from develop into main. | 2026-10-29 |
+| `children-path-website` | `main` | `436ac12` | `Merge pull request #9 from .../feature/landing-product-showcase` | Merge pull request #9 from feature/landing-product-showcase into main. | 2026-10-29 |
+| `children-path-website` | `main` | `b68c9f0` | `Fix image source for Brandon Soto in about.html` | Fix image source path for Brandon Soto in about.html. | 2026-10-29 |
+| `children-path-website` | `main` | `9174e91` | `build: trigger github pages deployment` | Trigger GitHub Pages automated deployment workflow. | 2026-10-29 |
+| `children-path-website` | `main` | `8493189` | `feat: replace hero card with live tracking mobile app mockup` | Replace hero card with live tracking mobile app mockup. | 2026-10-28 |
+| `children-path-website` | `main` | `08f6040` | `add pictures of the team for landing page purposes` | Add pictures of the team for landing page purposes. | 2026-10-28 |
+| `children-path-website` | `main` | `22a2f66` | `Feat: Update styles.css content` | Update styles.css content for visual consistency. | 2026-10-05 |
+| `children-path-website` | `main` | `6e06ef3` | `style: enhance accessibility focus states and typographic rendering` | Enhance accessibility focus states and typographic rendering. | 2026-10-05 |
 
 
 #### **5.2.3.5. Execution Evidence for Sprint Review**
