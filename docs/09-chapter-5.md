@@ -132,7 +132,7 @@ Durante el Sprint 1, el equipo planificó, diseñó, implementó y desplegó el 
 | **Location** | Reunión virtual vía Google Meet |
 | **Prepared By** | Huaco Oliva, Luis Alonso |
 | **Attendees (to planning meeting)** | Huaco Oliva, Luis Alonso / Pareja Cáceres, Diana / Soto, Brandon / Rázuri, Piero |
-| **Sprint n – 1 Review Summary** | No aplica. Sprint inicial del ciclo del producto. |
+| **Sprint n – 1 Rew Summary** | No aplica. Sprint inicial del ciclo del producto. |
 | **Sprint n – 1 Retrospective Summary** | No aplica. Sprint inicial del ciclo del producto. |
 **Sprint Goal & User Stories**
 
@@ -256,7 +256,7 @@ El Sprint Backlog se enfocó en definir la estructura y el diseño inicial de la
     <!-- US63 -->
     <tr>
       <td rowspan="2" align="center" style="font-weight:bold; vertical-align:middle">US63</td>
-      <td rowspan="2" style="vertical-align:middle">Revisar testimonios reales y preguntas frecuentes (FAQ)</td>
+      <td rowspan="2" style="vertical-align:middle">Rsar testimonios reales y preguntas frecuentes (FAQ)</td>
       <td align="center">TS1-09</td>
       <td>Maquetación de Testimonios (Social Proof)</td>
       <td>Crear tarjetas con citas y perfiles de apoderados, conductores y directivos de centros educativos en Lima.</td>
@@ -294,7 +294,7 @@ El Sprint Backlog se enfocó en definir la estructura y el diseño inicial de la
   </tbody>
 </table>
 
-#### **5.2.1.4. Development Evidence for Sprint Review**
+#### **5.2.1.4. Development dence for Sprint Rew**
 
 Durante este Sprint, el equipo completó el diseño conceptual de la Landing Page.
 
@@ -320,15 +320,15 @@ Durante este Sprint, el equipo completó el diseño conceptual de la Landing Pag
 | children-path-landing-page | `feature/scripts` | `3577fd3` | Feat: add main interactive JS for UI behaviors | Programmed FAQ collapsible accordion and smooth scrolling behavior for action buttons. | 2026-10-05 |
 | children-path-landing-page | `develop` | `923fcab` | Chore: Initial commits | Initialized Git repository structure and root directories. | 2026-10-05 |
 
-#### **5.2.1.5. Execution Evidence for Sprint Review**
+#### **5.2.1.5. Execution dence for Sprint Rew**
 
 Durante este Sprint, el equipo validó la estructura y claridad de la Landing Page.
 
-| Evidence Type | Description |
+| dence Type | Description |
 | --------------- | -------------------------------------------------------------------------------------------------- |
 | Wireframes | Diseño de baja fidelidad que muestra el layout |
 | UX validation | Flujo lógico entre secciones |
-| Internal review | Retroalimentación de los miembros del equipo |
+| Internal rew | Retroalimentación de los miembros del equipo |
 
 
 ##### Vistas y Secciones Implementadas:
@@ -1114,8 +1114,8 @@ Durante el presente Sprint, el equipo de desarrollo aplicó una estrategia de co
 ##### **2. Evidencias de Analíticos y Commits en GitHub**
 A continuación, se presentan las métricas de colaboración y actividad del repositorio, reflejando la participación activa de los miembros en la construcción de los Web Services:
 
-* **Gráfico de Analíticos de Contribución (Insights / Network):**
-  <img src="assets/chapter-5/evidence-backend-sprint-3.png" alt="Evidencia de Ejecución de Endpoints Backend en Scalar">
+* **Gráfico de Analíticos de Contribución (Insights / Network):**  
+  <img src="../assets/chapter-5/evidence-backend-sprint-3.png" alt="Evidencia de Ejecución de Endpoints Backend en Scalar">
   ** Resumen de commits, aportes de código y líneas de código aportadas por los integrantes del equipo en el repositorio de Web Services (`children-path-backend`).
   
 
