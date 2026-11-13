@@ -1221,11 +1221,11 @@ En esta sección el equipo establece por cada segmento objetivo los elementos a 
     </tr>
     <tr>
       <td><b>Enlace</b></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422589_upc_edu_pe/IQBKmGjEXFY8SofVHKR2Z9xVAd9gVDrS2JTocz-fKyH0KQ8?e=gyQYp9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Entrevista</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422589_upc_edu_pe/IQBKmGjEXFY8SofVHKR2Z9xVAa8Ecbqf0H1hD9OGvOQo_ss?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=9tGwtb" target="_blank">Entrevista</a></td>
     </tr>
     <tr>
       <td><b>Duración</b></td>
-      <td>03:26 min</td>
+      <td>04:23 min</td>
     </tr>
     <tr>
       <td><b>Empieza en el:</b></td>
@@ -1285,11 +1285,11 @@ Eduardo participó en la sesión de validación interactuando con el Landing Pag
     </tr>
     <tr>
       <td><b>Enlace</b></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422589_upc_edu_pe/IQCIdCyFuSB9Q4vDUDymZYaQAQ9t1CB5CooBMykFoH2o0YE?e=GQcliB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Entrevista</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422589_upc_edu_pe/IQCIdCyFuSB9Q4vDUDymZYaQAX8nRtlm6ZiT7_Khw6ybkAE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Gp9dEn" target="_blank">Entrevista</a></td>
     </tr>
     <tr>
       <td><b>Duración</b></td>
-      <td>04:45 min</td>
+      <td>05:31 min</td>
     </tr>
     <tr>
       <td><b>Empieza en el:</b></td>
@@ -1349,11 +1349,11 @@ Gabriela interactuó con los flujos de navegación propuestos, evaluando el Land
     </tr>
     <tr>
       <td><b>Enlace</b></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422589_upc_edu_pe/IQCyNpH9o5BnQ519TGpIKhegAe6po81bmnQVyn7wtt1gW-E?e=lufXiq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Entrevista</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422589_upc_edu_pe/IQCyNpH9o5BnQ519TGpIKhegAV6MZBJQwOXCICXzUmpaW1k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=EwuFgm" target="_blank">Entrevista</a></td>
     </tr>
     <tr>
       <td><b>Duración</b></td>
-      <td>05:10 min</td>
+      <td>04:47 min</td>
     </tr>
     <tr>
       <td><b>Empieza en el:</b></td>
