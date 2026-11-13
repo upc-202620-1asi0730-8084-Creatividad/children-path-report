@@ -1034,7 +1034,7 @@ A continuación se muestran las principales pantallas de la interfaz de usuario 
 
 * **Figura 5.4:** *Panel Dashboard y métricas operativas generales del sistema.*
 <p align="center">
-  <img src="../assets/chapter-5/frontend-dashboard-view.png" width="85%" alt="Frontend Dashboard View">
+  <img src="../assets/chapter-5/dashboard-web-application-sprint-3.png" width="85%" alt="Frontend Dashboard View">
 </p>
 
 * **Figura 5.5:** *Módulo de gestión de Trips y visualización de rutas escolares.*
