@@ -17,3 +17,24 @@
 
   
 ## **Video About-the-Team**
+
+**Captura del Video:**
+
+![Video About-the-Product - ChildrenPath](../assets/chapter-5/about.jpg)
+
+---
+
+### Información del Video
+
+| Atributo | Contenido |
+|----------|-----------|
+| **Duración** | 10:23 |
+| **Link**|[Link de about the product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315640_upc_edu_pe/IQClQkoHJIT3S64s73dxrU7dAV0t60DwLLBconzXwRJapmY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1ahbeO)|
+| **Secuencia** | 
+    Proceso de trabajo: 0:05 - 4:41
+    Testimonio Brandon: 4:42 - 6:36
+    Testimonio Piero:   6:37 - 8:03
+    Testimonio Diana:   8:04 - 9:01
+    Testimonio Luis:    9:02 - 10:22
+
+---
