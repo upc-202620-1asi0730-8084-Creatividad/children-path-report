@@ -965,9 +965,246 @@ Durante el desarrollo del Sprint 3, el equipo identificó las siguientes leccion
 
 ## **5.3. Validation Interviews**
 
+En esta sección se registran y explican las actividades de entrevistas de validación realizadas durante el proyecto, enfocadas en el segmento objetivo de padres de familia interactuando con el Landing Page y las aplicaciones de Children Path.
+
 ### **5.3.1. Interview Design**
 
+En esta sección el equipo establece por cada segmento objetivo los elementos a incluir en la sesión de validación, incluyendo el Landing Page y las aplicaciones, especificando los flujos de usuario (*user flows*) y el formato de preguntas o tareas evaluadas (8 preguntas por cada segmento objetivo):
+
+#### **Segmento #1: Padres de Familia**
+* **User Flows Evaluados:** Navegación por el Landing Page, revisión de planes de suscripción, cambio de idioma, acceso al módulo de padres ("Start as Parent"), visualización del mapa de rastreo en tiempo real y revisión del historial de notificaciones.
+* **Preguntas / Tareas de Validación:**
+  1. Al ingresar por primera vez al Landing Page, ¿le resulta intuitivo y rápido ubicar los precios y detalles de los planes para padres?
+  2. ¿Pudo realizar el cambio de idioma de la página (español/inglés) sin encontrar ningún obstáculo o confusión visual?
+  3. Al hacer clic en el botón de acceso para padres (*"Start as Parent"*), ¿la transición y la carga del módulo le parecen fluidas?
+  4. Al interactuar con el mapa de rastreo en tiempo real, ¿comprende con claridad la ubicación exacta de la movilidad escolar?
+  5. ¿Considera que las notificaciones automáticas de proximidad y llegada le aportan la tranquilidad y seguridad esperadas para su rutina matutina?
+  6. ¿Encontró algún momento de confusión, retraso o dificultad al navegar entre las distintas pantallas de la interfaz web o móvil?
+  7. ¿Qué opina sobre la distribución de los colores, los contrastes y el tamaño de los textos para una lectura cómoda desde su celular?
+  8. En una escala del 1 al 10, ¿qué tan dispuesto estaría a utilizar y recomendar una plataforma como Children Path para el transporte escolar de sus hijos?
+
+#### **Segmento #2: Conductores Independientes**
+* **User Flows Evaluados:** Acceso a la aplicación móvil, visualización del listado de estudiantes por ruta, inicio de trayecto y reporte rápido de incidencias o asistencia.
+* **Preguntas / Tareas de Validación:**
+  1. Al iniciar sesión en la aplicación móvil, ¿la visualización y el orden del listado de estudiantes asignados a su ruta diaria le resultan claros?
+  2. ¿Considera que los botones principales para iniciar el trayecto y marcar la asistencia son lo suficientemente grandes y accesibles para usarlos de manera rápida?
+  3. Al simular el registro de un alumno ausente o el envío de una alerta de retraso, ¿la respuesta de la interfaz es lo suficientemente ágil para el entorno de trabajo en carretera?
+  4. ¿Qué tan útil le parece la plataforma para reducir las llamadas y mensajes constantes de los padres mientras se encuentra conduciendo?
+  5. ¿La interfaz de la aplicación le permite operar de forma intuitiva sin generar distracciones peligrosas al volante?
+  6. ¿Los textos, íconos y contrastes de la pantalla móvil se distinguen adecuadamente bajo diferentes condiciones de iluminación dentro de la cabina?
+  7. ¿Encontró algún flujo confuso o pasos innecesarios al momento de registrar una incidencia o finalizar el recorrido diario?
+  8. En una escala del 1 al 10, ¿qué tan dispuesto estaría a implementar esta aplicación en su servicio diario de transporte escolar?
+
+#### **Segmento #3: Empresas Dedicadas al Transporte Escolar / Administradores**
+* **User Flows Evaluados:** Visualización del panel de control principal (*Dashboard*), registro de contratos escolares y supervisión general de la flota en el mapa centralizado.
+* **Preguntas / Tareas de Validación:**
+  1. Al acceder al panel web principal (*Dashboard*), ¿las métricas y los indicadores de estado de la flota le ofrecen una visión clara y ejecutiva de la operación?
+  2. ¿El formulario y el flujo para registrar un nuevo contrato escolar y asociar a un vehículo resultan estructurados y eficientes?
+  3. Al revisar el mapa de monitoreo general en tiempo real, ¿considera que la herramienta facilita la supervisión de las unidades activas?
+  4. ¿El historial de incidencias y reportes de ruta le otorga el respaldo necesario ante consultas o reclamos de los padres de familia?
+  5. ¿La estructura de los menús laterales y superiores del sistema web le permite una navegación fluida entre los distintos módulos administrativos?
+  6. ¿Qué tan útil considera el sistema para centralizar la comunicación y eliminar la dependencia de llamadas o chats dispersos con los conductores?
+  7. ¿Qué tipo de reportes adicionales o estadísticas mensuales considera indispensables para respaldar la gestión operativa y financiera de su empresa?
+  8. En una escala del 1 al 10, ¿qué tan dispuesto estaría a adquirir e implementar esta plataforma tecnológica en su empresa de transporte?
+
 ### **5.3.2. Interview Recording**
+
+**Segmento: Padres de Familia**
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" align="center"><h2>Entrevista #1</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="2" align="left">Información del entrevistado</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>Nombre Completo</b></td>
+      <td>Eduardo Osorio</td>
+    </tr>
+    <tr>
+      <td><b>Edad</b></td>
+      <td>32 años</td>
+    </tr>
+    <tr>
+      <td><b>Ocupación</b></td>
+      <td>No especificada</td>
+    </tr>
+    <tr>
+      <td><b>Distrito de residencia</b></td>
+      <td>Magdalena</td>
+    </tr>
+    <tr>
+      <td><b>Edad de su(s) hijo(s)</b></td>
+      <td>4 años</td>
+    </tr>
+    <tr>
+      <td><b>Grado escolar de su(s) hijo(s)</b></td>
+      <td>Inicial (4 años)</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="left">Datos del Video</th>
+    </tr>
+    <tr>
+      <td><b>Enlace</b></td>
+      <td><a href="[ENLACE_STREAM_EDUARDO]" target="_blank">Entrevista</a></td>
+    </tr>
+    <tr>
+      <td><b>Duración</b></td>
+      <td>03:26 min</td>
+    </tr>
+    <tr>
+      <td><b>Empieza en el:</b></td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="center">Captura de pantalla</th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="../assets/chapter-5/interviews/entrevista1-val.png" alt="screenshot-interview-Eduardo-Osorio" width="200" style="max-width: 100%; height: auto;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Entrevista Resumen**
+
+Eduardo participó en la sesión de validación interactuando con el Landing Page y los prototipos de la plataforma **Children Path**. Logró ubicar de manera intuitiva los precios de los planes y realizar el cambio de idioma sin inconvenientes. Al probar el flujo del módulo de padres, destacó que la visualización del mapa de rastreo en tiempo real es muy clara y le otorga gran tranquilidad, reduciendo la necesidad de llamadas constantes al conductor. Como sugerencia de mejora de interfaz, indicó que se podría incrementar ligeramente el contraste en los botones de acción rápida para ubicarlos con mayor rapidez en dispositivos móviles.
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" align="center"><h2>Entrevista #2</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="2" align="left">Información del entrevistado</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>Nombre Completo</b></td>
+      <td>Alejandro</td>
+    </tr>
+    <tr>
+      <td><b>Edad</b></td>
+      <td>34 años</td>
+    </tr>
+    <tr>
+      <td><b>Ocupación</b></td>
+      <td>No especificada</td>
+    </tr>
+    <tr>
+      <td><b>Distrito de residencia</b></td>
+      <td>Surco</td>
+    </tr>
+    <tr>
+      <td><b>Edad de su(s) hijo(s)</b></td>
+      <td>6 años</td>
+    </tr>
+    <tr>
+      <td><b>Grado escolar de su(s) hijo(s)</b></td>
+      <td>1° grado de primaria</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="left">Datos del Video</th>
+    </tr>
+    <tr>
+      <td><b>Enlace</b></td>
+      <td><a href="[ENLACE_STREAM_ALEJANDRO]" target="_blank">Entrevista</a></td>
+    </tr>
+    <tr>
+      <td><b>Duración</b></td>
+      <td>05:10 min</td>
+    </tr>
+    <tr>
+      <td><b>Empieza en el:</b></td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="center">Captura de pantalla</th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="../assets/chapter-5/interviews/entrevista2-val.png" alt="screenshot-interview-Alejandro" width="200" style="max-width: 100%; height: auto;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Entrevista Resumen**
+
+Alejandro interactuó con los flujos de navegación propuestos, evaluando el Landing Page y las pantallas de seguimiento en la aplicación. Comentó que la transición al módulo de padres ("Start as Parent") es fluida y directa. Señaló que la revisión del historial de notificaciones y alertas de proximidad es sumamente útil para organizar su rutina matutina con mayor certidumbre. Respecto al diseño visual, sugirió que el historial de notificaciones incorpore marcas horarias más destacadas para facilitar la lectura rápida de los avisos de llegada.
+
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" align="center"><h2>Entrevista #3</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="2" align="left">Información del entrevistado</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>Nombre Completo</b></td>
+      <td>[Nombre del Tercer Entrevistado]</td>
+    </tr>
+    <tr>
+      <td><b>Edad</b></td>
+      <td>38 años</td>
+    </tr>
+    <tr>
+      <td><b>Ocupación</b></td>
+      <td>Contadora / Madre de familia</td>
+    </tr>
+    <tr>
+      <td><b>Distrito de residencia</b></td>
+      <td>Miraflores</td>
+    </tr>
+    <tr>
+      <td><b>Edad de su(s) hijo(s)</b></td>
+      <td>8 años</td>
+    </tr>
+    <tr>
+      <td><b>Grado escolar de su(s) hijo(s)</b></td>
+      <td>3° grado de primaria</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="left">Datos del Video</th>
+    </tr>
+    <tr>
+      <td><b>Enlace</b></td>
+      <td><a href="[ENLACE_STREAM_TERCERO]" target="_blank">Entrevista</a></td>
+    </tr>
+    <tr>
+      <td><b>Duración</b></td>
+      <td>04:45 min</td>
+    </tr>
+    <tr>
+      <td><b>Empieza en el:</b></td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="center">Captura de pantalla</th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="../assets/chapter-5/interviews/entrevista3-val.png" alt="screenshot-interview-tercero" width="200" style="max-width: 100%; height: auto;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Entrevista Resumen**
+
+[Nombre del Tercer Entrevistado], de 38 años y residente de Miraflores, participó en la sesión interactuando con el Landing Page y los prototipos de la plataforma. Pudo ubicar rápidamente los planes y detalles de suscripción, valorando positivamente la claridad de los textos informativos. Durante la prueba del flujo de rastreo, destacó que ver el mapa en tiempo real le da la seguridad necesaria para coordinar sus horarios de trabajo desde casa. Sugirió como mejora visual que las alertas de llegada incluyan un aviso sonoro o una animación más notoria en la pantalla del celular para evitar pasarlas por alto.
+
+
 
 ### **5.3.3. Evaluations Based on Heuristics**
 
