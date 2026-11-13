@@ -1066,20 +1066,31 @@ Durante el Sprint 3, la solución backend fue compilada y ejecutada localmente m
 
 Los servicios RESTful fueron formalmente implementados y documentados empleando la especificación **OpenAPI (v3)** generada dinámicamente e interactiva mediante **Scalar (Scalar API Reference)** en ASP.NET Core:
 
-| Bounded Context | HTTP Verbo | Ruta del Endpoint (Sintaxis) | Parámetros Requeridos | Códigos HTTP Retornados | Resumen y Ejemplo de Payload |
+| Bounded Context | HTTP Verbo | Ruta del Endpoint (Sintaxis) | Parámetros Requeridos | Códigos HTTP Retornados | Resumen y Ejemplo de Payload / Respuesta |
 | :--- | :---: | :--- | :--- | :---: | :--- |
-| **Trips** | `POST` | `/api/v1/trips` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra el inicio de un viaje escolar asignado a un conductor y ruta.<br>`{"code": "TRIP-01", "routeName": "Ruta Miraflores", "vehiclePlate": "ABC-123", "driverName": "Juan Perez", "school": "Colegio A", "capacity": 15}` |
+| **Trips** | `POST` | `/api/v1/trips` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra el inicio de un viaje escolar asignado a ruta y conductor.<br>`{"code": "000-000", "routeName": "Ruta de prueba", "vehiclePlate": "000-000", "driverName": "Diana Pareja", "school": "Escuela primeros pasos", "district": "San Miguel", "shift": "Morning", "startTime": "6:00 am", "estimatedEndTime": "6:30 am", "capacity": 1}` |
 | **Trips** | `GET` | `/api/v1/trips` | N/A | `200 OK` | Retorna el listado consolidado de todos los viajes registrados en el sistema. |
 | **Trips** | `GET` | `/api/v1/trips/{id}` | Path: `id` (int) | `200 OK`<br>`404 Not Found` | Retorna los detalles de un viaje activo, paradas pendientes y estado de avance. |
-| **Fleet** | `GET` | `/api/v1/vehicles` | Query: `status` (opc.) | `200 OK` | Retorna el catálogo consolidado de unidades vehiculares y capacidades de asientos. |
-| **Attendance** | `PUT` | `/api/v1/attendance-records/{id}` | Path: `id`<br>Body: `status` | `200 OK`<br>`400 Bad Request`<br>`404 Not Found` | Actualiza el estado de abordaje en parada en un solo toque persistiendo timestamp. |
-| **Companies** | `GET` | `/api/v1/companies` | N/A | `200 OK` | Lista las empresas operadoras de movilidad escolar y colegios vinculados. |
-| **Students** | `GET` | `/api/v1/students` | Query: `routeId` (opc.) | `200 OK` | Retorna la lista de escolares con sus paradas y datos de apoderado asignados. |
-| **Drivers** | `GET` | `/api/v1/drivers` | N/A | `200 OK` | Lista el directorio de conductores acreditados y su estado operativo. |
-| **Tracking** | `POST` | `/api/v1/trips/{id}/location` | Path: `id`<br>Body: coords | `202 Accepted`<br>`400 Bad Request` | Registra coordenadas telemétricas del vehículo y procesa el radio de proximidad. |
-| **IAM** | `POST` | `/api/v1/authentication/sign-in` | Body: credentials | `200 OK`<br>`401 Unauthorized` | Autentica usuarios y emite el token JWT para el acceso a las rutas protegidas. |
+| **Tracking** | `POST` | `/api/v1/Tracking` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra eventos de geolocalización y velocidad en ruta.<br>`{"tripId": 1, "vehicleId": 1, "initialLatitude": -12.0772, "initialLongitude": -77.0865, "speed": 45.5}` |
+| **Subscriptions** | `GET` | `/api/v1/Subscriptions/plans` | N/A | `200 OK` | Retorna el catálogo de planes de suscripción disponibles.<br>`[{"id": 1, "name": "Starter", "price": 299, "type": 0, "isActive": true}, {"id": 2, "name": "Plan Pro", "price": 799, "type": 1, "isActive": true}]` |
+| **Subscriptions** | `POST` | `/api/v1/Subscriptions` | Body (JSON) | `200 OK`<br>`400 Bad Request` | Registra una nueva suscripción asociada a un usuario y plan.<br>`{"userId": 1, "planId": 1, "durationInMonths": 12, "paymentMethod": "Credit Card"}` |
+| **Students** | `POST` | `/api/v1/Students` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra los datos de un estudiante, su colegio y apoderado.<br>`{"firstName": "Mateo", "lastName": "Pareja", "grade": "5th Primary", "schoolName": "Escuela Primeros Pasos", "guardianFullName": "Gabriela Caceres", "guardianPhone": "+51987654321", "guardianRelationship": "Mother", "pickupAddress": "Av. La Marina 1500"}` |
+| **Profiles** | `POST` | `/api/v1/Profiles` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Administra y crea perfiles de usuario y roles del sistema.<br>`{"firstName": "Diana", "lastName": "Pareja", "legalName": "Children Path S.A.C.", "licenseExpiry": "2028-12-31T00:00:00Z", "licenseNumber": "Q12345678", "phone": "+51987654321", "role": "Administrator", "taxId": "20601234567", "relationship": "Parent"}` |
+| **Fleet** | `POST` | `/api/v1/Fleet` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra una unidad vehicular vinculada a flota y ruta.<br>`{"plateNumber": "ABC-123", "brand": "Mercedes-Benz", "model": "Sprinter", "capacity": 25, "fleetId": 1, "driverName": "Carlos Perez", "routeName": "Ruta Norte", "assignedStudents": 20}` |
+| **Fleets** | `POST` | `/api/v1/Fleets` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra agrupaciones o contenedores lógicos de flotas.<br>`{"name": "Flota Norte Principal"}` |
+| **Drivers** | `POST` | `/api/v1/Drivers` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra fichas de conductores, licencias y puntuaciones.<br>`{"email": "carlos.driver@childrenpath.com", "fullName": "Carlos Perez Gomez", "licenseExpiry": "2029-05-15T00:00:00Z", "licenseNumber": "B98765432", "phone": "+51912345678", "safetyScore": 98, "punctualityScore": 95, "status": "Active"}` |
+| **Dashboard** | `GET` | `/api/v1/Dashboard` | Query: `role` | `200 OK`<br>`400 Bad Request` | Obtiene métricas consolidadas y contadores operativos según rol.<br>`Parámetro requerido: ?role=company` |
+| **Companies** | `POST` | `/api/v1/Companies` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra entidades corporativas y centros educativos asociados.<br>`{"legalName": "Transportes San Miguel S.A.C.", "commercialName": "SafeTransport", "ruc": "20609876541", "status": "Active", "plan": "Enterprise", "planLimitVehicles": 10, "planLimitStudents": 250, "adminName": "Luis Huaco", "adminEmail": "admin@safetransport.com", "phone": "+51999888777", "address": "Av. Universitaria 1801", "operatingDistricts": ["San Miguel", "Surco"]}` |
+| **Company Management** | `GET` | `/api/v1/CompanyManagement` | Query: `companyId` | `200 OK`<br>`404 Not Found` | Resumen completo del dashboard de gestión corporativa.<br>`Parámetro requerido: ?companyId=1` |
+| **Attendance** | `POST` | `/api/v1/Attendance` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra y actualiza el estado de abordaje y asistencia.<br>`{"studentId": 1, "tripId": 1, "location": "Parada Principal San Miguel", "absenceReason": null, "isAbsenceJustified": false}` |
+| **Assignments** | `POST` | `/api/v1/Assignments` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Asigna vehículos, conductores y rutas a estudiantes.<br>`{"studentCode": "EST-2026-001", "studentName": "Mateo Pareja", "grade": "5th Primary", "guardianName": "Gabriela Caceres", "routeCode": "RT-01", "routeName": "Ruta Escolar", "vehiclePlate": "ABC-123", "driverName": "Carlos Perez", "shift": "Morning", "pickupPoint": "Av. La Marina 1500", "pickupWindow": "07:00 AM", "capacityUsage": 1, "notes": "Asignación prioritaria"}` |
+| **Analytics** | `POST` | `/api/v1/Analytics/reports` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Genera reportes estadísticos y métricas de rendimiento.<br>`{"type": "Punctuality", "period": "Monthly"}` |
+| **Analytics** | `GET` | `/api/v1/analyticsDashboard` | N/A | `200 OK` | Obtiene el panel analítico general de la plataforma. |
+| **Alerts** | `POST` | `/api/v1/Alerts` | Body (JSON) | `201 Created`<br>`400 Bad Request` | Registra y despacha una alerta o notificación en tiempo real.<br>`{"tripId": 1, "type": "Delay", "priority": "High", "message": "Retraso de 10 min por tráfico en ruta", "recipient": "Parents", "channel": "Push Notification"}` |
+| **Alerts** | `PATCH` | `/api/v1/Alerts/{id}/resolve` | Path: `id` | `200 OK`<br>`404 Not Found` | Actualiza el estado de una alerta a resuelta dentro del sistema. |
 
-- **URL del Repositorio de Web Services:** [https://github.com/upc-202620-1asi0730-8084-Creatividad/children-path-backend](https://github.com/upc-202620-1asi0730-8084-Creatividad/children-path-backend)
+- **URL del Repositorio de Web Services:** [[https://github.com/upc-202620-1asi0730-8084-Creatividad/children-path-backend](https://github.com/upc-202620-1asi0730-8084-Creatividad/children-path-backend/tree/develop)]
+
 - **Commits Clave de Documentación OpenAPI / Scalar:** `e2a417c` (controladores Trips y esquemas), `48db019` (Company controllers), y commit de integración de Scalar en `Properties` y `Program.cs`.
   
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
@@ -1089,18 +1100,29 @@ A continuación, se detalla el estado de despliegue y disponibilidad operativa d
 | Componente | Plataforma / Infraestructura | Entorno | URL Pública / Acceso | Evidencia de Operación |
 | :--- | :--- | :---: | :--- | :--- |
 | **RESTful Web Services API** | Localhost / Docker Container (Kestrel) | Desarrollo / Staging | `http://localhost:5000/scalar/v1` | API ASP.NET Core ejecutándose con Scalar API Reference activo, validando endpoints transaccionales contra base de datos relacional. |
-| **Frontend Web Application** (Actualización v0.2.0) | Firebase Hosting | Staging | [https://children-path-4d5c3.web.app/](https://children-path-4d5c3.web.app/) | Despliegue continuo con ajustes en rutas y componentes de preparación para conexión al backend. |
+| **Frontend Web Application** (Actualización v0.3.0) | Firebase Hosting | Staging | [https://children-path-4d5c3.web.app/](https://children-path-4d5c3.web.app/) | Despliegue continuo con ajustes en rutas y componentes de preparación para conexión al backend. |
 
 #### **5.2.3.8. Team Collaboration Insights during Sprint**
 
-Durante el desarrollo del Sprint 3, el equipo identificó las siguientes lecciones y prácticas colaborativas de ingeniería de software:
+Durante el presente Sprint, el equipo de desarrollo aplicó una estrategia de colaboración basada en **GitFlow** y la división modular por **Bounded Contexts (DDD)** para garantizar la concurrencia eficiente y evitar conflictos de integración en el repositorio de Web Services.
 
-| Insight |
-| :--- |
-| **Modularidad Domain-Driven Design (DDD) en .NET:** Organizar la solución por carpetas de Bounded Contexts (`Trips`, `Fleet`, `Companies`, `Attendance`) permitió que los desarrolladores trabajaran de forma paralela en entidades y repositorios minimizando cruces en la solución principal. |
-| **Gestión centralizada del `AppDbContext`:** Registrar las entidades y configuraciones de Entity Framework mediante métodos de extensión separados por contexto evitó errores de colisión y bloqueos en las migraciones de base de datos. |
-| **Estandarización de Contratos con Scalar API Reference:** Integrar Scalar como middleware moderno de visualización OpenAPI en ASP.NET Core optimizó la inspección interactiva y la prueba en vivo de los endpoints respecto a interfaces heredadas40]. |
-| **Depuración de artefactos y ramas de trabajo:** La adopción estricta de exclusiones en `.gitignore` para eliminar binarios compilados (`obj`, `bin`, `net10.0`) garantizó un repositorio limpio y facilitó los pull requests hacia la rama `develop`. |
+##### **1. Dinámica de Trabajo y Distribución de Responsabilidades**
+* **Arquitectura y Modelado de Datos (Backend .NET Core):** Las responsabilidades del desarrollo de servicios RESTful y entidades de dominio se distribuyeron equitativamente entre los integrantes del equipo. Por ejemplo, la implementación del Bounded Context de *Trips* y su integración con el pipeline de arquitectura permitió estructurar el patrón base de controladores, repositorios y el uso del patrón *Result*.
+* **Estandarización de Endpoints y Documentación OpenAPI (Scalar):** La integración de la documentación interactiva se configuró de forma colaborativa en los archivos de configuración de ASP.NET Core, permitiendo que cada miembro documentara los controladores de sus respectivos módulos asignados (como *Trips*, *Companies*, *Attendance*, *Tracking*, entre otros).
+* **Control de Versiones y Ramas:** Se utilizó un flujo de trabajo estructurado mediante ramas de características (`feature/...`) orientadas a tareas específicas, fusionándose posteriormente hacia la rama `develop` mediante Pull Requests revisadas de forma cruzada por los integrantes del equipo.
+
+##### **2. Evidencias de Analíticos y Commits en GitHub**
+A continuación, se presentan las métricas de colaboración y actividad del repositorio, reflejando la participación activa de los miembros en la construcción de los Web Services:
+
+* **Gráfico de Analíticos de Contribución (Insights / Network):**
+  <img src="assets/chapter-5/evidence-backend-sprint-3.png" alt="Evidencia de Ejecución de Endpoints Backend en Scalar">
+  ** Resumen de commits, aportes de código y líneas de código aportadas por los integrantes del equipo en el repositorio de Web Services (`children-path-backend`).
+  
+
+* **Historial de Commits Clave:**
+  * `e2a417c` — Implementación inicial de controladores, entidades y esquemas para el Bounded Context de *Trips*.
+  * `48db019` — Desarrollo y configuración de controladores y modelos de gestión corporativa (*Companies* y *Company Management*).
+  * Integración global de OpenAPI y Scalar en los archivos de configuración de ASP.NET Core para la documentación automatizada de todos los microservicios y contextos del sistema.
 
 ## **5.3. Validation Interviews**
 
@@ -1442,3 +1464,19 @@ En la revisión del flujo de notificaciones de proximidad y llegada, los usuario
 Rediseñar la tarjeta de notificación dentro de la interfaz para que la hora o el tiempo transcurrido (ej. *"Hace 2 minutos"*) se posicione como un elemento primario en negrita y con mayor tamaño tipográfico al lado del mensaje.
 
 ## **5.4. About-the-Product Video**
+
+## **5.5. Conclusiones y Recomendaciones**
+
+### **5.5.1. Conclusiones**
+
+* **Cumplimiento de los Problem Statements y Arquitectura de Servicios (DDD):** El desarrollo e implementación del núcleo transaccional del backend en .NET Core (`ChildrenPath.Platform`) bajo los principios de *Clean Architecture* y *Domain-Driven Design (DDD)* permitió estructurar con éxito los Bounded Contexts core de la plataforma (*Trips, Fleet, Attendance, Students, Companies, Tracking, Alerts* y *Analytics*). La exposición de estos servicios mediante endpoints RESTful documentados de forma interactiva con **Scalar (OpenAPI v3)**  resolvió de manera directa las problemáticas de trazabilidad y desorganización en el transporte escolar planteadas en los *Problem Statements* iniciales del proyecto.
+* **Validación de Supuestos e Hipótesis mediante Interfaces Funcionales:** Las iteraciones de desarrollo frontend en **Vue 3 y Vite** permitieron consolidar una interfaz web interactiva que transformó los flujos teóricos en herramientas reales de gestión para los actores clave. La validación de los prototipos y del aplicativo funcional confirmó las hipótesis de diseño: los padres de familia redujeron significativamente su incertidumbre operativa al interactuar con el mapa de rastreo en tiempo real y las notificaciones de proximidad, mientras que los administradores y conductores optimizaron el registro de asistencias y el control de flotas.
+* **Rigurosidad en la Gestión de Configuración y Control de Versiones:** La adopción del modelo de ramificación **GitFlow**, el uso estricto del versionado semántico (*SemVer*) y la estandarización de mensajes mediante *Conventional Commits* en los repositorios independientes (`children-path-landing-page`, `children-path-frontend` y `children-path-backend`) garantizaron una trazabilidad impecable, minimizando los conflictos de integración y permitiendo un despliegue continuo automatizado en plataformas como GitHub Pages y Firebase Hosting.
+* **Alineación con los Criterios Heurísticos y Experiencia de Usuario:** Las entrevistas de validación y la auditoría heurística aplicada con el segmento de padres de familia permitieron identificar áreas de mejora superficiales y de severidad menor (como el contraste de botones en dispositivos móviles y la visibilidad de las marcas horarias en notificaciones). Esto demuestra que el enfoque de diseño inclusivo y centrado en el usuario es fundamental para refinar la adopción digital de la herramienta en entornos urbanos reales como Lima Metropolitana.
+
+### **5.5.2. Recomendaciones**
+
+* **Optimización y Consolidación de la Seguridad (IAM Avanzado):** Se recomienda para los siguientes sprints profundizar en la implementación de los servicios de autenticación y autorización robusta basados en tokens **JWT (JSON Web Tokens)** e identidad corporativa segura , garantizando que el acceso a los Bounded Contexts del backend esté estrictamente segregado por roles (Padre, Conductor, Administrador de Empresa y Superadministrador).
+* **Mejoras Derivadas de la Evaluación Heurística:** Es imperativo incorporar en el *Backlog* del próximo ciclo las recomendaciones de usabilidad detectadas en las entrevistas de validación, específicamente incrementar la relación de contraste en los botones de acción rápida (*Call to Action*) para facilitar su uso bajo luz solar directa y rediseñar las tarjetas de notificaciones móviles para priorizar la visibilidad de las marcas temporales.
+* **Automatización de Pruebas de Integración y Despliegue Continuo (CI/CD):** Se aconseja escalar el pipeline actual de desarrollo incorporando pruebas automatizadas de integración para los servicios RESTful en .NET mediante xUnit, así como flujos automatizados de despliegue continuo (*CI/CD Actions*) tanto para el backend en contenedores Docker como para la aplicación web en la nube, optimizando los tiempos de entrega entre iteraciones.
+* **Evolución del Módulo de Analítica y Notificaciones Push Nativas:** Para futuras versiones contempladas en el *Roadmap* del negocio digital, se recomienda integrar un servicio de mensajería push en tiempo real (como Firebase Cloud Messaging) para las alertas de los padres de familia y expandir los paneles de analítica gerencial con reportes exportables en formatos PDF y Excel que respalden la toma de decisiones operativas y financieras de las empresas de transporte escolar.
