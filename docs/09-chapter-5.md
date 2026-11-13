@@ -1414,6 +1414,11 @@ El análisis conjunto de las tres sesiones de validación realizadas con padres 
 
 ## **5.4. About-the-Product Video**
 
+| Atributo | Contenido |
+|----------|-----------|
+| **Duración** | 3:31 |
+|**Link**|[Link de about the product](https://www.youtube.com/watch?v=j_AJ4PF_nkI)|
+
 ## **5.5. Auditoria Realizada**
 
 #### UX Heuristics & Principles Evaluation
@@ -1756,4 +1761,5 @@ La tabla de "Assignment registry" lista 24 asignaciones (según la tarjeta "Tota
 **Recomendación:**
 Se debe incorporar una barra de búsqueda encima de la tabla que permita buscar por nombre de estudiante o ID. Asimismo, se deben añadir filtros rápidos (por ejemplo, botones o un menú desplegable) para mostrar solo las asignaciones en estado "Validated", "Pending" o "Conflict". También sería útil permitir la ordenación de las columnas haciendo clic en sus encabezados.
 
+---
 
