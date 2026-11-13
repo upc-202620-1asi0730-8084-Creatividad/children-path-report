@@ -1349,7 +1349,7 @@ Gabriela interactuó con los flujos de navegación propuestos, evaluando el Land
     </tr>
     <tr>
       <td><b>Enlace</b></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422589_upc_edu_pe/IQCyNpH9o5BnQ519TGpIKhegAe6po81bmnQVyn7wtt1gW-E?e=gyNnMN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Entrevista</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422589_upc_edu_pe/IQCyNpH9o5BnQ519TGpIKhegAe6po81bmnQVyn7wtt1gW-E?e=lufXiq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Entrevista</a></td>
     </tr>
     <tr>
       <td><b>Duración</b></td>
