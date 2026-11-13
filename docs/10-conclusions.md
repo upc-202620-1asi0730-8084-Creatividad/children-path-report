@@ -1,7 +1,7 @@
 # **Conclusions**
 ## **Conclusions and recommendations.**
 
-### ** Conclusiones**
+### **Conclusiones**
 
 * **Cumplimiento de los Problem Statements y Arquitectura de Servicios (DDD):** El desarrollo e implementación del núcleo transaccional del backend en .NET Core (`ChildrenPath.Platform`) bajo los principios de *Clean Architecture* y *Domain-Driven Design (DDD)* permitió estructurar con éxito los Bounded Contexts core de la plataforma (*Trips, Fleet, Attendance, Students, Companies, Tracking, Alerts* y *Analytics*). La exposición de estos servicios mediante endpoints RESTful documentados de forma interactiva con **Scalar (OpenAPI v3)**  resolvió de manera directa las problemáticas de trazabilidad y desorganización en el transporte escolar planteadas en los *Problem Statements* iniciales del proyecto.
 * **Validación de Supuestos e Hipótesis mediante Interfaces Funcionales:** Las iteraciones de desarrollo frontend en **Vue 3 y Vite** permitieron consolidar una interfaz web interactiva que transformó los flujos teóricos en herramientas reales de gestión para los actores clave. La validación de los prototipos y del aplicativo funcional confirmó las hipótesis de diseño: los padres de familia redujeron significativamente su incertidumbre operativa al interactuar con el mapa de rastreo en tiempo real y las notificaciones de proximidad, mientras que los administradores y conductores optimizaron el registro de asistencias y el control de flotas.
