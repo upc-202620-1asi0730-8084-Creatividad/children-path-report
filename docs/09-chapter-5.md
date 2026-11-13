@@ -1416,5 +1416,10 @@ El análisis conjunto de las tres sesiones de validación realizadas con padres 
 
 ## **5.4. About-the-Product Video**
 
+| Atributo | Contenido |
+|----------|-----------|
+| **Duración** |  |
+|**Link**|[Link de about the product](https://www.youtube.com/watch?v=j_AJ4PF_nkI)|
 
+---
 
