@@ -242,16 +242,44 @@
   <!-- ROW 3.8 -->
   <tr>
     <td style="text-align: center;">0.2.1</td>
-    <td style="text-align: center;">05/10/2026</td>
+    <td style="text-align: center;">19/10/2026</td>
     <td style="text-align: center;">Pareja Caceres, Diana</td>
     <td style="text-align: justify;">Incorporación de capturas de ejecución del Frontend (5.2.2.5) y registro de despliegue en Firebase Hosting (5.2.2.7).</td>
   </tr>
   <!-- ROW 3.9 -->
   <tr>
     <td style="text-align: center;">1.0.0</td>
-    <td style="text-align: center;">05/10/2026</td>
+    <td style="text-align: center;">19/10/2026</td>
     <td style="text-align: center;">Huaco Oliva, Luis Alonso</td>
     <td style="text-align: justify;">Consolidación final del informe para la entrega TB1 (Semana 7), conclusiones preliminares y validación de rúbrica.</td>
+  </tr>
+<!-- ROW 4.0 (Sprint 3 - Backend .NET & Integración) -->
+  <tr>
+    <td style="text-align: center;">1.1.0</td>
+    <td style="text-align: center;">12/11/2026</td>
+    <td style="text-align: center;">Huaco Oliva, Luis Alonso</td>
+    <td style="text-align: justify;">Implementación del Backend RESTful en .NET Core (.NET 10) bajo Clean Architecture y DDD (Bounded Contexts: Trips, Fleet, Companies, Attendance), con mapeo EF Core y documentación OpenAPI/Scalar.</td>
+  </tr>
+  <!-- ROW 4.1 (Sprint 3 - UI Refinements & Frontend Integration) -->
+  <tr>
+    <td style="text-align: center;">1.1.1</td>
+    <td style="text-align: center;">12/11/2026</td>
+    <td style="text-align: center;">Soto Palacios, Brandon</td>
+    <td style="text-align: justify;">Optimización visual e institucional del Landing Page (navegación sticky, secciones legales, vistas previas móviles) y desarrollo de endpoints de estudiantes y suscripciones en el backend.</td>
+  </tr>
+  <!-- ROW 4.2 (Sprint 3 - Validation Interviews & Heuristics) -->
+  <tr>
+    <td style="text-align: center;">1.1.2</td>
+    <td style="text-align: center;">13/11/2026</td>
+    <td style="text-align: center;">Pareja Caceres, Diana</td>
+    <td style="text-align: justify;">Documentación y análisis de las entrevistas de validación con padres de familia (Eduardo Osorio, Alejandro y tercer participante), además de la estructuración de la evaluación heurística UX.</td>
+  </tr>
+  <!-- ROW 4.3 (Sprint 3 - Frontend Integration & Conclusions) -->
+  <tr>
+    <td style="text-align: center;">1.2.0</td>
+    <td style="text-align: center;">13/11/2026</td>
+    <td style="text-align: center;">Pareja Caceres, Diana</td>
+    <td style="text-align: justify;"> Consolidación de las conclusiones, recomendaciones y análisis de colaboración (Team Collaboration Insights) del Sprint 3.</td>
   </tr>
 </table>
 </table>
