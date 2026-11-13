@@ -1221,7 +1221,7 @@ En esta sección el equipo establece por cada segmento objetivo los elementos a 
     </tr>
     <tr>
       <td><b>Enlace</b></td>
-      <td><a href="[ENLACE_STREAM_EDUARDO]" target="_blank">Entrevista</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422589_upc_edu_pe/IQBKmGjEXFY8SofVHKR2Z9xVAd9gVDrS2JTocz-fKyH0KQ8?e=gyQYp9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Entrevista</a></td>
     </tr>
     <tr>
       <td><b>Duración</b></td>
@@ -1236,7 +1236,7 @@ En esta sección el equipo establece por cada segmento objetivo los elementos a 
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-5/interviews/entrevista1-val.png" alt="screenshot-interview-Eduardo-Osorio" width="200" style="max-width: 100%; height: auto;">
+        <img src="../assets/chapter-5/entrevista-validacion-eduardo.png" alt="screenshot-interview-Eduardo-Osorio" width="200" style="max-width: 100%; height: auto;">
       </td>
     </tr>
   </tbody>
@@ -1250,6 +1250,70 @@ Eduardo participó en la sesión de validación interactuando con el Landing Pag
   <thead>
     <tr>
       <th colspan="2" align="center"><h2>Entrevista #2</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="2" align="left">Información del entrevistado</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>Nombre Completo</b></td>
+      <td>Gabriela Paredes</td>
+    </tr>
+    <tr>
+      <td><b>Edad</b></td>
+      <td>35 años</td>
+    </tr>
+    <tr>
+      <td><b>Ocupación</b></td>
+      <td>Trabajadora</td>
+    </tr>
+    <tr>
+      <td><b>Distrito de residencia</b></td>
+      <td>Magdalena</td>
+    </tr>
+    <tr>
+      <td><b>Edad de su(s) hijo(s)</b></td>
+      <td>6 años</td>
+    </tr>
+    <tr>
+      <td><b>Grado escolar de su(s) hijo(s)</b></td>
+      <td>No especificado</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="left">Datos del Video</th>
+    </tr>
+    <tr>
+      <td><b>Enlace</b></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422589_upc_edu_pe/IQCIdCyFuSB9Q4vDUDymZYaQAQ9t1CB5CooBMykFoH2o0YE?e=GQcliB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Entrevista</a></td>
+    </tr>
+    <tr>
+      <td><b>Duración</b></td>
+      <td>04:45 min</td>
+    </tr>
+    <tr>
+      <td><b>Empieza en el:</b></td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="center">Captura de pantalla</th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="../assets/chapter-5/entrevista-validacion-gabriela.png" alt="screenshot-interview-Gabriela-Paredes" width="200" style="max-width: 100%; height: auto;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Entrevista Resumen**
+
+Gabriela interactuó con los flujos de navegación propuestos, evaluando el Landing Page y las pantallas de seguimiento en la aplicación. Comentó que la transición al módulo de padres ("Start as Parent") es fluida y directa. Señaló que la revisión del historial de notificaciones y alertas de proximidad es sumamente útil para organizar su rutina matutina con mayor certidumbre. Respecto al diseño visual, sugirió que el historial de notificaciones incorpore marcas horarias más destacadas para facilitar la lectura rápida de los avisos de llegada.
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" align="center"><h2>Entrevista #3</h2></th>
     </tr>
   </thead>
   <tbody>
@@ -1285,7 +1349,7 @@ Eduardo participó en la sesión de validación interactuando con el Landing Pag
     </tr>
     <tr>
       <td><b>Enlace</b></td>
-      <td><a href="[ENLACE_STREAM_ALEJANDRO]" target="_blank">Entrevista</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422589_upc_edu_pe/IQCyNpH9o5BnQ519TGpIKhegAe6po81bmnQVyn7wtt1gW-E?e=gyNnMN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Entrevista</a></td>
     </tr>
     <tr>
       <td><b>Duración</b></td>
@@ -1300,7 +1364,7 @@ Eduardo participó en la sesión de validación interactuando con el Landing Pag
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-5/interviews/entrevista2-val.png" alt="screenshot-interview-Alejandro" width="200" style="max-width: 100%; height: auto;">
+        <img src="../assets/chapter-5/entrevista-validacion-alejandro.png" alt="screenshot-interview-Alejandro" width="200" style="max-width: 100%; height: auto;">
       </td>
     </tr>
   </tbody>
@@ -1308,90 +1372,25 @@ Eduardo participó en la sesión de validación interactuando con el Landing Pag
 
 **Entrevista Resumen**
 
-Alejandro interactuó con los flujos de navegación propuestos, evaluando el Landing Page y las pantallas de seguimiento en la aplicación. Comentó que la transición al módulo de padres ("Start as Parent") es fluida y directa. Señaló que la revisión del historial de notificaciones y alertas de proximidad es sumamente útil para organizar su rutina matutina con mayor certidumbre. Respecto al diseño visual, sugirió que el historial de notificaciones incorpore marcas horarias más destacadas para facilitar la lectura rápida de los avisos de llegada.
-
-
-<table width="100%">
-  <thead>
-    <tr>
-      <th colspan="2" align="center"><h2>Entrevista #3</h2></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th colspan="2" align="left">Información del entrevistado</th>
-    </tr>
-    <tr>
-      <td width="30%"><b>Nombre Completo</b></td>
-      <td>[Nombre del Tercer Entrevistado]</td>
-    </tr>
-    <tr>
-      <td><b>Edad</b></td>
-      <td>38 años</td>
-    </tr>
-    <tr>
-      <td><b>Ocupación</b></td>
-      <td>Contadora / Madre de familia</td>
-    </tr>
-    <tr>
-      <td><b>Distrito de residencia</b></td>
-      <td>Miraflores</td>
-    </tr>
-    <tr>
-      <td><b>Edad de su(s) hijo(s)</b></td>
-      <td>8 años</td>
-    </tr>
-    <tr>
-      <td><b>Grado escolar de su(s) hijo(s)</b></td>
-      <td>3° grado de primaria</td>
-    </tr>
-    <tr>
-      <th colspan="2" align="left">Datos del Video</th>
-    </tr>
-    <tr>
-      <td><b>Enlace</b></td>
-      <td><a href="[ENLACE_STREAM_TERCERO]" target="_blank">Entrevista</a></td>
-    </tr>
-    <tr>
-      <td><b>Duración</b></td>
-      <td>04:45 min</td>
-    </tr>
-    <tr>
-      <td><b>Empieza en el:</b></td>
-      <td>0:00</td>
-    </tr>
-    <tr>
-      <th colspan="2" align="center">Captura de pantalla</th>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="../assets/chapter-5/interviews/entrevista3-val.png" alt="screenshot-interview-tercero" width="200" style="max-width: 100%; height: auto;">
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-**Entrevista Resumen**
-
-[Nombre del Tercer Entrevistado], de 38 años y residente de Miraflores, participó en la sesión interactuando con el Landing Page y los prototipos de la plataforma. Pudo ubicar rápidamente los planes y detalles de suscripción, valorando positivamente la claridad de los textos informativos. Durante la prueba del flujo de rastreo, destacó que ver el mapa en tiempo real le da la seguridad necesaria para coordinar sus horarios de trabajo desde casa. Sugirió como mejora visual que las alertas de llegada incluyan un aviso sonoro o una animación más notoria en la pantalla del celular para evitar pasarlas por alto.
+Alejandro participó en la sesión interactuando con el Landing Page y los prototipos de la plataforma. Pudo ubicar rápidamente los planes y detalles de suscripción, valorando positivamente la claridad de los textos informativos. Durante la prueba del flujo de rastreo, destacó que ver el mapa en tiempo real le da la seguridad necesaria para coordinar sus horarios diarios. Sugirió como mejora visual que las alertas de llegada incluyan un aviso más notorio en la pantalla del celular para evitar pasarlas por alto.
 
 #### **Análisis de la Entrevista #1: Eduardo Osorio (Magdalena del Mar)**
-* **Contexto del usuario:** Padre de un niño de 4 años en educación inicial, residente en el distrito de Magdalena.
-* **Evaluación de flujos y usabilidad:** Eduardo destacó que la estructura del *Landing Page* permite una lectura ágil y sin fricciones, ubicando los planes y tarifas de manera inmediata. Validó positivamente la transición fluida hacia el módulo de padres mediante el botón *"Start as Parent"*, así como el funcionamiento del selector de idioma. 
-* **Valoración del producto:** Calificó la plataforma con un **10/10**, enfatizando que el mapa de rastreo en tiempo real y las notificaciones automáticas resuelven un problema crítico de su rutina diaria: la incertidumbre sobre el trayecto de la movilidad, lo cual elimina la necesidad de llamadas constantes al conductor.
-* **Oportunidad de mejora:** A nivel de interfaz, sugirió incrementar ligeramente el contraste en los botones de acción rápida para facilitar su distinción en dispositivos móviles.
+- **Contexto del usuario:** Padre de un niño de 4 años en educación inicial, residente en el distrito de Magdalena.
+- **Evaluación de flujos y usabilidad:** Eduardo destacó que la estructura del *Landing Page* permite una lectura ágil y sin fricciones, ubicando los planes y tarifas de manera inmediata. Validó positivamente la transición fluida hacia el módulo de padres mediante el botón *"Start as Parent"*, así como el funcionamiento del selector de idioma. 
+- **Valoración del producto:** Calificó la plataforma con un **10/10**, enfatizando que el mapa de rastreo en tiempo real y las notificaciones automáticas resuelven un problema crítico de su rutina diaria: la incertidumbre sobre el trayecto de la movilidad, lo cual elimina la necesidad de llamadas constantes al conductor.
+- **Oportunidad de mejora:** A nivel de interfaz, sugirió incrementar ligeramente el contraste en los botones de acción rápida para facilitar su distinción en dispositivos móviles.
 
-#### **Análisis de la Entrevista #2: Alejandro (Surco)**
-* **Contexto del usuario:** Padre de un niño de 6 años que cursa el primer grado de primaria, residente en Surco.
-* **Evaluación de flujos y usabilidad:** Alejandro corroboró que los precios, las opciones de suscripción y el cambio de idioma responden de manera inmediata y ordenada. Señaló que el acceso al módulo principal se realiza de forma directa y sin tiempos muertos de carga.
-* **Valoración del producto:** Otorgó una calificación de **9/10**, destacando que las alertas de proximidad le permiten coordinar con exactitud el momento de salir a recibir el vehículo, optimizando el tiempo matutino con los niños en la calle.
-* **Oportunidad de mejora:** Sugirió que en el historial de notificaciones se resalte la hora exacta con un tamaño de tipografía más grande para identificar con mayor rapidez la vigencia de los avisos de llegada.
+#### **Análisis de la Entrevista #2: Gabriela Paredes (Magdalena)**
+- **Contexto del usuario:** Madre de familia y trabajadora de 35 años, residente en el distrito de Magdalena, con un hijo de 6 años.
+- **Evaluación de flujos y usabilidad:** Gabriela corroboró que los precios, las opciones de suscripción y el cambio de idioma responden de manera inmediata y ordenada. Señaló que el acceso al módulo principal se realiza de forma directa y sin tiempos muertos de carga.
+- **Valoración del producto:** Evaluó positivamente la solución, destacando que el historial de notificaciones y las alertas de proximidad le permiten organizar su rutina matutina con mayor certidumbre y tranquilidad.
+- **Oportunidad de mejora:** Sugirió que en el historial de notificaciones se resalte la hora exacta con un tamaño de tipografía más grande para identificar con mayor rapidez la vigencia de los avisos de llegada.
 
-#### **Análisis de la Entrevista #3: Tercer Participante (Miraflores)**
-* **Contexto del usuario:** Madre de familia y contadora de 38 años, residente en el distrito de Miraflores, con un hijo de 8 años en tercer grado de primaria.
-* **Evaluación de flujos y usabilidad:** La participante calificó la interfaz del *Landing Page* como limpia, natural y predecible. Validó satisfactoriamente la rapidez de carga al ingresar al entorno de padres y la disposición intuitiva del selector de idioma.
-* **Valoración del producto:** Evaluó la solución con un **9/10**, argumentando que la visibilidad total que otorga el mapa en vivo y la eliminación de llamadas al chofer reducen notablemente el estrés diario de coordinar el transporte desde el hogar o el trabajo.
-* **Oportunidad de mejora:** Propuso incorporar un recurso visual o aviso sonoro un poco más llamativo en las alertas críticas de llegada para evitar pasarlas por alto en momentos de alta ocupación laboral.
+#### **Análisis de la Entrevista #3: Alejandro (Surco)**
+- **Contexto del usuario:** Padre de un niño de 6 años que cursa el primer grado de primaria, residente en Surco.
+- **Evaluación de flujos y usabilidad:** Alejandro calificó la interfaz del *Landing Page* como limpia, natural y predecible. Validó satisfactoriamente la rapidez de carga al ingresar al entorno de padres y la disposición intuitiva del selector de idioma.
+- **Valoración del producto:** Otorgó una calificación alta, argumentando que la visibilidad total que otorga el mapa en vivo y la eliminación de llamadas al chofer reducen notablemente el estrés diario de coordinar el transporte.
+- **Oportunidad de mejora:** Propuso incorporar un recurso visual un poco más llamativo en las alertas críticas de llegada para evitar pasarlas por alto en momentos de alta ocupación.
 
 
 
