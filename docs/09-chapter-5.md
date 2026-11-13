@@ -1208,4 +1208,98 @@ Alejandro interactuó con los flujos de navegación propuestos, evaluando el Lan
 
 ### **5.3.3. Evaluations Based on Heuristics**
 
+## **Anexo D. Formato para Evaluación de User Experience según Heurísticas**
+
+**UX Heuristics & Principles Evaluation**  
+**Usability – Inclusive Design – Information Architecture**
+
+* **CARRERA** : Ingeniería de Software
+* **CURSO** : Aplicaciones Web
+* **SECCIÓN** : 8084
+* **PROFESORES** : Angel Augusto Velasquez Nuñez
+* **AUDITOR** : Segmento Padres de Familia de Children Path
+* **CLIENTE(S)** :  Children Path
+
+---
+
+### **SITE o APP A EVALUAR:**
+**Children Path** 
+
+Plataforma web y móvil de gestión y seguimiento de transporte escolar en tiempo real.
+
+---
+
+### **TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. *Navegación e interacción principal con el Landing Page de la plataforma.*
+2. *Visualización y consulta de precios y detalles de los planes de servicio para padres.*
+3. *Cambio de idioma (español/inglés) en la interfaz web.*
+4. *Acceso al sistema mediante el botón de inicio de sesión para padres ("Start as Parent").*
+5. *Visualización del mapa interactivo con el rastreo en tiempo real de la movilidad escolar.*
+6. *Revisión del historial de notificaciones y alertas de proximidad y llegada.*
+7. *Visualización del listado de estudiantes y rutas asignadas en la interfaz de conductores.*
+8. *Supervisión general del panel de control (Dashboard) para la administración de flotas.*
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. *Proceso automatizado de pago en línea mediante pasarela bancaria externa.*
+2. *Modificación masiva de contratos escolares por temporada académica.*
+3. *Recuperación avanzada de credenciales mediante validación biométrica.*
+4. *Gestión de reportes estadísticos exportables en formato PDF y Excel.*
+
+---
+
+### **ESCALA DE SEVERIDAD:**
+*(Los errores son puntuados tomando en cuenta la siguiente escala estándar)*
+* **Nivel 1:** Problema superficial (fácilmente superado por el usuario, baja frecuencia, no requiere arreglo urgente).
+* **Nivel 2:** Problema menor (ocurre con cierta frecuencia, recomendable resolver de cara al siguiente *release*).
+* **Nivel 3:** Problema mayor (ocurre frecuentemente o impide que el usuario complete la tarea con fluidez; prioridad alta).
+* **Nivel 4:** Problema muy grave (error crítico que impide al usuario continuar con el uso de la herramienta; imperativo corregir antes de producción).
+
+---
+
+### **TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|---|:---:|---|
+| 1 | El selector de idioma en el Landing Page requiere mayor visibilidad inicial para el usuario. | 2 | Usabilidad: Consistencia y estándares / Visibilidad |
+| 2 | Los botones principales de acción rápida (*Call to Action*) presentan un contraste bajo en pantallas móviles. | 2 | Inclusive Design: Accesibilidad visual y contrastes |
+| 3 | El historial de notificaciones carece de una marca horaria destacada para identificar el momento exacto del aviso. | 3 | Arquitectura de Información: Visibilidad del estado del sistema |
+
+---
+
+### **DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1: El selector de idioma en el Landing Page requiere mayor visibilidad inicial para el usuario.**
+
+* **Severidad:** 2
+* **Heurística violada:** Usabilidad - Consistencia y estándares / Visibilidad del estado del sistema.
+* **Problema:**  
+Durante las pruebas de validación con los usuarios (Eduardo, Alejandro y Gabriela), al solicitarles cambiar el idioma de la página al inglés, manifestaron que tuvieron que detenerse unos segundos a buscar el selector, ya que se encuentra posicionado de manera muy discreta en la esquina superior sin un ícono de acompañamiento evidente, lo que genera una pequeña fricción inicial en la navegación.
+* **Recomendación:**  
+Acompañar el selector de texto con un ícono representativo (como un globo terráqueo) y aumentar ligeramente su peso visual en la barra de navegación superior del Landing Page.
+
+---
+
+**PROBLEMA #2: Los botones principales de acción rápida (*Call to Action*) presentan un contraste bajo en pantallas móviles.**
+
+* **Severidad:** 2
+* **Heurística violada:** Inclusive Design - Accesibilidad visual y contrastes.
+* **Problema:**  
+Al interactuar con las interfaces desde dispositivos móviles, algunos participantes señalaron que los botones secundarios de navegación y ciertos enlaces clave poseen una paleta de colores con bajo contraste respecto al fondo blanco, lo que dificulta una lectura rápida bajo condiciones de iluminación solar directa en la calle.
+* **Recomendación:**  
+Ajustar los códigos de color de la paleta institucional para asegurar una relación de contraste adecuada conforme a las pautas de accesibilidad web (WCAG), incrementando el grosor del borde o la saturación del color principal en los botones táctiles.
+
+---
+
+**PROBLEMA #3: El historial de notificaciones carece de una marca horaria destacada para identificar el momento exacto del aviso.**
+
+* **Severidad:** 3
+* **Heurística violada:** Arquitectura de Información - Visibilidad del estado del sistema.
+* **Problema:**  
+En la revisión del flujo de notificaciones de proximidad y llegada, los usuarios indicaron que los mensajes son claros en su texto principal, pero la hora en que se generó la alerta se muestra en un tamaño de tipografía muy pequeño, lo que dificulta verificar con rapidez si el aviso de la movilidad es reciente o de minutos anteriores.
+* **Recomendación:**  
+Rediseñar la tarjeta de notificación dentro de la interfaz para que la hora o el tiempo transcurrido (ej. *"Hace 2 minutos"*) se posicione como un elemento primario en negrita y con mayor tamaño tipográfico al lado del mensaje.
+
 ## **5.4. About-the-Product Video**
