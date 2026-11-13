@@ -1027,18 +1027,40 @@ A continuación, se detalla la trazabilidad con el historial de commits reales y
 
 #### **5.2.3.5. Execution Evidence for Sprint Review**
 
-Durante el Sprint 3, la solución backend fue compilada y ejecutada en entornos locales mediante el runtime de .NET, conectándose a la base de datos relacional y exponiendo la consola interactiva de **Scalar (Scalar API Reference)** para la validación funcional de cada Bounded Context:
+Esta sección presenta la ejecución operativa de la solución, mostrando las vistas funcionales desarrolladas en el Frontend y la validación técnica de los servicios expuestos en el Backend mediante la interfaz interactiva de Scalar.
+
+##### **A. Visualización de Vistas del Sistema (Frontend)**
+A continuación se muestran las principales pantallas de la interfaz de usuario que evidencian la integración completa de los módulos desarrollados durante el Sprint 3:
+
+* **Figura 5.4:** *Panel Dashboard y métricas operativas generales del sistema.*
+<p align="center">
+  <img src="../assets/chapter-5/frontend-dashboard-view.png" width="85%" alt="Frontend Dashboard View">
+</p>
+
+* **Figura 5.5:** *Módulo de gestión de Trips y visualización de rutas escolares.*
+<p align="center">
+  <img src="../assets/chapter-5/frontend-app-evidence-sprint-3.png" width="85%" alt="Frontend Trips View">
+</p>
+
+##### **B. Validación de Servicios Backend y Endpoints (Scalar / OpenAPI)**
+
+Durante el Sprint 3, la solución backend fue compilada y ejecutada localmente mediante el runtime de .NET, conectándose a la base de datos y exponiendo la consola interactiva de **Scalar** para la validación funcional de cada uno de los Bounded Contexts del sistema:
 
 | Bounded Context | Artefacto / Controlador | Descripción de la Ejecución | Evidencia |
 | :--- | :--- | :--- | :---: |
-| **Trips** | `TripsController.cs` | Ejecución y prueba de endpoints POST/GET para la creación de viajes escolares e inspección de estado de recorrido (`/api/v1/trips`). | ![Scalar Trips](../assets/chapter-5/scalar-trips.png) |
-| **Fleet** | `VehiclesController.cs` | Validación de consultas HTTP GET para el listado de unidades móviles, capacidad operativa y validación de placa. | ![Scalar Fleet](../assets/chapter-5/scalar-fleet.png) |
-| **Attendance** | `AttendanceController.cs` | Prueba funcional del endpoint PUT para actualización rápida del estado de abordaje (`on_board`, `absent`). | ![Scalar Attendance](../assets/chapter-5/scalar-attendance.png) |
-| **Companies** | `CompaniesController.cs` | Registro y consulta de entidades corporativas y centros educativos asociados al servicio. | ![Scalar Companies](../assets/chapter-5/scalar-companies.png) |
-| **Students** | `StudentsController.cs` | Consulta del catálogo de estudiantes asignados por ruta y centro educativo. | ![Scalar Students](../assets/chapter-5/scalar-students.png) |
-| **Drivers** | `DriversController.cs` | Validación de fichas de conductores, categorías de licencia de conducir y estado de disponibilidad. | ![Scalar Drivers](../assets/chapter-5/scalar-drivers.png) |
-| **Tracking / Alerts** | `TrackingController.cs` | Recepción de eventos de geolocalización e inspección de paso por puntos de control. | ![Scalar Tracking](../assets/chapter-5/scalar-tracking.png) |
-| **IAM** | `AuthenticationController.cs` | Endpoint de inicio de sesión y validación de credenciales con emisión de tokens de acceso. | ![Scalar IAM](../assets/chapter-5/scalar-iam.png) |
+| **Trips** | `TripsController.cs` | Ejecución y prueba de endpoints POST/GET para la creación de viajes escolares e inspección de estado de recorrido (`/api/v1/trips`). | ![Scalar Trips](../assets/chapter-5/scalar-api-evidence-sprint-3.png) |
+| **Tracking** | `TrackingController.cs` | Recepción de eventos de geolocalización e inspección de paso por puntos de control en ruta. | ![Scalar Tracking](../assets/chapter-5/scalar-tracking-sprint-3.png) |
+| **Subscriptions** | `SubscriptionsController.cs` | Validación de planes de suscripción, contratos activos y gestión de pagos del servicio. | ![Scalar Subscriptions](../assets/chapter-5/salar-subscriptions-sprint-3.png) |
+| **Students** | `StudentsController.cs` | Consulta del catálogo de estudiantes asignados por ruta y centro educativo asociado. | ![Scalar Students](../assets/chapter-5/scalar-student-sprint-3.png) |
+| **Profiles** | `ProfilesController.cs` | Administración de perfiles de usuario, roles y datos de los actores del sistema. | ![Scalar Profiles](../assets/chapter-5/scalar-profile-sprint-3.png) |
+| **Fleet / Fleets** | `VehiclesController.cs` | Validación de consultas HTTP GET para el listado de unidades móviles, capacidad operativa y placa. | ![Scalar Fleet](../assets/chapter-5/scalar-fleet-sprint-3.png) |
+| **Drivers** | `DriversController.cs` | Validación de fichas de conductores, categorías de licencia de conducir y disponibilidad. | ![Scalar Drivers](../assets/chapter-5/scalar-driver-sprint-3.png) |
+| **Dashboard** | `DashboardController.cs` | Obtención de métricas consolidadas, contadores de viajes y estado operativo general. | ![Scalar Dashboard](../assets/chapter-5/scalar-dashboard-sprint-3.png) |
+| **Companies / Management** | `CompaniesController.cs` | Registro y consulta de entidades corporativas y centros educativos asociados al servicio. | ![Scalar Companies](../assets/chapter-5/scalar-companies-sprint-3.png) |
+| **Attendance** | `AttendanceController.cs` | Prueba funcional del endpoint PUT para actualización rápida del estado de abordaje (`on_board`, `absent`). | ![Scalar Attendance](../assets/chapter-5/scalar-attendance-sprint-3.png) |
+| **Assignments** | `AssignmentsController.cs` | Asignación de vehículos, conductores y rutas a los diferentes centros escolares. | ![Scalar Assignments](../assets/chapter-5/scalar-assignments-sprint-3.png) |
+| **Analytics** | `AnalyticsController.cs` | Generación de reportes estadísticos de puntualidad, asistencia y rendimiento de rutas. | ![Scalar Analytics](../assets/chapter-5/scalar-analytics-sprint-3.png) |
+| **Alerts** | `AlertsController.cs` | Gestión y despacho de notificaciones y alertas en tiempo real para padres y administradores. | ![Scalar Alerts](../assets/chapter-5/scalar-alerts-sprint-3.png) |
 
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
 
