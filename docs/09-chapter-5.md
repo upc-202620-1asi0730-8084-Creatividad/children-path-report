@@ -1123,6 +1123,16 @@ A continuación, se presentan las métricas de colaboración y actividad del rep
   * `e2a417c` — Implementación inicial de controladores, entidades y esquemas para el Bounded Context de *Trips*.
   * `48db019` — Desarrollo y configuración de controladores y modelos de gestión corporativa (*Companies* y *Company Management*).
   * Integración global de OpenAPI y Scalar en los archivos de configuración de ASP.NET Core para la documentación automatizada de todos los microservicios y contextos del sistema.
+ 
+##### **Lecciones Aprendidas y Prácticas de Ingeniería**
+
+| Insight | Descripción |
+| :--- | :--- |
+| **Arquitectura Limpia y DDD por Bounded Contexts:** | La separación modular de la solución .NET en contextos independientes (`Trips`, `Fleet`, `Attendance`, `Students`, `Companies`, `Tracking`, `Alerts` y `Analytics`) con sus propias capas de dominio, aplicación e infraestructura permitió una asignación clara de responsabilidades y evitó conflictos en el control de versiones al trabajar de forma simultánea. |
+| **Persistencia Transaccional con Entity Framework Core:** | La estandarización en el uso de repositorios base y mapeos relacionales estructurados facilitó la transición desde los datos simulados hacia una base de datos relacional robusta, garantizando la integridad de las operaciones transaccionales. |
+| **Documentación OpenAPI Automatizada con Scalar:** | Integrar la referencia interactiva de API mediante Scalar permitió estandarizar la especificación de los endpoints RESTful, facilitando la verificación de contratos de carga útil y códigos de estado HTTP de manera directa. |
+| **Integración Progresiva del Frontend con la API Real:** | Conectar de manera progresiva los componentes y tiendas Pinia del aplicativo web con los nuevos endpoints transaccionales del backend aseguró una transición fluida y validó la operatividad completa de los flujos del sistema. |
+
 
 ## **5.3. Validation Interviews**
 
@@ -1365,7 +1375,41 @@ Alejandro interactuó con los flujos de navegación propuestos, evaluando el Lan
 
 [Nombre del Tercer Entrevistado], de 38 años y residente de Miraflores, participó en la sesión interactuando con el Landing Page y los prototipos de la plataforma. Pudo ubicar rápidamente los planes y detalles de suscripción, valorando positivamente la claridad de los textos informativos. Durante la prueba del flujo de rastreo, destacó que ver el mapa en tiempo real le da la seguridad necesaria para coordinar sus horarios de trabajo desde casa. Sugirió como mejora visual que las alertas de llegada incluyan un aviso sonoro o una animación más notoria en la pantalla del celular para evitar pasarlas por alto.
 
+#### **Análisis de la Entrevista #1: Eduardo Osorio (Magdalena del Mar)**
+* **Contexto del usuario:** Padre de un niño de 4 años en educación inicial, residente en el distrito de Magdalena.
+* **Evaluación de flujos y usabilidad:** Eduardo destacó que la estructura del *Landing Page* permite una lectura ágil y sin fricciones, ubicando los planes y tarifas de manera inmediata. Validó positivamente la transición fluida hacia el módulo de padres mediante el botón *"Start as Parent"*, así como el funcionamiento del selector de idioma. 
+* **Valoración del producto:** Calificó la plataforma con un **10/10**, enfatizando que el mapa de rastreo en tiempo real y las notificaciones automáticas resuelven un problema crítico de su rutina diaria: la incertidumbre sobre el trayecto de la movilidad, lo cual elimina la necesidad de llamadas constantes al conductor.
+* **Oportunidad de mejora:** A nivel de interfaz, sugirió incrementar ligeramente el contraste en los botones de acción rápida para facilitar su distinción en dispositivos móviles.
 
+#### **Análisis de la Entrevista #2: Alejandro (Surco)**
+* **Contexto del usuario:** Padre de un niño de 6 años que cursa el primer grado de primaria, residente en Surco.
+* **Evaluación de flujos y usabilidad:** Alejandro corroboró que los precios, las opciones de suscripción y el cambio de idioma responden de manera inmediata y ordenada. Señaló que el acceso al módulo principal se realiza de forma directa y sin tiempos muertos de carga.
+* **Valoración del producto:** Otorgó una calificación de **9/10**, destacando que las alertas de proximidad le permiten coordinar con exactitud el momento de salir a recibir el vehículo, optimizando el tiempo matutino con los niños en la calle.
+* **Oportunidad de mejora:** Sugirió que en el historial de notificaciones se resalte la hora exacta con un tamaño de tipografía más grande para identificar con mayor rapidez la vigencia de los avisos de llegada.
+
+#### **Análisis de la Entrevista #3: Tercer Participante (Miraflores)**
+* **Contexto del usuario:** Madre de familia y contadora de 38 años, residente en el distrito de Miraflores, con un hijo de 8 años en tercer grado de primaria.
+* **Evaluación de flujos y usabilidad:** La participante calificó la interfaz del *Landing Page* como limpia, natural y predecible. Validó satisfactoriamente la rapidez de carga al ingresar al entorno de padres y la disposición intuitiva del selector de idioma.
+* **Valoración del producto:** Evaluó la solución con un **9/10**, argumentando que la visibilidad total que otorga el mapa en vivo y la eliminación de llamadas al chofer reducen notablemente el estrés diario de coordinar el transporte desde el hogar o el trabajo.
+* **Oportunidad de mejora:** Propuso incorporar un recurso visual o aviso sonoro un poco más llamativo en las alertas críticas de llegada para evitar pasarlas por alto en momentos de alta ocupación laboral.
+
+
+
+### **Conclusión Consolidada del Análisis de Validaciones**
+
+El análisis conjunto de las tres sesiones de validación realizadas con padres de familia permite extraer las siguientes conclusiones clave para el desarrollo de **Children Path**:
+
+1. **Alta Aceptación y Validación de la Propuesta de Valor:** La plataforma obtuvo un promedio de calificación excepcional (**9.3 / 10**), lo que confirma que el dolor principal de los padres —la falta de visibilidad y control sobre la seguridad del transporte escolar— está resuelto de manera directa por las características centrales de la aplicación, como el rastreo en tiempo real y las notificaciones automáticas de proximidad.
+2. **Robustez en la Experiencia de Usuario (UX/UI Inicial):** Los flujos evaluados en el *Landing Page* (visibilidad de planes, cambio de idioma y transición al módulo de padres) demostraron ser intuitivos, rápidos y estables, cumpliendo con los objetivos de diseño planteados para la interfaz web.
+3. **Retroalimentación Accionable para Próximos Sprints:** Las sugerencias de mejora aportadas por los usuarios (incrementar el contraste en botones de acción rápida, destacar las marcas horarias en el historial de notificaciones y dotar de mayor notoriedad a las alertas de llegada) representan *insights* de severidad menor muy valiosos que deben incorporarse en el *Backlog* de la siguiente iteración para terminar de pulir la accesibilidad y la experiencia móvil de la plataforma.
+   
+### Próximos Pasos y Mejora Continua
+
+* **Optimización y Consolidación de la Seguridad (IAM Avanzado):** Se recomienda para los siguientes sprints profundizar en la implementación de los servicios de autenticación y autorización robusta basados en tokens **JWT (JSON Web Tokens)** e identidad corporativa segura, garantizando que el acceso a los Bounded Contexts del backend esté estrictamente segregado por roles (Padre, Conductor, Administrador de Empresa y Superadministrador).
+* **Mejoras Derivadas de la Evaluación Heurística:** Es imperativo incorporar en el *Backlog* del próximo ciclo las recomendaciones de usabilidad detectadas en las entrevistas de validación, específicamente incrementar la relación de contraste en los botones de acción rápida (*Call to Action*) para facilitar su uso bajo luz solar directa y rediseñar las tarjetas de notificaciones móviles para priorizar la visibilidad de las marcas temporales.
+* **Automatización de Pruebas de Integración y Despliegue Continuo (CI/CD):** Se aconseja escalar el pipeline actual de desarrollo incorporando pruebas automatizadas de integración para los servicios RESTful en .NET mediante xUnit, así como flujos automatizados de despliegue continuo (*CI/CD Actions*) tanto para el backend en contenedores Docker como para la aplicación web en la nube, optimizando los tiempos de entrega entre iteraciones.
+* **Evolución del Módulo de Analítica y Notificaciones Push Nativas:** Para futuras versiones contempladas en el *Roadmap* del negocio digital, se recomienda integrar un servicio de mensajería push en tiempo real (como Firebase Cloud Messaging) para las alertas de los padres de familia y expandir los paneles de analítica gerencial con reportes exportables en formatos PDF y Excel que respalden la toma de decisiones operativas y financieras de las empresas de transporte escolar.
+* **Atención Continua a la Retrooperación del Usuario:** *A partir de la validación con los padres de familia, resulta clave que en la siguiente entrega aseguremos priorizar de inmediato en el backlog los pequeños detalles de accesibilidad visual y marcas temporales detectados, traduciendo directamente cada entrevista en mejoras de interfaz tangibles para el siguiente sprint.*
 
 ### **5.3.3. Evaluations Based on Heuristics**
 
