@@ -1,0 +1,31 @@
+# config/build.yaml
+
+# Archivos de entrada (orden de unión)
+input-files:
+  - docs/00-cover.md
+  - docs/01-logs.md
+  - docs/02.insights.md
+  - docs/04-outcome.md
+  - docs/05-chapter-1.md
+  - docs/06-chapter-2.md
+  - docs/07-chapter-3.md
+  - docs/08-chapter-4.md
+  - docs/09-chapter-5.md
+  - docs/10-conclusions.md
+  - docs/11-bibliography.md
+  - docs/12-annexes.md
+
+# Procesar cada archivo individualmente
+file-scope: true
+
+# Rutas de búsqueda para imágenes y recursos
+resource-path:
+  - .
+  - assets
+  - docs
+
+# Archivo de salida
+output-file: REPORTE-FINAL.pdf
+
+# Motor de generación PDF
+pdf-engine: xelatex
